@@ -1,0 +1,801 @@
+<div class="section-header">
+
+<div id="toast" class="component-toast section-header__toast">
+
+<figure class="component-toast-bg -left">
+<img src="/images/backgrounds/toastbar-animation.gif" />
+</figure>
+
+<a href="/resources/webinars/how-cisos-should-think-about-offensive-security-in-the-age-of-ai/" class="component-toast__link -desktop">🗓️ <span>UPCOMING WEBINAR | OCTOBER 6TH</span>: How CISOs Should Think About Offensive Security in the Age of AI <span style="color: var(--color-orange-400); opacity: 1;">Register Now</span></a> <a href="/resources/webinars/how-cisos-should-think-about-offensive-security-in-the-age-of-ai/" class="component-toast__link -mobile">🗓️ <span>UPCOMING WEBINAR | OCTOBER 6TH</span></a>
+
+<figure class="component-toast-bg">
+<img src="/images/backgrounds/toastbar-animation.gif" />
+</figure>
+
+</div>
+
+<div class="section-header__container -container">
+
+<div class="section-header__main">
+
+<a href="/" class="section-header__logo" aria-label="CyCognito"></a>
+
+<div id="header-navs" class="section-header__navs" header-navs="">
+
+Back
+
+- Platform
+  <div class="section-header__nav-dropdown-container -container">
+
+  <div id="nav-dropdown-platform" class="section-header__nav-dropdown -platform" dropdown-item="" aria-labelledby="nav-trigger-platform" aria-hidden="true" inert="">
+
+  <div class="section-header__nav-dropdown-box">
+
+  <span class="section-header__nav-dropdown-heading"> Products </span>
+  - <a href="/platform/ai-powered-pentesting.php" class="section-header__nav-dropdown-link"></a>
+    <figure class="section-header__nav-dropdown-icon -is-colored" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdib3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTEuOTk4OSAyMUMxMC40NDIxIDIwLjU5NjIgOC45ODIzNCAxOS44ODM2IDcuNzA2NCAxOC45MDQ1QzYuNDMwNDcgMTcuOTI1NCA1LjM2NDM3IDE2LjY5OTggNC41NzE0NSAxNS4zMDA1QzMuNzc4NTQgMTMuOTAxMyAzLjI3NDk5IDEyLjM1NjkgMy4wOTA3MyAxMC43NTkyQzIuOTA2NDcgOS4xNjE0NyAzLjA0NTI3IDcuNTQzMDIgMy40OTg4NiA2QzYuNjE0MzkgNi4xNDI1NyA5LjY2MzAzIDUuMDY2NTggMTEuOTk4OSAzQzE0LjMzNDcgNS4wNjY1OCAxNy4zODMzIDYuMTQyNTcgMjAuNDk4OSA2QzIxLjA2NjkgNy45MzMgMjEuMTMzOSA5Ljk1NyAyMC43MjE5IDExLjg5TTE2LjQ2MyAxOC43MjY3TDEzLjk2ODYgMTcuODA3NUMxMy44OTk4IDE3Ljc4MjEgMTMuODQwNCAxNy43MzYzIDEzLjc5ODUgMTcuNjc2MUMxMy43NTY2IDE3LjYxNTkgMTMuNzM0MSAxNy41NDQ0IDEzLjczNDEgMTcuNDcxMUMxMy43MzQxIDE3LjM5NzggMTMuNzU2NiAxNy4zMjYyIDEzLjc5ODUgMTcuMjY2QzEzLjg0MDQgMTcuMjA1OSAxMy44OTk4IDE3LjE2IDEzLjk2ODYgMTcuMTM0NkwxNi40NjMgMTYuMjE1NUwxNy4zODIyIDEzLjcyMUMxNy40MDc2IDEzLjY1MjIgMTcuNDUzNSAxMy41OTI5IDE3LjUxMzYgMTMuNTUxQzE3LjU3MzggMTMuNTA5MSAxNy42NDUzIDEzLjQ4NjYgMTcuNzE4NiAxMy40ODY2QzE3Ljc5MTkgMTMuNDg2NiAxNy44NjM1IDEzLjUwOTEgMTcuOTIzNyAxMy41NTFDMTcuOTgzOCAxMy41OTI5IDE4LjAyOTcgMTMuNjUyMiAxOC4wNTUxIDEzLjcyMUwxOC45NzQyIDE2LjIxNTVMMjEuNDY4NyAxNy4xMzQ2QzIxLjUzNzUgMTcuMTYgMjEuNTk2OCAxNy4yMDU5IDIxLjYzODcgMTcuMjY2QzIxLjY4MDcgMTcuMzI2MiAyMS43MDMxIDE3LjM5NzggMjEuNzAzMSAxNy40NzExQzIxLjcwMzEgMTcuNTQ0NCAyMS42ODA3IDE3LjYxNTkgMjEuNjM4NyAxNy42NzYxQzIxLjU5NjggMTcuNzM2MyAyMS41Mzc1IDE3Ljc4MjEgMjEuNDY4NyAxNy44MDc1TDE4Ljk3NDIgMTguNzI2N0wxOC4wNTUxIDIxLjIyMTFDMTguMDI5NyAyMS4yODk5IDE3Ljk4MzggMjEuMzQ5MyAxNy45MjM3IDIxLjM5MTJDMTcuODYzNSAyMS40MzMxIDE3Ljc5MTkgMjEuNDU1NiAxNy43MTg2IDIxLjQ1NTZDMTcuNjQ1MyAyMS40NTU2IDE3LjU3MzggMjEuNDMzMSAxNy41MTM2IDIxLjM5MTJDMTcuNDUzNSAyMS4zNDkzIDE3LjQwNzYgMjEuMjg5OSAxNy4zODIyIDIxLjIyMTFMMTYuNDYzIDE4LjcyNjdaIiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTE2LjQ2MyAxOC43MjY3TDEzLjk2ODYgMTcuODA3NUMxMy44OTk4IDE3Ljc4MjEgMTMuODQwNCAxNy43MzYzIDEzLjc5ODUgMTcuNjc2MUMxMy43NTY2IDE3LjYxNTkgMTMuNzM0MSAxNy41NDQ0IDEzLjczNDEgMTcuNDcxMUMxMy43MzQxIDE3LjM5NzggMTMuNzU2NiAxNy4zMjYyIDEzLjc5ODUgMTcuMjY2QzEzLjg0MDQgMTcuMjA1OSAxMy44OTk4IDE3LjE2IDEzLjk2ODYgMTcuMTM0NkwxNi40NjMgMTYuMjE1NUwxNy4zODIyIDEzLjcyMUMxNy40MDc2IDEzLjY1MjIgMTcuNDUzNSAxMy41OTI5IDE3LjUxMzYgMTMuNTUxQzE3LjU3MzggMTMuNTA5MSAxNy42NDUzIDEzLjQ4NjYgMTcuNzE4NiAxMy40ODY2QzE3Ljc5MTkgMTMuNDg2NiAxNy44NjM1IDEzLjUwOTEgMTcuOTIzNyAxMy41NTFDMTcuOTgzOCAxMy41OTI5IDE4LjAyOTcgMTMuNjUyMiAxOC4wNTUxIDEzLjcyMUwxOC45NzQyIDE2LjIxNTVMMjEuNDY4NyAxNy4xMzQ2QzIxLjUzNzUgMTcuMTYgMjEuNTk2OCAxNy4yMDU5IDIxLjYzODcgMTcuMjY2QzIxLjY4MDcgMTcuMzI2MiAyMS43MDMxIDE3LjM5NzggMjEuNzAzMSAxNy40NzExQzIxLjcwMzEgMTcuNTQ0NCAyMS42ODA3IDE3LjYxNTkgMjEuNjM4NyAxNy42NzYxQzIxLjU5NjggMTcuNzM2MyAyMS41Mzc1IDE3Ljc4MjEgMjEuNDY4NyAxNy44MDc1TDE4Ljk3NDIgMTguNzI2N0wxOC4wNTUxIDIxLjIyMTFDMTguMDI5NyAyMS4yODk5IDE3Ljk4MzggMjEuMzQ5MyAxNy45MjM3IDIxLjM5MTJDMTcuODYzNSAyMS40MzMxIDE3Ljc5MTkgMjEuNDU1NiAxNy43MTg2IDIxLjQ1NTZDMTcuNjQ1MyAyMS40NTU2IDE3LjU3MzggMjEuNDMzMSAxNy41MTM2IDIxLjM5MTJDMTcuNDUzNSAyMS4zNDkzIDE3LjQwNzYgMjEuMjg5OSAxNy4zODIyIDIxLjIyMTFMMTYuNDYzIDE4LjcyNjdaIiBzdHJva2U9IiNGRjY3MzUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+Cjwvc3ZnPg==" />
+    </figure>
+
+    <div>
+
+    <span class="section-header__nav-dropdown-link-title"> Continuous AI Pentesting <span class="section-header__nav-dropdown-link-badge">New</span> </span> <span class="section-header__nav-dropdown-link-description">Always-on, full coverage</span>
+
+    </div>
+  - <a href="/platform/attack-surface-management.php" class="section-header__nav-dropdown-link"></a>
+    <figure class="section-header__nav-dropdown-icon -is-colored" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdib3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNNi4wMjIxOSA1LjAxMjQ1TDcuNDIxMTMgNi4xNjIzM0w4Ljg0OTE2IDcuNjg2NzFMOC40OTczOCAxMC4wNjM3TDYuMjQ3NjIgMTEuMjAyN0w1LjA1OTU3IDEyLjIxNjJMNS42Mzc2OSAxMy4yMDI1TDYuNzcyMTEgMTQuNDE3OEw3LjM4NDc3IDE2LjU2M0w1LjY4MTMyIDE3Ljk5MTlMNS4zNjk1NCAxOS4zMTgyIiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+CiAgPHBhdGggZD0iTTEwLjUzODEgMjEuODg1MUwxMC4zODcyIDIwLjkyMjVMMTIuMTY0MyAxOS4wMDI3TDEzLjA0MzMgMTYuNTg5M0wxNS44NTc1IDE1LjUyMTJMMTguNTg0NSAxNi4wNjU3TDIwLjA4NzEgMTcuNTIxOSIgc3Ryb2tlPSIjMjcyNzI3IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiAvPgogIDxwYXRoIGQ9Ik0yMS40NDkxIDExLjA4OTlDMjEuNzQxMSAxMy4xMjcxIDIxLjM2NiAxNS4yMDQgMjAuMzggMTcuMDEwNEMxOS4zOTM5IDE4LjgxNjggMTcuODQ5OCAyMC4yNTU2IDE1Ljk3ODQgMjEuMTExOEMxNC4xMDcgMjEuOTY4IDEyLjAwODcgMjIuMTk1NyA5Ljk5NzIxIDIxLjc2MDdDNy45ODU3IDIxLjMyNTggNi4xNjg5NCAyMC4yNTE2IDQuODE4NDMgMTguNjk4N0MzLjQ2NzkxIDE3LjE0NTkgMi42NTYxNSAxNS4xOTc3IDIuNTA0NDYgMTMuMTQ1M0MyLjM1Mjc2IDExLjA5MjkgMi44NjkyOCA5LjA0NjUxIDMuOTc2ODIgNy4zMTE5NkM1LjA4NDM2IDUuNTc3NCA2LjcyMzQ1IDQuMjQ3ODEgOC42NDkxNiAzLjUyMTg3QzEwLjU3NDkgMi43OTU5MyAxMi42ODM4IDIuNzEyNjIgMTQuNjYwNyAzLjI4NDM5IiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIC8+CiAgPHBhdGggY2xhc3M9IndpdGgtZmlsbCBuby1zdHJva2UiIGQ9Ik0xNy40NTQ5IDYuNTQ0OTFDMTcuOTU2OSA2LjU0NDkxIDE4LjM2MzkgNi4xMzc5NCAxOC4zNjM5IDUuNjM1OTJDMTguMzYzOSA1LjEzMzkgMTcuOTU2OSA0LjcyNjkzIDE3LjQ1NDkgNC43MjY5M0MxNi45NTI5IDQuNzI2OTMgMTYuNTQ1OSA1LjEzMzkgMTYuNTQ1OSA1LjYzNTkyQzE2LjU0NTkgNi4xMzc5NCAxNi45NTI5IDYuNTQ0OTEgMTcuNDU0OSA2LjU0NDkxWiIgZmlsbD0iI0ZGNjczNSIgLz4KICA8cGF0aCBkPSJNMjEuMDkwOCA1LjYzNTk3QzIxLjA5MDggNy44ODAyNyAxNy40NTQ4IDExLjA4OTkgMTcuNDU0OCAxMS4wODk5QzE3LjQ1NDggMTEuMDg5OSAxMy44MTg4IDcuODgwMjcgMTMuODE4OCA1LjYzNTk3QzEzLjgxODggNC42NzE2NSAxNC4yMDE5IDMuNzQ2ODMgMTQuODgzOCAzLjA2NDk1QzE1LjU2NTcgMi4zODMwNyAxNi40OTA1IDIgMTcuNDU0OCAyQzE4LjQxOTEgMiAxOS4zNDQgMi4zODMwNyAyMC4wMjU4IDMuMDY0OTVDMjAuNzA3NyAzLjc0NjgzIDIxLjA5MDggNC42NzE2NSAyMS4wOTA4IDUuNjM1OTdaIiBzdHJva2U9IiNGRjY3MzUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIC8+Cjwvc3ZnPg==" />
+    </figure>
+
+    <div>
+
+    Attack Surface Management <span class="section-header__nav-dropdown-link-description">Attacker POV</span>
+
+    </div>
+  - <a href="/platform/automated-security-testing.php" class="section-header__nav-dropdown-link"></a>
+    <figure class="section-header__nav-dropdown-icon -is-colored" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdib3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTEuOTk5OCAyMUMxMC40NDMgMjAuNTk2MiA4Ljk4MzMxIDE5Ljg4MzYgNy43MDczOCAxOC45MDQ1QzYuNDMxNDQgMTcuOTI1NCA1LjM2NTM0IDE2LjY5OTggNC41NzI0MyAxNS4zMDA1QzMuNzc5NTIgMTMuOTAxMyAzLjI3NTk3IDEyLjM1NjkgMy4wOTE3MSAxMC43NTkyQzIuOTA3NDUgOS4xNjE0NyAzLjA0NjI0IDcuNTQzMDIgMy40OTk4MyA2QzYuNjE1MzYgNi4xNDI1NyA5LjY2NCA1LjA2NjU4IDExLjk5OTggM0MxNC4zMzU3IDUuMDY2NTggMTcuMzg0MyA2LjE0MjU3IDIwLjQ5OTggNkMyMS4wNjc4IDcuOTMzIDIxLjEzNDggOS45NTcgMjAuNzIyOCAxMS44OU0xOS4wMDA4IDIxQzE4LjQ3MDQgMjEgMTcuOTYxNyAyMC43ODkzIDE3LjU4NjYgMjAuNDE0MkMxNy4yMTE1IDIwLjAzOTEgMTcuMDAwOCAxOS41MzA0IDE3LjAwMDggMTlDMTcuMDAwOCAxOC40Njk2IDE3LjIxMTUgMTcuOTYwOSAxNy41ODY2IDE3LjU4NThDMTcuOTYxNyAxNy4yMTA3IDE4LjQ3MDQgMTcgMTkuMDAwOCAxN00xOS4wMDA4IDIxQzE5LjUzMTMgMjEgMjAuMDQgMjAuNzg5MyAyMC40MTUgMjAuNDE0MkMyMC43OTAxIDIwLjAzOTEgMjEuMDAwOCAxOS41MzA0IDIxLjAwMDggMTlDMjEuMDAwOCAxOC40Njk2IDIwLjc5MDEgMTcuOTYwOSAyMC40MTUgMTcuNTg1OEMyMC4wNCAxNy4yMTA3IDE5LjUzMTMgMTcgMTkuMDAwOCAxN00xOS4wMDA4IDIxVjIyLjVNMTkuMDAwOCAxN1YxNS41TTIyLjAzMTggMTcuMjVMMjAuNzMyOCAxOE0xNy4yNjk4IDIwTDE1Ljk2OTggMjAuNzVNMTUuOTY5OCAxNy4yNUwxNy4yNjk4IDE4TTIwLjczMjggMjBMMjIuMDMyOCAyMC43NSIgc3Ryb2tlPSIjMjcyNzI3IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik0xOS4wMDA3IDIxQzE4LjQ3MDMgMjEgMTcuOTYxNiAyMC43ODkzIDE3LjU4NjUgMjAuNDE0MkMxNy4yMTE0IDIwLjAzOTEgMTcuMDAwNyAxOS41MzA0IDE3LjAwMDcgMTlDMTcuMDAwNyAxOC40Njk2IDE3LjIxMTQgMTcuOTYwOSAxNy41ODY1IDE3LjU4NThDMTcuOTYxNiAxNy4yMTA3IDE4LjQ3MDMgMTcgMTkuMDAwNyAxN00xOS4wMDA3IDIxQzE5LjUzMTIgMjEgMjAuMDM5OSAyMC43ODkzIDIwLjQxNDkgMjAuNDE0MkMyMC43OSAyMC4wMzkxIDIxLjAwMDcgMTkuNTMwNCAyMS4wMDA3IDE5QzIxLjAwMDcgMTguNDY5NiAyMC43OSAxNy45NjA5IDIwLjQxNDkgMTcuNTg1OEMyMC4wMzk5IDE3LjIxMDcgMTkuNTMxMiAxNyAxOS4wMDA3IDE3TTE5LjAwMDcgMjFWMjIuNU0xOS4wMDA3IDE3VjE1LjVNMjIuMDMxNyAxNy4yNUwyMC43MzI3IDE4TTE3LjI2OTcgMjBMMTUuOTY5NyAyMC43NU0xNS45Njk3IDE3LjI1TDE3LjI2OTcgMThNMjAuNzMyNyAyMEwyMi4wMzI3IDIwLjc1IiBzdHJva2U9IiNGRjY3MzUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+Cjwvc3ZnPg==" />
+    </figure>
+
+    <div>
+
+    Adversarial Validation <span class="section-header__nav-dropdown-link-description">Payload-level testing</span>
+
+    </div>
+  - <a href="/platform/exploit-intelligence.php" class="section-header__nav-dropdown-link"></a>
+    <figure class="section-header__nav-dropdown-icon -is-colored" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdib3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTMuMzUxIDMuNzcwNjNMMjEuNTUwNCAxOC4wMDg0QzIyLjEyNTEgMTkuMDExNiAyMS4zODI2IDIwLjI1IDIwLjE5OTUgMjAuMjVIMy44MDA3MkMyLjYxNzU5IDIwLjI1IDEuODc1MDkgMTkuMDExNiAyLjQ0OTc4IDE4LjAwODRMMTAuNjQ5MiAzLjc3MDYzQzExLjIzOTggMi43NDMxMyAxMi43NjA0IDIuNzQzMTMgMTMuMzUxIDMuNzcwNjNaIiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTEyIDEzLjVWOS43NSIgc3Ryb2tlPSIjRkY2NzM1IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik0xMiAxNi4yNUMxMi4zNDUyIDE2LjI1IDEyLjYyNSAxNi41Mjk4IDEyLjYyNSAxNi44NzVDMTIuNjI1IDE3LjIyMDIgMTIuMzQ1MiAxNy41IDEyIDE3LjVDMTEuNjU0OCAxNy41IDExLjM3NSAxNy4yMjAyIDExLjM3NSAxNi44NzVDMTEuMzc1IDE2LjUyOTggMTEuNjU0OCAxNi4yNSAxMiAxNi4yNVoiIHN0cm9rZT0iI0ZGNjczNSIgLz4KPC9zdmc+" />
+    </figure>
+
+    <div>
+
+    Exploit Intelligence <span class="section-header__nav-dropdown-link-description">The 0.1% that matters</span>
+
+    </div>
+
+  </div>
+
+  <div class="section-header__nav-dropdown-box">
+
+  <span class="section-header__nav-dropdown-heading"> How it Works </span>
+  - <a href="/platform/discovery.php" class="section-header__nav-dropdown-link"></a>
+    <figure class="section-header__nav-dropdown-icon" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdib3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTguMzYzNiA1LjYzNjQ4QzE2Ljc2OTUgNC4wNDYxMyAxNC42MzY2IDMuMTEyMDEgMTIuMzg2NyAzLjAxODkyQzEwLjEzNjkgMi45MjU4MyA3LjkzNDA2IDMuNjgwNTYgNi4yMTQwMSA1LjEzMzhDNC40OTM5NyA2LjU4NzAzIDMuMzgyMDEgOC42MzI5MiAzLjA5ODEyIDEwLjg2NjdDMi44MTQyMiAxMy4xMDA1IDMuMzc5MDcgMTUuMzU5NSA0LjY4MDkyIDE3LjE5NjhDNS45ODI3NyAxOS4wMzQxIDcuOTI2NzggMjAuMzE1OCAxMC4xMjg0IDIwLjc4ODVDMTIuMzMgMjEuMjYxMSAxNC42Mjg4IDIwLjg5MDMgMTYuNTcgMTkuNzQ5MkMxOC41MTEzIDE4LjYwODIgMTkuOTUzNiAxNi43ODAxIDIwLjYxMTYgMTQuNjI2NkMyMS4yNjk2IDEyLjQ3MzEgMjEuMDk1MyAxMC4xNTExIDIwLjEyMzMgOC4xMTk5MiIgc3Ryb2tlPSIjMjcyNzI3IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik0xNS4xODIgOC44MTgwNUMxNC40Mzc2IDguMDc0NTUgMTMuNDU2MiA3LjYxNTM4IDEyLjQwODQgNy41MjAzNUMxMS4zNjA2IDcuNDI1MzIgMTAuMzEyNiA3LjcwMDQ0IDkuNDQ2NjEgOC4yOTc4OEM4LjU4MDU5IDguODk1MzIgNy45NTEyOSA5Ljc3NzMyIDcuNjY4MDcgMTAuNzkwNkM3LjM4NDg1IDExLjgwMzkgNy40NjU2MiAxMi44ODQzIDcuODk2MzQgMTMuODQ0MkM4LjMyNzA2IDE0LjgwNDEgOS4wODA1MSAxNS41ODI4IDEwLjAyNTcgMTYuMDQ0OEMxMC45NzA5IDE2LjUwNjggMTIuMDQ4MiAxNi42MjMxIDEzLjA3MDIgMTYuMzczM0MxNC4wOTIyIDE2LjEyMzYgMTQuOTk0NCAxNS41MjM2IDE1LjYyIDE0LjY3NzdDMTYuMjQ1NiAxMy44MzE4IDE2LjU1NSAxMi43OTM0IDE2LjQ5NDUgMTEuNzQzIiBzdHJva2U9IiNGRjY3MzUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTEyIDEyTDIxIDMiIHN0cm9rZT0iI0ZGNjczNSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KPC9zdmc+" />
+    </figure>
+
+    Discovery
+  - <a href="/platform/contextualization.php" class="section-header__nav-dropdown-link"></a>
+    <figure class="section-header__nav-dropdown-icon" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQiIHZpZXdib3g9IjAgMCAyNSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8Y2lyY2xlIGN4PSI2LjYyMDE3IiBjeT0iMy4zNjIzNiIgcj0iMi41Mjc3NCIgc3Ryb2tlPSIjMjcyNzI3IiBzdHJva2Utd2lkdGg9IjEuNjY5MjMiPjwvY2lyY2xlPgogIDxsaW5lIHgxPSI4LjQ0NzEiIHkxPSI1LjQyNzA4IiB4Mj0iMTIuMzc4NyIgeTI9IjEwLjM4ODUiIHN0cm9rZT0iIzI3MjcyNyIgc3Ryb2tlLXdpZHRoPSIxLjY2OTIzIj48L2xpbmU+CiAgPGNpcmNsZSBjeD0iMi41MzE2NCIgY3k9IjIuNTMxNjQiIHI9IjEuNjk3MDIiIHRyYW5zZm9ybT0ibWF0cml4KC0xIDAgMCAxIDI0LjQyMTkgMi43NDY0NikiIHN0cm9rZT0iIzI3MjcyNyIgc3Ryb2tlLXdpZHRoPSIxLjY2OTIzIj48L2NpcmNsZT4KICA8Y2lyY2xlIGN4PSIyLjUzMTY0IiBjeT0iMi41MzE2NCIgcj0iMS42OTcwMiIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMTEuNDYyOSAxOC41NTY0KSIgc3Ryb2tlPSIjMjcyNzI3IiBzdHJva2Utd2lkdGg9IjEuNjY5MjMiPjwvY2lyY2xlPgogIDxsaW5lIHgxPSIyMC43NjU4IiB5MT0iNi44NjY5OSIgeDI9IjE3LjMxMjYiIHkyPSIxMC43NDQyIiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS42NjkyMyI+PC9saW5lPgogIDxjaXJjbGUgY3g9IjIuNTMxNjQiIGN5PSIyLjUzMTY0IiByPSIxLjY5NzAyIiB0cmFuc2Zvcm09Im1hdHJpeCgwLjY1MDcwNiAwLjc1OTMzIDAuNzU5MzMgLTAuNjUwNzA2IDAgMTIuOTQ4NikiIHN0cm9rZT0iI0ZGNjczNSIgc3Ryb2tlLXdpZHRoPSIxLjY2OTIzIj48L2NpcmNsZT4KICA8bGluZSB4MT0iNS40NTUyMiIgeTE9IjEyLjk5MzYiIHgyPSIxMC43MDQ1IiB5Mj0iMTMuMTQxOSIgc3Ryb2tlPSIjRkY2NzM1IiBzdHJva2Utd2lkdGg9IjEuNjY5MjMiPjwvbGluZT4KICA8Y2lyY2xlIGN4PSIyMS43MDY3IiBjeT0iMjEuMDc4OCIgcj0iMS42OTcwMiIgdHJhbnNmb3JtPSJyb3RhdGUoMTc3LjMzIDIxLjcwNjcgMjEuMDc4OCkiIHN0cm9rZT0iI0ZGNjczNSIgc3Ryb2tlLXdpZHRoPSIxLjY2OTIzIj48L2NpcmNsZT4KICA8bGluZSB4MT0iMjAuMzI3MSIgeTE9IjIwLjE1NTkiIHgyPSIxNy4xMTMxIiB5Mj0iMTcuMDc4OSIgc3Ryb2tlPSIjRkY2NzM1IiBzdHJva2Utd2lkdGg9IjEuNjY5MjMiPjwvbGluZT4KICA8bGluZSB4MT0iMTIuMzkxMiIgeTE9IjE3LjE2MzYiIHgyPSIxMC4yNTQiIHkyPSIyMC4wMDA1IiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS42NjkyMyI+PC9saW5lPgogIDxjaXJjbGUgY3g9IjE0LjQ5MDYiIGN5PSIxMy44Mjc4IiByPSIzLjU1ODMyIiBzdHJva2U9IiNGRjY3MzUiIHN0cm9rZS13aWR0aD0iMS42NjkyMyI+PC9jaXJjbGU+Cjwvc3ZnPg==" />
+    </figure>
+
+    Assessment
+  - <a href="/platform/prioritization.php" class="section-header__nav-dropdown-link"></a>
+    <figure class="section-header__nav-dropdown-icon" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdib3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjkiIHI9IjcuMjUiIHN0cm9rZT0iIzI3MjcyNyIgc3Ryb2tlLXdpZHRoPSIxLjUiPjwvY2lyY2xlPgogIDxjaXJjbGUgY3g9IjcuNSIgY3k9IjE1LjUiIHI9IjYuNzUiIHN0cm9rZT0iIzI3MjcyNyIgc3Ryb2tlLXdpZHRoPSIxLjUiPjwvY2lyY2xlPgogIDxjaXJjbGUgY3g9IjE2LjUiIGN5PSIxNS41IiByPSI2Ljc1IiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41Ij48L2NpcmNsZT4KCiAgPHBhdGggZD0iTTEyIDEwLjUKICAgICBDMTMuMyAxMS41IDE0LjIgMTMuMiAxNC4yIDE1LjEKICAgICBDMTQuMiAxNS40IDE0LjE4IDE1LjcgMTQuMTUgMTUuOTUKICAgICBDMTMuNSAxNi4yIDEyLjc1IDE2LjM1IDEyIDE2LjM1CiAgICAgQzExLjI1IDE2LjM1IDEwLjUgMTYuMiA5Ljg1IDE1Ljk1CiAgICAgQzkuODIgMTUuNyA5LjggMTUuNCA5LjggMTUuMQogICAgIEM5LjggMTMuMiAxMC43IDExLjUgMTIgMTAuNVoiIHN0cm9rZT0iI0ZGNjczNSIgc3Ryb2tlLXdpZHRoPSIxLjUiIC8+Cgo8L3N2Zz4=" />
+    </figure>
+
+    Prioritization
+  - <a href="/platform/active-security-testing.php" class="section-header__nav-dropdown-link"></a>
+    <figure class="section-header__nav-dropdown-icon" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdib3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyLjQ5OTIgMi41Mzk4KSI+CiAgICA8cGF0aCBkPSJNMTcuNTIyNSA1LjYwOTY5QzE2LjYyMiAzLjgzMTM5IDE1LjE0ODQgMi40MDg1IDEzLjMzOTcgMS41NzA4QzExLjUzMDkgMC43MzMwOTUgOS40OTI2MSAwLjUyOTQ3IDcuNTUzODkgMC45OTI4MDNDNS42MTUxNyAxLjQ1NjE0IDMuODg5MiAyLjU1OTM4IDIuNjU0NjggNC4xMjQ0QzEuNDIwMTYgNS42ODk0MSAwLjc0OTE0OCA3LjYyNDg0IDAuNzUwMDAxIDkuNjE4MTUiIHN0cm9rZT0iIzI3MjcyNyIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICAgIDxwYXRoIGQ9Ik0xOC4wOTUzIDIuNjUyNzlMMTcuODE2MSA1Ljk3NjJMMTQuNjYzNyA0Ljg4NzYiIHN0cm9rZT0iIzI3MjcyNyIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICAgIDxwYXRoIGQ9Ik0xLjcwNjI5IDEzLjYyNzJDMi42MDY4MSAxNS40MDU1IDQuMDgwNDIgMTYuODI4NCA1Ljg4OTE3IDE3LjY2NjFDNy42OTc5MSAxOC41MDM4IDkuNzM2MjEgMTguNzA3NCAxMS42NzQ5IDE4LjI0NDFDMTMuNjEzNiAxNy43ODA3IDE1LjMzOTYgMTYuNjc3NSAxNi41NzQxIDE1LjExMjVDMTcuODA4NyAxMy41NDc1IDE4LjQ3OTcgMTEuNjEyIDE4LjQ3ODggOS42MTg3MiIgc3Ryb2tlPSIjMjcyNzI3IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogICAgPHBhdGggZD0iTTEuNTE1ODggMTYuNzM1NEwxLjQ1MTQxIDEzLjQwMDlMNC42OTkxNiAxNC4xNTkyIiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPC9nPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkuNDg0NSA5LjcyMjYpIj4KICAgIDxwYXRoIGQ9Ik0wLjc1IDIuOTA3MDhMMS45MjY1OCA0LjA4MzY1TDQuNjcxOTIgMC43NTAwMjEiIHN0cm9rZT0iI0ZGNjczNSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICA8L2c+Cjwvc3ZnPg==" />
+    </figure>
+
+    Validation
+  - <a href="/platform/remediation-acceleration.php" class="section-header__nav-dropdown-link"></a>
+    <figure class="section-header__nav-dropdown-icon" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdib3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNNSAxLjc1QzYuNzk0OTMgMS43NSA4LjI1IDMuMjA1MDcgOC4yNSA1QzguMjUgNi43OTQ5MyA2Ljc5NDkzIDguMjUgNSA4LjI1QzMuMjA1MDcgOC4yNSAxLjc1IDYuNzk0OTMgMS43NSA1QzEuNzUgMy4yMDUwNyAzLjIwNTA3IDEuNzUgNSAxLjc1Wk01IDMuMjVDNC4wMzM1IDMuMjUgMy4yNSA0LjAzMzUgMy4yNSA1QzMuMjUgNS45NjY1IDQuMDMzNSA2Ljc1IDUgNi43NUM1Ljk2NjUgNi43NSA2Ljc1IDUuOTY2NSA2Ljc1IDVDNi43NSA0LjAzMzUgNS45NjY1IDMuMjUgNSAzLjI1WiIgZmlsbD0iIzI3MjcyNyIgc3Ryb2tlPSIjMjcyNzI3IiBzdHJva2Utd2lkdGg9IjAuMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDxwYXRoIGNsYXNzPSJ3aXRoLWZpbGwiIGQ9Ik0xMy4zMzQgNC4yNUMxMy45NzQ3IDQuMjUgMTQuNTg5NyA0LjUwMzk3IDE1LjA0MyA0Ljk1NzAzQzE1LjQ5NjIgNS40MTAyNiAxNS43NTEgNi4wMjYwNyAxNS43NTEgNi42NjY5OVYxMi41QzE1Ljc1MSAxMi45MTQyIDE1LjQxNDkgMTMuMjQ5OCAxNS4wMDEgMTMuMjVDMTQuNTg3MSAxMy4yNSAxNC4yNSAxMi45MTQ1IDE0LjI1IDEyLjVWNi42NjY5OUMxNC4yNSA2LjQyMzgxIDE0LjE1MzMgNi4xOTA0MiAxMy45ODE0IDYuMDE4NTVDMTMuODA5NSA1Ljg0Njc0IDEzLjU3NjggNS43NSAxMy4zMzQgNS43NUgxMC44MzRDMTAuNDE5OCA1Ljc1IDEwLjA4NCA1LjQxNDIxIDEwLjA4NCA1QzEwLjA4NCA0LjU4NTc5IDEwLjQxOTggNC4yNSAxMC44MzQgNC4yNUgxMy4zMzRaIiBmaWxsPSIjRkY2NzM1IiBzdHJva2U9IiNGRjY3MzUiIHN0cm9rZS13aWR0aD0iMC4zIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTUgNi43NUM1LjQxNDIxIDYuNzUgNS43NSA3LjA4NTc5IDUuNzUgNy41VjE3LjVDNS43NSAxNy45MTQyIDUuNDE0MjEgMTguMjUgNSAxOC4yNUM0LjU4NTc5IDE4LjI1IDQuMjUgMTcuOTE0MiA0LjI1IDE3LjVWNy41QzQuMjUgNy4wODU3OSA0LjU4NTc5IDYuNzUgNSA2Ljc1WiIgZmlsbD0iIzI3MjcyNyIgc3Ryb2tlPSIjMjcyNzI3IiBzdHJva2Utd2lkdGg9IjAuMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDxwYXRoIGNsYXNzPSJ3aXRoLWZpbGwiIGQ9Ik0xNSAxMS43NUMxNi43OTQ5IDExLjc1IDE4LjI1IDEzLjIwNTEgMTguMjUgMTVDMTguMjUgMTYuNzk0OSAxNi43OTQ5IDE4LjI1IDE1IDE4LjI1QzEzLjIwNTEgMTguMjUgMTEuNzUgMTYuNzk0OSAxMS43NSAxNUMxMS43NSAxMy4yMDUxIDEzLjIwNTEgMTEuNzUgMTUgMTEuNzVaTTE1IDEzLjI1QzE0LjAzMzUgMTMuMjUgMTMuMjUgMTQuMDMzNSAxMy4yNSAxNUMxMy4yNSAxNS45NjY1IDE0LjAzMzUgMTYuNzUgMTUgMTYuNzVDMTUuOTY2NSAxNi43NSAxNi43NSAxNS45NjY1IDE2Ljc1IDE1QzE2Ljc1IDE0LjAzMzUgMTUuOTY2NSAxMy4yNSAxNSAxMy4yNVoiIGZpbGw9IiNGRjY3MzUiIHN0cm9rZT0iI0ZGNjczNSIgc3Ryb2tlLXdpZHRoPSIwLjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KPC9zdmc+" />
+    </figure>
+
+    Remediation
+  - 
+  - <a href="/platform/integrations.php" class="section-header__nav-dropdown-link"></a>
+    <figure class="section-header__nav-dropdown-icon" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdib3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTMuNSAxMy41TDExLjI1IDE1Ljc1IiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTEwLjUgMTAuNUw4LjI1IDEyLjc1IiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTYgMTAuNUwxMy41IDE4IiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTUuNDQzMTMgMTguNTU2NkwyLjI1IDIxLjc0OTgiIHN0cm9rZT0iIzI3MjcyNyIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICA8cGF0aCBkPSJNMTIuMzc0OCAxNi44NzVMOS42NTYwOSAxOS41OTM4QzkuMjM0MTMgMjAuMDE1NyA4LjY2MTg2IDIwLjI1MjcgOC4wNjUxNSAyMC4yNTI3QzcuNDY4NDQgMjAuMjUyNyA2Ljg5NjE2IDIwLjAxNTcgNi40NzQyMSAxOS41OTM4TDQuNDA2MDkgMTcuNTIyOEMzLjk4NTAyIDE3LjEwMSAzLjc0ODU0IDE2LjUyOTMgMy43NDg1NCAxNS45MzMzQzMuNzQ4NTQgMTUuMzM3MyAzLjk4NTAyIDE0Ljc2NTYgNC40MDYwOSAxNC4zNDM4TDcuMTI0ODQgMTEuNjI1IiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTEwLjUgNkwxOCAxMy41IiBzdHJva2U9IiNGRjY3MzUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTE4LjU1NjYgNS40NDMxM0wyMS43NDk4IDIuMjUiIHN0cm9rZT0iI0ZGNjczNSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICA8cGF0aCBkPSJNMTYuODc1IDEyLjM3NDhMMTkuNTkzOCA5LjY1NjA5QzIwLjAxNTcgOS4yMzQxMyAyMC4yNTI3IDguNjYxODYgMjAuMjUyNyA4LjA2NTE1QzIwLjI1MjcgNy40Njg0NCAyMC4wMTU3IDYuODk2MTYgMTkuNTkzOCA2LjQ3NDIxTDE3LjUyMjggNC40MDYwOUMxNy4xMDEgMy45ODUwMiAxNi41MjkzIDMuNzQ4NTQgMTUuOTMzMyAzLjc0ODU0QzE1LjMzNzMgMy43NDg1NCAxNC43NjU2IDMuOTg1MDIgMTQuMzQzOCA0LjQwNjA5TDExLjYyNSA3LjEyNDg0IiBzdHJva2U9IiNGRjY3MzUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+Cjwvc3ZnPg==" />
+    </figure>
+
+    Integrations
+  - <a href="%20/ai" class="section-header__nav-dropdown-link"></a>
+    <figure class="section-header__nav-dropdown-icon" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQiIHZpZXdib3g9IjAgMCAyNSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNOC40MDAwNyAxNi4wOTk0TDMuMjM1MzkgMTQuMTk2M0MzLjA5Mjk4IDE0LjE0MzggMi45NzAxIDE0LjA0ODggMi44ODMzMiAxMy45MjQzQzIuNzk2NTMgMTMuNzk5NyAyLjc1IDEzLjY1MTYgMi43NSAxMy40OTk4QzIuNzUgMTMuMzQ4IDIuNzk2NTMgMTMuMTk5OCAyLjg4MzMyIDEzLjA3NTNDMi45NzAxIDEyLjk1MDcgMy4wOTI5OCAxMi44NTU4IDMuMjM1MzkgMTIuODAzMkw4LjQwMDA3IDEwLjkwMDFMMTAuMzAzMiA1LjczNTM5QzEwLjM1NTggNS41OTI5OCAxMC40NTA3IDUuNDcwMSAxMC41NzUzIDUuMzgzMzJDMTAuNjk5OCA1LjI5NjUzIDEwLjg0OCA1LjI1IDEwLjk5OTggNS4yNUMxMS4xNTE2IDUuMjUgMTEuMjk5NyA1LjI5NjUzIDExLjQyNDMgNS4zODMzMkMxMS41NDg4IDUuNDcwMSAxMS42NDM4IDUuNTkyOTggMTEuNjk2MyA1LjczNTM5TDEzLjU5OTQgMTAuOTAwMUwxOC43NjQxIDEyLjgwMzJDMTguOTA2NSAxMi44NTU4IDE5LjAyOTQgMTIuOTUwNyAxOS4xMTYyIDEzLjA3NTNDMTkuMjAzIDEzLjE5OTggMTkuMjQ5NSAxMy4zNDggMTkuMjQ5NSAxMy40OTk4QzE5LjI0OTUgMTMuNjUxNiAxOS4yMDMgMTMuNzk5NyAxOS4xMTYyIDEzLjkyNDNDMTkuMDI5NCAxNC4wNDg4IDE4LjkwNjUgMTQuMTQzOCAxOC43NjQxIDE0LjE5NjNMMTMuNTk5NCAxNi4wOTk0TDExLjY5NjMgMjEuMjY0MUMxMS42NDM4IDIxLjQwNjUgMTEuNTQ4OCAyMS41Mjk0IDExLjQyNDMgMjEuNjE2MkMxMS4yOTk3IDIxLjcwMyAxMS4xNTE2IDIxLjc0OTUgMTAuOTk5OCAyMS43NDk1QzEwLjg0OCAyMS43NDk1IDEwLjY5OTggMjEuNzAzIDEwLjU3NTMgMjEuNjE2MkMxMC40NTA3IDIxLjUyOTQgMTAuMzU1OCAyMS40MDY1IDEwLjMwMzIgMjEuMjY0MUw4LjQwMDA3IDE2LjA5OTRaIiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTE3IDEuNVY2IiBzdHJva2U9IiNGRjY3MzUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTIxLjUgNi43NVY5Ljc1IiBzdHJva2U9IiNGRjY3MzUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTE0Ljc1IDMuNzVIMTkuMjUiIHN0cm9rZT0iI0ZGNjczNSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICA8cGF0aCBkPSJNMjAgOC4yNUgyMyIgc3Ryb2tlPSIjRkY2NzM1IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgo8L3N2Zz4=" />
+    </figure>
+
+    AI at CyCognito
+
+  </div>
+
+  <div class="section-header__nav-dropdown-box -mobile-hidden">
+
+  <figure class="section-header__nav-dropdown-featured-media">
+  <img src="/images/assets/nav-platform.webp" alt="Report: GigaOm Radar for Attack Surface Management" /> <a href="/resources/reports/gigaom-radar-for-attack-surface-management-2026/" class="section-header__nav-dropdown-featured-arrow" aria-label="Industry Report: GigaOm Radar for Attack Surface Management"></a>
+  </figure>
+
+  [<span class="section-header__nav-dropdown-featured-title"> GigaOm ASM Radar </span> <span class="section-header__nav-dropdown-featured-description"> CyCognito is named a Leader and Outperformer. </span>](/resources/reports/gigaom-radar-for-attack-surface-management-2026/)
+
+  </div>
+
+  </div>
+
+  </div>
+- Solutions
+  <div class="section-header__nav-dropdown-container -container">
+
+  <div id="nav-dropdown-solutions" class="section-header__nav-dropdown -solutions" dropdown-item="" aria-labelledby="nav-trigger-solutions" aria-hidden="true" inert="">
+
+  <div class="section-header__nav-dropdown-box">
+
+  <span class="section-header__nav-dropdown-heading"> Technical use cases </span>
+  - <a href="/solutions/external-exposure-management/" class="section-header__nav-dropdown-link">Exposure Management</a>
+  - <a href="/solutions/autopt.php" class="section-header__nav-dropdown-link">Security Testing</a>
+  - <a href="/solutions/uvm.php" class="section-header__nav-dropdown-link">Vulnerability Management</a>
+  - <a href="/solutions/airm.php" class="section-header__nav-dropdown-link">AI Risk Management</a>
+  - <a href="/solutions/cnapp.php" class="section-header__nav-dropdown-link">Cloud Security</a>
+  - <a href="/solutions/caasm.php" class="section-header__nav-dropdown-link">Cyber Asset Inventory</a>
+  - <a href="/solutions/appsec.php" class="section-header__nav-dropdown-link">Application Security</a>
+  - <a href="/solutions/ctem.php" class="section-header__nav-dropdown-link">Continuous Threat Exposure Management</a>
+
+  </div>
+
+  <div class="section-header__nav-dropdown-box">
+
+  <span class="section-header__nav-dropdown-heading"> Business use cases </span>
+  - <a href="/use-cases/assess-your-security-effectiveness.php" class="section-header__nav-dropdown-link">Validate Controls</a>
+  - <a href="/use-cases/prioritize-and-eliminate-attack-vectors.php" class="section-header__nav-dropdown-link">Reduce Exposure</a>
+  - <a href="/use-cases/evaluate-merger-and-acquisition-risk.php" class="section-header__nav-dropdown-link">M&amp;A Risk</a>
+  - <a href="/use-cases/secure-your-software-supply-chain.php" class="section-header__nav-dropdown-link">Supply Chain Risk</a>
+  - <a href="/use-cases/monitor-subsidiary-risk.php" class="section-header__nav-dropdown-link">Subsidiary Risk</a>
+  - <a href="/use-cases/simplify-compliance-initiatives.php" class="section-header__nav-dropdown-link">Governance &amp; Compliance</a>
+
+  </div>
+
+  <div class="section-header__nav-dropdown-box -mobile-hidden">
+
+  <figure class="section-header__nav-dropdown-featured-media">
+  <img src="/images/assets/nav-solutions.webp" alt="CTEM: Continuous Threat Exposure Management" /> <a href="/solutions/ctem.php" class="section-header__nav-dropdown-featured-arrow" aria-label="CTEM: Continuous Threat Exposure Management"></a>
+  </figure>
+
+  [<span class="section-header__nav-dropdown-featured-title"> Continuous Threat Exposure Management </span> <span class="section-header__nav-dropdown-featured-description"> Turning CTEM into an operating rhythm across teams and processes. </span>](/solutions/ctem.php)
+
+  </div>
+
+  </div>
+
+  </div>
+- <a href="/platform/pricing.php" class="section-header__nav-link" data-no-dropdown="">Pricing</a>
+- <a href="/customers/" class="section-header__nav-link" data-no-dropdown="">Customers</a>
+- Resources
+  <div class="section-header__nav-dropdown-container -container">
+
+  <div id="nav-dropdown-resources" class="section-header__nav-dropdown -resources" dropdown-item="" aria-labelledby="nav-trigger-resources" aria-hidden="true" inert="">
+
+  <div class="section-header__nav-dropdown-box">
+
+  <span class="section-header__nav-dropdown-heading"> Resources </span>
+  - <a href="/blog/" class="section-header__nav-dropdown-link">Blog</a>
+  - <a href="/resources/" class="section-header__nav-dropdown-link">Knowledge Hub</a>
+  - <a href="/resources/webinars/" class="section-header__nav-dropdown-link">Webinars</a>
+  - <a href="/learn/" class="section-header__nav-dropdown-link">Learning Center</a>
+  - <a href="/emerging-threats/" class="section-header__nav-dropdown-link">Emerging Threats</a>
+  - <a href="/glossary/" class="section-header__nav-dropdown-link">Glossary</a>
+
+  </div>
+
+  <div class="section-header__nav-dropdown-box">
+
+  <span class="section-header__nav-dropdown-heading"> ASM 101 </span>
+  - <a href="/learn/exposure-management/ctem/" class="section-header__nav-dropdown-link" aria-label="Continuous Threat Exposure Management - CTEM">CTEM</a>
+  - <a href="/learn/attack-surface-management/external-attack-surface-management/" class="section-header__nav-dropdown-link" aria-label="External Attack Surface Management - EASM">EASM</a>
+  - <a href="/learn/attack-surface-management/" class="section-header__nav-dropdown-link">Attack Surface Management</a>
+  - <a href="/learn/attack-surface-management/attack-surface-discovery/" class="section-header__nav-dropdown-link">Attack Surface Discovery</a>
+  - <a href="/learn/attack-surface-management/attack-surface-reduction/" class="section-header__nav-dropdown-link">Attack Surface Reduction</a>
+
+  </div>
+
+  <div class="section-header__nav-dropdown-box -mobile-hidden">
+
+  <figure class="section-header__nav-dropdown-featured-media">
+  <img src="/images/assets/nav-resources.webp" alt="Attack Surface Management For Dummies" /> <a href="/resources/white-papers/easm-for-dummies/" class="section-header__nav-dropdown-featured-arrow" aria-label="Attack Surface Management For Dummies"></a>
+  </figure>
+
+  [<span class="section-header__nav-dropdown-featured-title"> Beginner's Guide </span> <span class="section-header__nav-dropdown-featured-description"> Attack Surface Management For Dummies </span>](/resources/white-papers/easm-for-dummies/)
+
+  </div>
+
+  </div>
+
+  </div>
+- Company
+  <div class="section-header__nav-dropdown-container -container">
+
+  <div id="nav-dropdown-company" class="section-header__nav-dropdown -company" dropdown-item="" aria-labelledby="nav-trigger-company" aria-hidden="true" inert="">
+
+  <div class="section-header__nav-dropdown-box">
+
+  <span class="section-header__nav-dropdown-heading"> Company </span>
+  - <a href="/company/" class="section-header__nav-dropdown-link">About Us</a>
+  - <a href="/company/careers.php" class="section-header__nav-dropdown-link">Careers</a>
+  - <a href="/news/awards.php" class="section-header__nav-dropdown-link">Awards</a>
+  - <a href="/news/" class="section-header__nav-dropdown-link">What's New</a>
+
+  </div>
+
+  <div class="section-header__nav-dropdown-box">
+
+  <span class="section-header__nav-dropdown-heading"> Partners </span>
+  - <a href="/partners/" class="section-header__nav-dropdown-link">Partner Program</a>
+  - <a href="/partners/become-a-partner/" class="section-header__nav-dropdown-link">Become a Partner</a>
+  - <a href="https://partners.cycognito.com/" class="section-header__nav-dropdown-link" target="_blank">Partner Login</a>
+
+  </div>
+
+  <div class="section-header__nav-dropdown-box -mobile-hidden">
+
+  <figure class="section-header__nav-dropdown-featured-media">
+  <img src="/images/assets/nav-company.webp" alt="CyCognito Platform Demo" />
+  </figure>
+
+  [<span class="section-header__nav-dropdown-featured-title"> Our platform </span> <span class="section-header__nav-dropdown-featured-description"> Find and fix your most urgent external threats. </span>](/platform/discovery.php)
+
+  </div>
+
+  </div>
+
+  </div>
+
+<!-- -->
+
+- Log In
+  - <a href="https://platform.cycognito.com/login" class="section-header__buttons-item-dropdown-link" target="_blank"></a>
+    <figure class="section-header__buttons-item-dropdown-link-icon" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdib3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTUgNEgxOEMxOS4xMDQ2IDQgMjAgNC44OTU0MyAyMCA2VjE4QzIwIDE5LjEwNDYgMTkuMTA0NiAyMCAxOCAyMEgxNSIgc3Ryb2tlPSIjM0QzRDNEIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik0xMSAxNkwxNSAxMkwxMSA4TTE1IDEySDMiIHN0cm9rZT0iI0ZGNjczNSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KPC9zdmc+" />
+    </figure>
+
+    CyCognito platform
+  - <a href="https://support.cycognito.com/access/normal" class="section-header__buttons-item-dropdown-link" target="_blank"></a>
+    <figure class="section-header__buttons-item-dropdown-link-icon" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdib3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTguNzUgMTQuMjVMMTUgMThMOSAxNi41TDMuNzUgMTIuNzUiIHN0cm9rZT0iIzI3MjcyNyIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICA8cGF0aCBkPSJNNi44MTM0OCA2LjYyMTU2TDExLjk5OTcgNS4yNUwxNy4xODYgNi42MjE1NiIgc3Ryb2tlPSIjMjcyNzI3IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik0zLjIyMTcxIDUuNjY0MjdMMC44MjkyMDggMTAuNDUxMUMwLjc0MDI5MiAxMC42Mjg5IDAuNzI1NTk5IDEwLjgzNDggMC43ODgzNTYgMTEuMDIzNEMwLjg1MTExMyAxMS4yMTIgMC45ODYxODYgMTEuMzY4IDEuMTYzOSAxMS40NTcxTDMuNzQ5NTIgMTIuNzQ5OUw2LjgxMzI3IDYuNjIxNDZMNC4yMjg1OCA1LjMyOTU4QzQuMTQwNSA1LjI4NTQxIDQuMDQ0NTggNS4yNTkwMyAzLjk0NjMgNS4yNTE5NEMzLjg0ODAxIDUuMjQ0ODYgMy43NDkzIDUuMjU3MjEgMy42NTU3OSA1LjI4ODI5QzMuNTYyMjkgNS4zMTkzNyAzLjQ3NTgyIDUuMzY4NTcgMy40MDEzNCA1LjQzMzA5QzMuMzI2ODYgNS40OTc2IDMuMjY1ODIgNS41NzYxNiAzLjIyMTcxIDUuNjY0MjdaIiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTIwLjI1MDMgMTIuNzQ5OUwyMi44MzU5IDExLjQ1NzFDMjMuMDEzNiAxMS4zNjggMjMuMTQ4NyAxMS4yMTIgMjMuMjExNCAxMS4wMjM0QzIzLjI3NDIgMTAuODM0OCAyMy4yNTk1IDEwLjYyODkgMjMuMTcwNiAxMC40NTExTDIwLjc3ODEgNS42NjQyN0MyMC43MzQgNS41NzYxNiAyMC42NzI5IDUuNDk3NiAyMC41OTg1IDUuNDMzMDlDMjAuNTI0IDUuMzY4NTcgMjAuNDM3NSA1LjMxOTM3IDIwLjM0NCA1LjI4ODI5QzIwLjI1MDUgNS4yNTcyMSAyMC4xNTE4IDUuMjQ0ODYgMjAuMDUzNSA1LjI1MTk0QzE5Ljk1NTIgNS4yNTkwMyAxOS44NTkzIDUuMjg1NDEgMTkuNzcxMiA1LjMyOTU4TDE3LjE4NjUgNi42MjE0NkwyMC4yNTAzIDEyLjc0OTlaIiBzdHJva2U9IiNGRjY3MzUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTE3LjI1MDQgNi43NUgxMy41MDA0TDkuMjE5OCAxMC45MDIyQzkuMTQwMjMgMTAuOTgxNyA5LjA3OTU3IDExLjA3ODEgOS4wNDIzMSAxMS4xODQzQzkuMDA1MDYgMTEuMjkwNSA4Ljk5MjE2IDExLjQwMzcgOS4wMDQ1OSAxMS41MTU1QzkuMDE3MDEgMTEuNjI3MyA5LjA1NDQ0IDExLjczNDkgOS4xMTQwOSAxMS44MzAzQzkuMTczNzQgMTEuOTI1NyA5LjI1NDA4IDEyLjAwNjQgOS4zNDkxOCAxMi4wNjY2QzEwLjk5MDcgMTMuMTE1NiAxMy4yMTkyIDEzLjA0MzQgMTUuMDAwNCAxMS4yNUwxOC43NTA0IDE0LjI1TDIwLjI1MDQgMTIuNzUiIHN0cm9rZT0iI0ZGNjczNSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICA8cGF0aCBkPSJNMTEuNjMwNiAyMC4yNUw3LjcxOTM3IDE5LjI3MjJMNS4yNSAxNy41MDc4IiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+Cjwvc3ZnPg==" />
+    </figure>
+
+    Customer support
+  - <a href="https://platform.cycognito.com/help" class="section-header__buttons-item-dropdown-link" target="_blank"></a>
+    <figure class="section-header__buttons-item-dropdown-link-icon" aria-hidden="true">
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdib3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNOS43NSAzLjc1SDUuMjVDNC44MzU3OSAzLjc1IDQuNSA0LjA4NTc5IDQuNSA0LjVWMTkuNUM0LjUgMTkuOTE0MiA0LjgzNTc5IDIwLjI1IDUuMjUgMjAuMjVIOS43NUMxMC4xNjQyIDIwLjI1IDEwLjUgMTkuOTE0MiAxMC41IDE5LjVWNC41QzEwLjUgNC4wODU3OSAxMC4xNjQyIDMuNzUgOS43NSAzLjc1WiIgc3Ryb2tlPSIjRkY2NzM1IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik0yMC40MDY1IDE5LjI5MTJMMTYuMDE4IDIwLjIyODdDMTUuOTIxMyAyMC4yNDkyIDE1LjgyMTUgMjAuMjUwNSAxNS43MjQyIDIwLjIzMjNDMTUuNjI3IDIwLjIxNDIgMTUuNTM0NCAyMC4xNzcgMTUuNDUxNiAyMC4xMjI5QzE1LjM2ODggMjAuMDY4NyAxNS4yOTc2IDE5Ljk5ODggMTUuMjQxOSAxOS45MTdDMTUuMTg2MyAxOS44MzUzIDE1LjE0NzQgMTkuNzQzMyAxNS4xMjc0IDE5LjY0NjVMMTIuMDE2OCA0Ljg1NjQ4QzExLjk3NDkgNC42NjExIDEyLjAxMjEgNC40NTcxMSAxMi4xMjAxIDQuMjg5MDJDMTIuMjI4MSA0LjEyMDkzIDEyLjM5ODIgNC4wMDIzOSAxMi41OTMzIDMuOTU5MjlMMTYuOTgxOCAzLjAyMTc5QzE3LjA3ODUgMy4wMDEyMSAxNy4xNzg0IDIuOTk5OTYgMTcuMjc1NiAzLjAxODEyQzE3LjM3MjggMy4wMzYyOCAxNy40NjU0IDMuMDczNDkgMTcuNTQ4MiAzLjEyNzZDMTcuNjMxIDMuMTgxNzEgMTcuNzAyMiAzLjI1MTY1IDE3Ljc1NzkgMy4zMzM0MUMxNy44MTM1IDMuNDE1MTcgMTcuODUyNCAzLjUwNzEyIDE3Ljg3MjQgMy42MDM5OEwyMC45ODMgMTguMzk0QzIxLjAyNDkgMTguNTg5MyAyMC45ODc3IDE4Ljc5MzMgMjAuODc5NyAxOC45NjE0QzIwLjc3MTcgMTkuMTI5NSAyMC42MDE2IDE5LjI0ODEgMjAuNDA2NSAxOS4yOTEyWiIgc3Ryb2tlPSIjMjcyNzI3IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik00LjUgNi43NUgxMC41IiBzdHJva2U9IiNGRjY3MzUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTQuNSAxNy4yNUgxMC41IiBzdHJva2U9IiNGRjY3MzUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTEyLjQ4MzQgNy4wNzY0OEwxOC4zMzgxIDUuODE4MzYiIHN0cm9rZT0iIzI3MjcyNyIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICA8cGF0aCBkPSJNMTMuMTA1NSAxMC4wMzVMMTguOTYxMSA4Ljc3Njg2IiBzdHJva2U9IiMyNzI3MjciIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPHBhdGggZD0iTTE0LjY2MTEgMTcuNDMyTDIwLjUxNTggMTYuMTczOCIgc3Ryb2tlPSIjMjcyNzI3IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgo8L3N2Zz4=" />
+    </figure>
+
+    Knowledge center
+- <a href="/demo/" class="section-header__buttons-link component-button -arrows">Get a Demo <span class="arrows"></span></a>
+
+</div>
+
+<span class="section-header__toggler-line"></span> <span class="section-header__toggler-line"></span> <span class="section-header__toggler-line"></span>
+
+</div>
+
+</div>
+
+<div class="section-header__popup" popup="demo-video">
+
+<div class="section-header__popup-inner">
+
+<span class="section-header__popup-close-line"></span> <span class="section-header__popup-close-line"></span>
+
+<div class="section-header__popup-video" popup-video="">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="page">
+
+<div class="blog-single-hero-container">
+
+<div class="blog-single-hero-content">
+
+<a href="https://www.cycognito.com/blog" class="blog-single-hero-back-link"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNiIgaGVpZ2h0PSIxMSIgdmlld2JveD0iMCAwIDYgMTEiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgPHBhdGggZD0iTTUuMDAwMjEgMTAuNTAwNEM1LjE5Nzk2IDEwLjUwMDQgNS4zOTEyNiAxMC40NDE3IDUuNTU1NjcgMTAuMzMxOEM1LjcyMDA4IDEwLjIyMTkgNS44NDgyMiAxMC4wNjU4IDUuOTIzODkgOS44ODMwNkM1Ljk5OTU2IDkuNzAwMzYgNi4wMTkzNiA5LjQ5OTMzIDUuOTgwOCA5LjMwNTM4QzUuOTQyMjMgOS4xMTE0MiA1Ljg0NzAyIDguOTMzMjYgNS43MDcyMSA4Ljc5MzQxTDIuNDE0MjEgNS41MDA0MUw1LjcwNzIxIDIuMjA3NDFDNS44ODkzNyAyLjAxODggNS45OTAxNyAxLjc2NjIgNS45ODc4OSAxLjUwNDAxQzUuOTg1NjEgMS4yNDE4MSA1Ljg4MDQ0IDAuOTkwOTk3IDUuNjk1MDMgMC44MDU1ODlDNS41MDk2MiAwLjYyMDE4IDUuMjU4ODEgMC41MTUwMTIgNC45OTY2MSAwLjUxMjczM0M0LjczNDQyIDAuNTEwNDU1IDQuNDgxODIgMC42MTEyNDkgNC4yOTMyMSAwLjc5MzQwN0wwLjI5MzIxMyA0Ljc5MzQxQzAuMTA1NzQyIDQuOTgwOTQgMC4wMDA0MjY3NjkgNS4yMzUyNCAwLjAwMDQyNjc2OSA1LjUwMDQxQzAuMDAwNDI2NzY5IDUuNzY1NTcgMC4xMDU3NDIgNi4wMTk4OCAwLjI5MzIxMyA2LjIwNzQxTDQuMjkzMjEgMTAuMjA3NEM0LjQ4MDcxIDEwLjM5NSA0LjczNTAyIDEwLjUwMDQgNS4wMDAyMSAxMC41MDA0WiIgZmlsbD0iY3VycmVudENvbG9yIiAvPgogICAgICA8L3N2Zz4=" /> Back to Blog</a>
+
+# Over 50% of Enterprise External Assets Lack WAF Protection, Including PII Pages
+
+September 9, 2025
+
+<div class="blog-single-hero-author-card">
+
+[](https://www.cycognito.com/blog/author/zohar-venturero/)
+
+<figure>
+<img src="/images/headshots/headshot-zohar-venturero.webp" alt="Zohar Venturero" />
+</figure>
+
+<div>
+
+<span class="blog-single-hero-author-card-name"> [Zohar Venturero](https://www.cycognito.com/blog/author/zohar-venturero/) </span>
+
+</div>
+
+</div>
+
+</div>
+
+<figure class="blog-single-hero-decoration">
+<img src="/images/backgrounds/blog-single-hero.webp" />
+</figure>
+
+</div>
+
+<div class="section blog-single-container">
+
+<div>
+
+In our day-to-day work and conversations with security experts, one concern comes up regularly: how consistent is our WAF protection?
+
+Our answer is always the same: **not as much as you think.**
+
+The truth is that in the case of enterprises, web application firewall (WAF) coverage is rarely uniform. Protection is often a mixed bag of products from different vendors, managed by separate teams, each guarding only part of the attack surface. This makes it hard to be sure that security configurations are consistent, or to know whether any gaps have gone unnoticed.
+
+The problem becomes worse when you consider the role WAFs play in the security stack. By now considered to be the “seat belts” of application security, WAFs are a baseline safeguard, a first line of defense assumed to be in place.
+
+Missing coverage is risky precisely because it breaks this assumption, often leaving high-value assets exposed to credential stuffing, injection attacks, or unpatched vulnerabilities. And of course, one unprotected system can open a path into the network, putting data, services, and trust at risk.
+
+To demonstrate just how often these gaps occur, we analyzed WAF coverage across 500,000 internet-exposed assets from F2000 and F500 enterprises. Our goal was to measure the extent of coverage, identify where gaps remain, and determine whether those uncovered assets create meaningful exposure.
+
+------------------------------------------------------------------------
+
+#### Methodology
+
+This analysis is based on more than 500,000 internet-exposed assets from Forbes Global 2000 enterprises, identified and attributed to their rightful business owners between January 1 and June 30, 2025.
+
+To ensure the results reflect assets of business value, we excluded obvious noise such as parked domains, placeholder welcome screens and pages with default titles. Each asset was then checked for the presence of a web application firewall (WAF), using AI-assisted fingerprinting to identify 150+ distinct WAF technologies and deployment variations. 
+
+Assets were further segmented based on whether they contained mechanisms to collect personally identifiable information (PII) — such as login forms, account creation pages, contact forms or checkout pages. Finally, we conducted a manual review of a sample of uncovered assets using traffic volume indicators to assess actual usage and business relevance.
+
+------------------------------------------------------------------------
+
+## More than half of cloud assets lack WAF protection
+
+The picture our research painted was clear: WAF coverage is far from what organizations assume it to be, even among the kinds of enterprises that should have the resources and processes to manage it consistently.
+
+Among cloud-hosted assets, slightly more than half of those in our dataset (52.3 percent) had no WAF protection. For off-cloud assets, the gap was wider still, with two out of three (66.4 percent) uncovered. 
+
+Based on our experience, the reasons for these gaps are often rooted in the human and organizational side of security. As described below, many enterprises have multiple WAF deployments from different vendors, each managed by different teams, without a single source of truth to confirm complete coverage. In this environment, it’s easy for certain assets, especially those outside the most visible or centrally managed applications, to slip through the cracks.
+
+There is also the challenge of the “unknown unknowns”: assets that security teams do not realize exist because they are not part of any formal inventory. Without full visibility into the entire attack surface, it is impossible to ensure that every exposed asset is protected, regardless of policy or intent.
+
+For attackers, these uncovered assets offer a direct opportunity to attempt credential stuffing, injection attacks or exploitation of unpatched vulnerabilities, as WAFs are often used as a short-term (or even long-term) safeguard until fixes are in place.
+
+<figure class="wp-block-image size-full">
+<img src="https://www.cycognito.com/blog/wp-content/uploads/image-49.png" class="wp-image-1641" loading="lazy" decoding="async" srcset="https://www.cycognito.com/blog/wp-content/uploads/image-49.png 814w, https://www.cycognito.com/blog/wp-content/uploads/image-49-344x512.png 344w, https://www.cycognito.com/blog/wp-content/uploads/image-49-768x1144.png 768w" sizes="auto, (max-width: 814px) 100vw, 814px" width="814" height="1213" />
+</figure>
+
+### Even PII-collecting assets are left unprotected
+
+Drilling down, we saw that the issue persists on external assets that collect PII data, such as login portals, registration forms, checkout pages or password reset flows. For obvious reasons, these represent some of the most lucrative targets and are often the first surfaces probed during reconnaissance.
+
+Despite focusing on this select subset of pages, we continued to discover significant gaps. In cloud environments, almost four in ten (39.3 percent) of these PII-collecting assets lacked WAF protection. For off-cloud assets, again, the proportion was even higher, with nearly two out of three (63.4 percent) unprotected.
+
+The lack of consistent coverage for PII-handling assets suggests a crucial gap, one that leaves critical resources outside the security perimeter. These gaps are easier to understand when viewed alongside another finding from our study: the sheer number of WAFs most enterprises operate.
+
+## Dozen WAF vendors on average…
+
+Our analysis of WAF coverage revealed not only widespread gaps, but also the fragmented way enterprises deploy these controls. On average, enterprises in our dataset operated 12 different WAF products (median of 11), with some relying on more than 30. These figures reflect years of overlapping procurement, regional rollouts, and siloed security practices that have accumulated into a sprawling and inefficient mix of technologies.
+
+<figure class="wp-block-image size-large">
+<img src="https://www.cycognito.com/blog/wp-content/uploads/image-50-1280x925.png" class="wp-image-1642" loading="lazy" decoding="async" srcset="https://www.cycognito.com/blog/wp-content/uploads/image-50-1280x925.png 1280w, https://www.cycognito.com/blog/wp-content/uploads/image-50-512x370.png 512w, https://www.cycognito.com/blog/wp-content/uploads/image-50-768x555.png 768w, https://www.cycognito.com/blog/wp-content/uploads/image-50-1536x1110.png 1536w, https://www.cycognito.com/blog/wp-content/uploads/image-50.png 1600w" sizes="auto, (max-width: 1280px) 100vw, 1280px" width="1280" height="925" />
+</figure>
+
+And of course, this abundance of vendors does not translate into stronger protection. Each WAF carries its own policy model, configuration requirements, and operational quirks. When divided across multiple teams and regions, these differences create a patchwork of defenses that is difficult to coordinate, costly to maintain, and nearly impossible to standardize. 
+
+The outcome is the same coverage gaps identified earlier in this study: a high percentage of assets — including those collecting sensitive data — left exposed, not because enterprises lack WAFs, but because fragmented deployment makes consistent protection unachievable.
+
+## Deep inspection across a dozen Global Enterprises
+
+Not all unprotected assets pose the same level of danger, which is why we took things a step further and manually analyzed traffic to see which systems were actually in use. This allowed us to separate theoretical risk from genuine operational exposure.
+
+We applied this approach across a dozen of the world’s most iconic enterprises, spanning industries from airlines to retail to financial services and media. What we found was striking: even within these global leaders, multiple high-traffic applications were operating without WAF protection. In several cases, these unprotected assets sat alongside flagship applications that were fully covered—proof that the challenge is not technology, but consistent execution at scale.
+
+This inconsistency makes the risk anything but theoretical. And the fact that these gaps exist within massive, globally impactful organizations underscores just how widespread and consequential the problem really is.
+
+## What This Means for Security Leaders
+
+For security executives, these findings serve as a reminder that WAF coverage can vary more than expected. The data shows that gaps are widespread, even among enterprises with significant resources. Leaders should treat this as a call to verify, not assume, that safeguards are consistently in place.
+
+The first step is reviewing the organization’s external asset inventory using black-box discovery tools. This helps uncover shadow IT and “unknown unknowns” that sit outside formal inventories but still expose the business to risk. 
+
+Once identified, uncovered assets need to be triaged, either brought under protection or removed if they no longer serve a business purpose. Treating this as an ongoing hygiene effort helps reduce attack surface size while focusing resources where they matter most.
+
+Finally, executives should push for a review of WAF deployment and configuration across teams. Multiple vendors and fragmented ownership create blind spots that can be resolved by improving consistency, consolidating technologies, and aligning on a unified operational standard. Done well, this approach reduces exposure, improves efficiency, and ensures that high-value assets receive the consistent protection they require.
+
+------------------------------------------------------------------------
+
+<div class="blog-single-social-share">
+
+## Share this article
+
+<div class="blog-single-social-share-buttons">
+
+<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.cycognito.com%2Fblog%2Fstate-of-waf-protection%2F&amp;text=Over%2050%25%20of%20Enterprise%20External%20Assets%20Lack%20WAF%20Protection%2C%20Including%20PII%20Pages" target="_blank" rel="nofollow" data-title="Share on Twitter" aria-label="Share on Twitter"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdib3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik03LjIyOTUgMTAuMTAxM0wyLjkzOSAxNS4wMDAzSDAuNTYyNUw2LjExOTUgOC42NTIzNEw3LjIyOTUgMTAuMTAxM1oiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik04LjUyNzM0IDUuNDk0TDEyLjQ1NTggMUgxNC44MzA4TDkuNjI3MzQgNi45NTFMOC41MjczNCA1LjQ5NFoiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xNS43NDU4IDE1SDEwLjk2NjNMMC4yNTc4MTIgMUg1LjE1ODMxTDE1Ljc0NTggMTVaTTExLjYyMTggMTMuNTc4NUgxMi45Mzc4TDQuNDQzMzEgMi4zNDdIMy4wMzEzMUwxMS42MjE4IDEzLjU3ODVaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8+CiAgICAgICAgICAgICAgPC9zdmc+" /></a> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cycognito.com%2Fblog%2Fstate-of-waf-protection%2F" target="_blank" rel="nofollow" data-title="Share on Facebook" aria-label="Share on Facebook"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdib3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik02LjAyMjkzIDE2TDYgOUgzVjZINlY0QzYgMS4zMDA4IDcuNjcxNTEgMCAxMC4wNzk0IDBDMTEuMjMyOCAwIDEyLjIyNDEgMC4wODU4NyAxMi41MTI5IDAuMTI0MjVWMi45NDUwN0wxMC44NDMgMi45NDU4M0M5LjUzMzQzIDIuOTQ1ODMgOS4yNzk4NyAzLjU2ODEgOS4yNzk4NyA0LjQ4MTI0VjZIMTNMMTIgOUg5LjI3OTg2VjE2SDYuMDIyOTNaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8+CiAgICAgICAgICAgICAgPC9zdmc+" /></a> <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.cycognito.com%2Fblog%2Fstate-of-waf-protection%2F&amp;title=Over%2050%25%20of%20Enterprise%20External%20Assets%20Lack%20WAF%20Protection%2C%20Including%20PII%20Pages" target="_blank" rel="nofollow" data-title="Share on LinkedIn" aria-label="Share on LinkedIn"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdib3g9IjAgMCA1MTIgNTEyIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTExNi41MDQsNTAwLjIxOVYxNzAuNjU0SDYuOTc1djMyOS41NjRIMTE2LjUwNCBMMTE2LjUwNCw1MDAuMjE5eiBNNjEuNzUxLDEyNS42NzRjMzguMTgzLDAsNjEuOTY4LTI1LjMyOCw2MS45NjgtNTYuOTUzYy0wLjcyMi0zMi4zMjgtMjMuNzg1LTU2Ljk0MS02MS4yNTItNTYuOTQxIEMyNC45OTQsMTEuNzgxLDAuNSwzNi4zOTQsMC41LDY4LjcyMmMwLDMxLjYyNSwyMy43NzIsNTYuOTUzLDYwLjUzLDU2Ljk1M0g2MS43NTFMNjEuNzUxLDEyNS42NzR6IE0xNzcuMTI0LDUwMC4yMTkgYzAsMCwxLjQzNy0yOTguNjQzLDAtMzI5LjU2NEgyODYuNjd2NDcuNzk0aC0wLjcyN2MxNC40MDQtMjIuNDksNDAuMzU0LTU1LjUzMyw5OS40NC01NS41MzMgYzcyLjA4NSwwLDEyNi4xMTYsNDcuMTAzLDEyNi4xMTYsMTQ4LjMzM3YxODguOTcxSDQwMS45NzFWMzIzLjkxMmMwLTQ0LjMwMS0xNS44NDgtNzQuNTMxLTU1LjQ5Ny03NC41MzEgYy0zMC4yNTQsMC00OC4yODQsMjAuMzgtNTYuMjAyLDQwLjA4Yy0yLjg5Nyw3LjAxMi0zLjYwMiwxNi44NjEtMy42MDIsMjYuNzExdjE4NC4wNDdIMTc3LjEyNEwxNzcuMTI0LDUwMC4yMTl6IiBmaWxsPSJjdXJyZW50Q29sb3IiIC8+CiAgICAgICAgICAgICAgPC9zdmc+" /></a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="blog-single-sidebar-banner">
+
+<a href="/resources/reports/gigaom-radar-for-attack-surface-management-2026/" class="blog-single-sidebar-banner-link"></a>
+
+<figure>
+<img src="/images/assets/gigaom-banner-blog.webp" alt="CyCognito is a Leader and Outperformer in GigaOm Radar for ASM 2026" />
+</figure>
+
+<span class="component-button">Get the Report</span>
+
+</div>
+
+<div id="toc">
+
+## In This Post
+
+- [More than half of cloud assets lack WAF protection](#more-than-half-of-cloud-assets-lack-waf-protection)
+  - [Even PII-collecting assets are left unprotected](#even-pii-collecting-assets-are-left-unprotected)
+- [Dozen WAF vendors on average…](#dozen-waf-vendors-on-average8230)
+- [Deep inspection across a dozen Global Enterprises](#deep-inspection-across-a-dozen-global-enterprises)
+- [What This Means for Security Leaders](#what-this-means-for-security-leaders)
+
+</div>
+
+</div>
+
+<div class="section block-related-resources" wpr-lazyrender="1">
+
+<div class="block-related-resources__container -container">
+
+<div class="block-related-resources__header -prose">
+
+<div class="block-related-resources__label component-label">
+
+<span class="component-label__text"> Promoted Resources </span>
+
+</div>
+
+## Related Guides
+
+Discover insights on application security, exposure management and other key topics below.
+
+</div>
+
+<div class="block-related-resources__tiles">
+
+<div class="block-related-resources__tiles-row">
+
+<a href="/learn/attack-surface-management/" class="block-related-resources__tile"></a>
+
+<div class="block-related-resources__tile-content">
+
+<span class="block-related-resources__tile-label"> Attack Surface </span>
+
+### Understanding Attack Surface Management
+
+The definitive guide to attack surface management. Learn everything you need to know to reduce your cyber security risk with attack surface management.
+
+<span class="block-related-resources__tile-button component-button -border-arrow -hover-width"> Learn More <span class="component-button__hover-element"> </span> </span>
+
+</div>
+
+<a href="/learn/exposure-management/" class="block-related-resources__tile"></a>
+
+<div class="block-related-resources__tile-content">
+
+<span class="block-related-resources__tile-label"> Exposure Management </span>
+
+### Exposure Management in Cybersecurity: Concepts and Technologies
+
+Exposure management is a set of processes which allow organizations to assess the visibility, accessibility, and risk factors of their digital assets.
+
+<span class="block-related-resources__tile-button component-button -border-arrow -hover-width"> Learn More <span class="component-button__hover-element"> </span> </span>
+
+</div>
+
+<a href="/learn/vulnerability-assessment/" class="block-related-resources__tile"></a>
+
+<div class="block-related-resources__tile-content">
+
+<span class="block-related-resources__tile-label"> Vulnerability Assessment </span>
+
+### Vulnerability Assessment: Process, Challenges & Best Practices
+
+Vulnerability assessment is the process of identifying, quantifying, and prioritizing vulnerabilities in a system.
+
+<span class="block-related-resources__tile-button component-button -border-arrow -hover-width"> Learn More <span class="component-button__hover-element"> </span> </span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="block-related-resources__header -prose -spacer-top">
+
+## Related Products
+
+Explore CyCognito modules ASM, AST and EI in the resources below.
+
+</div>
+
+<div class="block-related-resources__tiles">
+
+<div class="block-related-resources__tiles-row">
+
+<a href="/platform/attack-surface-management.php" class="block-related-resources__tile"></a>
+
+<div class="block-related-resources__tile-content">
+
+<span class="block-related-resources__tile-label"> Products </span>
+
+### Attack Surface Management
+
+Scalable, continuous, and comprehensive testing for all external assets, all the time.
+
+<span class="block-related-resources__tile-button component-button -border-arrow -hover-width"> Learn More <span class="component-button__hover-element"> </span> </span>
+
+</div>
+
+<a href="/platform/automated-security-testing.php" class="block-related-resources__tile"></a>
+
+<div class="block-related-resources__tile-content">
+
+<span class="block-related-resources__tile-label"> Products </span>
+
+### Automated Security Testing
+
+CyCognito Automated Security Testing dynamically applies payload-based testing techniques across your entire external attack surface.
+
+<span class="block-related-resources__tile-button component-button -border-arrow -hover-width"> Learn More <span class="component-button__hover-element"> </span> </span>
+
+</div>
+
+<a href="/platform/exploit-intelligence.php" class="block-related-resources__tile"></a>
+
+<div class="block-related-resources__tile-content">
+
+<span class="block-related-resources__tile-label"> Products </span>
+
+### Exploit Intelligence
+
+CyCognito Exploit Intelligence uses threat intelligence about attackers’ behavior and exploitability for enhanced prioritization.
+
+<span class="block-related-resources__tile-button component-button -border-arrow -hover-width"> Learn More <span class="component-button__hover-element"> </span> </span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section block-cta -bg-dark" wpr-lazyrender="1">
+
+<div class="block-cta__container -container">
+
+<div class="block-cta__content -prose">
+
+<div class="block-cta__header" aos="fade-up">
+
+<div class="block-cta__label component-label -bg-dark">
+
+<span class="component-label__text"> Request a free scan </span>
+
+</div>
+
+## See Exactly What Attackers See
+
+</div>
+
+<div class="block-cta__details">
+
+Get a free scan of your attack surface and gain valuable insight into your organization's risk posture by allowing CyCognito to discover, contextualize, and test externally .
+
+<a href="/free-scan/" class="block-cta__button component-button" data-aos="fade-up">Request a Scan</a>
+
+</div>
+
+</div>
+
+<figure class="block-cta__media" data-aos="fade-left">
+<img src="/images/assets/cta-scan.webp" class="block-cta__media-image" alt="Top Attack Paths" />
+</figure>
+
+<div class="iframe">
+
+<img src="//www.googleadservices.com/pagead/conversion/743974637/?label=XDWmCJbE6YwZEO3N4OIC&amp;url=&amp;guid=ON&amp;script=0&amp;data=" style="border-style:none;" width="1" height="1" />
+
+</div>
+
+<div class="clear">
+
+</div>
+
+</div>
+
+<div class="section-footer__container -container -reset-padding">
+
+<div class="section-footer__top">
+
+<div class="section-footer__brand">
+
+<a href="/" class="section-footer__logo" aria-label="CyCognito" title="CyCognito"></a> <span class="section-footer__brand-text"> Rule  
+Your Risk </span>
+
+</div>
+
+- <a href="/demo/" class="section-footer__buttons-link component-button -arrows" aria-label="Schedule a Demo" title="Schedule a Demo">Schedule a Demo <span class="arrows"></span></a>
+- <a href="/free-scan/" class="section-footer__buttons-link component-button -arrows -white" aria-label="Free Risk Assessment" title="Free Risk Assessment">Free Risk Assessment <span class="arrows"></span></a>
+
+</div>
+
+</div>
+
+<div class="section-footer__container -container -reset-padding">
+
+- <a href="https://twitter.com/CyCognito" class="section-footer__socials-link" aria-label="Visit CyCognito on Twitter" target="_blank" title="Visit CyCognito on Twitter"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjUiIHZpZXdib3g9IjAgMCAyNSAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0Ljc4MzIgMTAuNjYyMUwyMy43MTc2IDAuNUgyMS42MDA0TDEzLjg0MjkgOS4zMjM4NEw3LjY0Njc4IDAuNUgwLjVMOS44Njk0NCAxMy44NDNMMC41IDI0LjVIMi42MTcyTDEwLjgwOTMgMTUuMTgxM0wxNy4zNTMyIDI0LjVIMjQuNUwxNC43ODIzIDEwLjY2MjFIMTQuNzgzMlpNMTEuODgzMSAxMy45NjA2TDEwLjkzMzkgMTIuNjMyTDMuMzggMi4wNTk1Mkg2LjYzMjMyTDEyLjcyODMgMTAuNTkxNUwxMy42Nzc2IDExLjkyMDJMMjEuNjAxNCAyMy4wMTFIMTguMzQ5TDExLjg4MzEgMTMuOTYwNloiIGZpbGw9IndoaXRlIiAvPgo8L3N2Zz4=" /></a>
+- <a href="https://www.linkedin.com/company/cycognito" class="section-footer__socials-link" aria-label="Visit CyCognito on LinkedIn" target="_blank" title="Visit CyCognito on LinkedIn"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjVweCIgaGVpZ2h0PSIyNXB4IiB2aWV3Ym94PSIwIDAgMjUgMjUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+bGlua2VkaW4gbG9nbzwvdGl0bGU+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0ibGlua2VkaW4tbG9nbyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC42ODI2MjAsIDAuODAwMjkwKSIgZmlsbD0iI0ZGRkZGRiIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPHBhdGggZD0iTTIuNzIxMTQyODEsMS43NzYzNTY4NGUtMTUgQzEuMDgxMjI0NDgsMS43NzYzNTY4NGUtMTUgMS44MjE4NTkyOWUtMTUsMS4xMjAwNTY5NiAxLjgyMTg1OTI5ZS0xNSwyLjYwMDE0MjQ5IEMxLjgyMTg1OTI5ZS0xNSw0LjA0MDIxNTcyIDEuMDQwNTk5ODUsNS4xOTkwNDM4OCAyLjY0MDUyOTQyLDUuMTk5MDQzODggQzQuMzYwNDg2NzksNS4xOTkwNDM4OCA1LjQ0MDQ2MDAyLDQuMDQwMjE1NzIgNS40MDA0NjEwMSwyLjYwMDE0MjQ5IEM1LjQwMDQ2MTAxLDEuMTIwMDU2OTYgNC4zNjExMDIxNiwxLjc3NjM1Njg0ZS0xNSAyLjcyMTE0MjgxLDEuNzc2MzU2ODRlLTE1IFogTTE4LjA3OTUzMTQsNi44ODAzNjAxNiBDMTUuMzE5NTk5OCw2Ljg4MDM2MDE2IDEzLjY0MDI1NjgsOC40Nzk4MjYxMSAxMi45NjAyNzM2LDkuNTk5ODgzMDcgTDEyLjg4MDg5MSw5LjU5OTg4MzA3IEwxMi42NDAyODE2LDcuMjQwMzc4NDYgTDguMjAxMDA2OTgsNy4yNDAzNzg0NiBDOC4yNDEwMDU5OSw4Ljc2MDQ1NTc3IDguMzIwMzg4NjQsMTAuNTIwNTQ1MyA4LjMyMDM4ODY0LDEyLjYwMDY1MTEgTDguMzIwMzg4NjQsMjQgTDEzLjQzOTY0NjQsMjQgTDEzLjQzOTY0NjQsMTQuMzU5NTA5NyBDMTMuNDM5NjQ2NCwxMy44Nzk0ODUzIDEzLjQ3OTY0NTQsMTMuNDAwMDc2MyAxMy41OTk2NDI0LDEzLjA0MDA1OCBDMTMuOTk5NjMyNSwxMi4wODAwMDkyIDE0Ljg0MDIyNywxMS4wNzkzNDI5IDE2LjI0MDE5MjMsMTEuMDc5MzQyOSBDMTguMTIwMTQ1NywxMS4wNzkzNDI5IDE4Ljg0MDEyNzksMTIuNTYwMDMzNiAxOC44NDAxMjc5LDE0LjcyMDE0MzUgTDE4Ljg0MDEyNzksMjQgTDI0LDI0IEwyNCwxNC4xMjA3Mjg0IEMyNCw5LjE2MDQ3NjExIDIxLjQzOTQ0ODEsNi44ODAzNjAxNiAxOC4wNzk1MzE0LDYuODgwMzYwMTYgWiBNMC4xMjEyNDgyNzcsNy4yNDAzNzg0NiBMMC4xMjEyNDgyNzcsMjQgTDUuMjQwNDY0OTgsMjQgTDUuMjQwNDY0OTgsNy4yNDAzNzg0NiBMMC4xMjEyNDgyNzcsNy4yNDAzNzg0NiBaIiBpZD0iU2hhcGUiIC8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=" /></a>
+- <a href="https://www.youtube.com/@CyCognito" class="section-footer__socials-link" aria-label="Visit CyCognito on YouTube" target="_blank" title="Visit CyCognito on YouTube"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Ym94PSIwIDAgMzQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+R3JvdXA8L3RpdGxlPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9Ikdyb3VwIj4KICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjM0IiBoZWlnaHQ9IjI0IiAvPgogICAgICAgICAgICA8ZyBpZD0ieW91dHViZS1sb2dvIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzLjQwMDAwMCwgMi4wMDAwMDApIiBmaWxsPSIjRkZGRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTI2Ljc3MzAyLDQuMzExMTEgQzI2Ljc3MzAyLDQuMzExMTEgMjYuNTA4OTIsMi4zNTU1NiAyNS42OTUzMiwxLjQ4ODg5IEMyNC42NzA0MiwwLjM1NTU1NiAyMy41MTg3MiwwLjM1NTU1NiAyMi45Nzk5MiwwLjI4ODg4OSBDMTkuMjA4NjIsMCAxMy41MzQ3MiwwIDEzLjUzNDcyLDAgTDEzLjUyNDEyLDAgQzEzLjUyNDEyLDAgNy44NTAzMywwIDQuMDU3MjQsMC4yODg4ODkgQzMuNTI4OTYsMC4zNTU1NTYgMi4zNzcyNywwLjM1NTU1NiAxLjM0MTg0LDEuNDg4ODkgQzAuNTM4ODUsMi4zNTU1NiAwLjI3NDcxLDQuMzExMTEgMC4yNzQ3MSw0LjMxMTExIEMwLjI3NDcxLDQuMzExMTEgNy43NzE1NjExN2UtMTYsNi42MjIyMiA3Ljc3MTU2MTE3ZS0xNiw4LjkyMjIyIEw3Ljc3MTU2MTE3ZS0xNiwxMS4wNzc4IEM3Ljc3MTU2MTE3ZS0xNiwxMy4zNzc4IDAuMjc0NzEsMTUuNjc3OCAwLjI3NDcxLDE1LjY3NzggQzAuMjc0NzEsMTUuNjc3OCAwLjUzODg1LDE3LjYzMzMgMS4zNTI0MSwxOC41IEMyLjM3NzI3LDE5LjYzMzMgMy43Mjk2OCwxOS42IDQuMzMxOTUsMTkuNzExMSBDNi40OTc5MiwxOS45MzMzIDEzLjUyNDEyLDIwIDEzLjUyNDEyLDIwIEMxMy41MjQxMiwyMCAxOS4yMDg1MiwxOS45ODg5IDIyLjk5MTAyLDE5LjcgQzIzLjUxOTMyLDE5LjYzMzMgMjQuNjcxMDIsMTkuNjMzMyAyNS43MDY0MiwxOC41IEMyNi41MTk5MiwxNy42MzMzIDI2Ljc4NDEyLDE1LjY3NzggMjYuNzg0MTIsMTUuNjc3OCBDMjYuNzg0MTIsMTUuNjc3OCAyNy4wNTc4MiwxMy4zNzc4IDI3LjA1NzgyLDExLjA3NzggTDI3LjA1NzgyLDguOTIyMjIgQzI3LjA0NzMyLDYuNjIyMjIgMjYuNzcyNjIsNC4zMTExMSAyNi43NzI2Miw0LjMxMTExIEwyNi43NzMwMiw0LjMxMTExIFogTTEwLjczNDMyLDEzLjY4ODkgTDEwLjczNDMyLDUuNyBMMTguMDQ1NzIsOS43MTExIEwxMC43MzQzMiwxMy42ODg5IFoiIGlkPSJTaGFwZSIgLz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+" /></a>
+
+</div>
+
+<div class="section-footer__container -container">
+
+<div class="section-footer__main">
+
+<span class="section-footer__nav-heading" aria-label="Platform" title="Platform"> Platform </span>
+
+- <a href="#" class="section-footer__nav-link" aria-label="Products" data-dropdown-parent="" title="Products">Products</a>
+  - <a href="/platform/ai-powered-pentesting.php" class="section-footer__nav-subitem-link" aria-label="Continuous AI Pentesting" title="Continuous AI Pentesting">Continuous AI Pentesting</a>
+  - <a href="/platform/attack-surface-management.php" class="section-footer__nav-subitem-link" aria-label="Attack Surface Management" title="Attack Surface Management">Attack Surface Management</a>
+  - <a href="/platform/automated-security-testing.php" class="section-footer__nav-subitem-link" aria-label="Automated Security Testing" title="Automated Security Testing">Automated Security Testing</a>
+  - <a href="/platform/exploit-intelligence.php" class="section-footer__nav-subitem-link" aria-label="Exploit Intelligence" title="Exploit Intelligence">Exploit Intelligence</a>
+- <a href="#" class="section-footer__nav-link" aria-label="Features" data-dropdown-parent="" title="Features">Features</a>
+  - <a href="/platform/discovery.php" class="section-footer__nav-subitem-link" aria-label="Discovery" title="Discovery">Discovery</a>
+  - <a href="/platform/contextualization.php" class="section-footer__nav-subitem-link" aria-label="Contextualization" title="Contextualization">Contextualization</a>
+  - <a href="/platform/active-security-testing.php" class="section-footer__nav-subitem-link" aria-label="Active Security Testing" title="Active Security Testing">Active Security Testing</a>
+  - <a href="/platform/prioritization.php" class="section-footer__nav-subitem-link" aria-label="Prioritization" title="Prioritization">Prioritization</a>
+  - <a href="/platform/remediation-acceleration.php" class="section-footer__nav-subitem-link" aria-label="Remediation Acceleration" title="Remediation Acceleration">Remediation Acceleration</a>
+- <a href="/ai/" class="section-footer__nav-link" aria-label="AI at CyCognito" title="AI at CyCognito">AI at CyCognito</a>
+- <a href="/platform/integrations.php" class="section-footer__nav-link" aria-label="Integrations" title="Integrations">Integrations</a>
+- <a href="/platform/pricing.php" class="section-footer__nav-link" aria-label="Pricing" title="Pricing">Pricing</a>
+
+<span class="section-footer__nav-heading" aria-label="Solutions" title="Solutions"> Solutions </span>
+
+- <a href="#" class="section-footer__nav-link" aria-label="Technical Use Cases" data-dropdown-parent="" title="Technical Use Cases">Technical Use Cases</a>
+  - <a href="/solutions/external-exposure-management/" class="section-footer__nav-subitem-link" aria-label="Exposure Management" title="Exposure Management">Exposure Management</a>
+  - <a href="/solutions/autopt.php" class="section-footer__nav-subitem-link" aria-label="Security Test Automation" title="Security Test Automation">Security Test Automation</a>
+  - <a href="/solutions/uvm.php" class="section-footer__nav-subitem-link" aria-label="Vulnerability Management" title="Vulnerability Management">Vulnerability Management</a>
+  - <a href="/solutions/airm.php" class="section-footer__nav-subitem-link" aria-label="AI Risk Management" title="AI Risk Management">AI Risk Management</a>
+  - <a href="/solutions/cnapp.php" class="section-footer__nav-subitem-link" aria-label=" Cloud Security" title=" Cloud Security">Cloud Security</a>
+  - <a href="/solutions/caasm.php" class="section-footer__nav-subitem-link" aria-label="Cyber Asset Inventory" title="Cyber Asset Inventory">Cyber Asset Inventory</a>
+  - <a href="/solutions/appsec.php" class="section-footer__nav-subitem-link" aria-label=" Application Security" title=" Application Security">Application Security</a>
+- <a href="#" class="section-footer__nav-link" aria-label="Business Use Cases" data-dropdown-parent="" title="Business Use Cases">Business Use Cases</a>
+  - <a href="/use-cases/" class="section-footer__nav-subitem-link" aria-label="Overview" title="Overview">Overview</a>
+  - <a href="/use-cases/assess-your-security-effectiveness.php" class="section-footer__nav-subitem-link" aria-label="Validate Controls" title="Validate Controls">Validate Controls</a>
+  - <a href="/use-cases/evaluate-merger-and-acquisition-risk.php" class="section-footer__nav-subitem-link" aria-label="M&amp;A Risk" title="M&amp;A Risk">M&amp;A Risk</a>
+  - <a href="/use-cases/monitor-subsidiary-risk.php" class="section-footer__nav-subitem-link" aria-label="Subsidiary Risk" title="Subsidiary Risk">Subsidiary Risk</a>
+  - <a href="/use-cases/prioritize-and-eliminate-attack-vectors.php" class="section-footer__nav-subitem-link" aria-label="Reduce Exposure" title="Reduce Exposure">Reduce Exposure</a>
+  - <a href="/use-cases/secure-your-software-supply-chain.php" class="section-footer__nav-subitem-link" aria-label="Supply Chain Risk" title="Supply Chain Risk">Supply Chain Risk</a>
+  - <a href="/use-cases/simplify-compliance-initiatives.php" class="section-footer__nav-subitem-link" aria-label="Simplify Compliance Initiatives" title="Simplify Compliance Initiatives">Simplify Compliance Initiatives</a>
+
+<a href="/why-cycognito/" class="section-footer__nav-heading" aria-label="Why CyCognito?" title="Why CyCognito?">Why CyCognito?</a>
+
+- <a href="/why-cycognito/" class="section-footer__nav-link" aria-label="Product Advantages" title="Product Advantages">Product Advantages</a>
+- <a href="/security-gap-calculator/" class="section-footer__nav-link" aria-label="Cost Savings Calculator" title="Cost Savings Calculator">Cost Savings Calculator</a>
+- <a href="#" class="section-footer__nav-link" aria-label="Competitive Advantage" data-dropdown-parent="" title="Competitive Advantage">Competitive Advantage</a>
+  - <a href="/why-cycognito/crowdstrike-competitor.php" class="section-footer__nav-subitem-link" aria-label="CyCognito vs. CrowdStrike Falcon Surface" title="CyCognito vs. CrowdStrike Falcon Surface">CyCognito vs. CrowdStrike Falcon Surface</a>
+  - <a href="/why-cycognito/microsoft-defender-easm-competitor.php" class="section-footer__nav-subitem-link" aria-label="CyCognito vs. Microsoft Defender EASM" title="CyCognito vs. Microsoft Defender EASM">CyCognito vs. Microsoft Defender EASM</a>
+  - <a href="/why-cycognito/cortex-xpanse-competitor.php" class="section-footer__nav-subitem-link" aria-label="CyCognito vs. Palo Alto Networks Cortex Xpanse" title="CyCognito vs. Palo Alto Networks Cortex Xpanse">CyCognito vs. Palo Alto Networks Cortex Xpanse</a>
+  - <a href="/why-cycognito/qualys-competitor.php" class="section-footer__nav-subitem-link" aria-label="CyCognito vs. Qualys" title="CyCognito vs. Qualys">CyCognito vs. Qualys</a>
+  - <a href="/why-cycognito/tenable-competitor.php" class="section-footer__nav-subitem-link" aria-label="CyCognito vs. Tenable ASM" title="CyCognito vs. Tenable ASM">CyCognito vs. Tenable ASM</a>
+
+<a href="/customers/" class="section-footer__nav-heading" aria-label="Customers" title="Customers">Customers</a>
+
+- <a href="/customers/" class="section-footer__nav-link" aria-label="Overview" title="Overview">Overview</a>
+- <a href="https://platform.cycognito.com/login" class="section-footer__nav-link" aria-label="Customer Portal" target="_blank" title="Customer Portal">Customer Login</a>
+- <a href="https://support.cycognito.com/access/normal" class="section-footer__nav-link" aria-label="Support Portal" target="_blank" title="Support Portal">Support Portal</a>
+- <a href="https://platform.cycognito.com/help" class="section-footer__nav-link" aria-label="Knowledge Center" target="_blank" title="Knowledge Center">Knowledge Center</a>
+
+<a href="/partners/" class="section-footer__nav-heading" aria-label="Partners" title="Partners">Partners</a>
+
+- <a href="#" class="section-footer__nav-link" aria-label="Partner Program" data-dropdown-parent="" title="Partner Program">Partner Program</a>
+  - <a href="/partners/resellers-msps-systems-integrators.php" class="section-footer__nav-subitem-link" aria-label="Resellers, MSPs &amp; SIs" title="Resellers, MSPs &amp; SIs">Resellers, MSPs &amp; SIs</a>
+  - <a href="/partners/technology-alliance-partners.php" class="section-footer__nav-subitem-link" aria-label="Technology Alliance Partners" title="Technology Alliance Partners">Technology Alliance Partners</a>
+- <a href="/partners/become-a-partner/" class="section-footer__nav-link" aria-label="Become a Partner" title="Become a Partner">Become a Partner</a>
+- <a href="https://partners.cycognito.com" class="section-footer__nav-link" aria-label="Partner Login" target="_blank" title="Partner Login">Partner Login</a>
+
+<a href="/resources/" class="section-footer__nav-heading" aria-label="Resources" title="Resources">Resources</a>
+
+- <a href="/resources/reports/" class="section-footer__nav-link" aria-label="Research Reports" title="Research Reports">Research Reports</a>
+- <a href="/resources/white-papers/" class="section-footer__nav-link" aria-label="White Papers &amp; eBooks" title="White Papers &amp; eBooks">White Papers &amp; eBooks</a>
+- <a href="/resources/datasheets/" class="section-footer__nav-link" aria-label="Datasheets" title="Datasheets">Datasheets</a>
+- <a href="/resources/briefs/" class="section-footer__nav-link" aria-label="Solution Briefs" title="Solution Briefs">Solution Briefs</a>
+- <a href="/resources/webinars/" class="section-footer__nav-link" aria-label="Webinars" title="Webinars">Webinars</a>
+- <a href="/learn/" class="section-footer__nav-link" aria-label="Learning Center" title="Learning Center">Learning Center</a>
+- <a href="/glossary/" class="section-footer__nav-link" aria-label="Glossary" title="Glossary">Glossary</a>
+- <a href="/learn/security-frameworks-and-compliance.php" class="section-footer__nav-link" aria-label="Security &amp; Compliance" title="Security &amp; Compliance">Security &amp; Compliance</a>
+- <a href="/blog/" class="section-footer__nav-link" aria-label="Blog" title="Blog">Blog</a>
+
+<span class="section-footer__nav-heading" aria-label="ASM 101" title="ASM 101"> ASM 101 </span>
+
+- <a href="/learn/exposure-management/ctem/" class="section-footer__nav-link" aria-label="Continuous Threat Exposure Management - CTEM" title="Continuous Threat Exposure Management - CTEM">Continuous Threat Exposure Management</a>
+- <a href="/learn/attack-surface-management/external-attack-surface-management/" class="section-footer__nav-link" aria-label="External Attack Surface Management - EASM" title="External Attack Surface Management - EASM">External Attack Surface Management</a>
+- <a href="/learn/attack-surface-management/" class="section-footer__nav-link" aria-label="Attack Surface Management" title="Attack Surface Management">Attack Surface Management</a>
+- <a href="/learn/attack-surface-management/attack-surface-discovery/" class="section-footer__nav-link" aria-label="Attack Surface Discovery" title="Attack Surface Discovery">Attack Surface Discovery</a>
+- <a href="/learn/attack-surface-management/attack-surface-reduction/" class="section-footer__nav-link" aria-label="Attack Surface Reduction">Attack Surface Reduction</a>
+
+<a href="/company/" class="section-footer__nav-heading" aria-label="Company" title="Company">Company</a>
+
+- <a href="/company/leadership.php" class="section-footer__nav-link" aria-label="Leadership Team" title="Leadership Team">Leadership Team</a>
+- <a href="/company/careers.php" class="section-footer__nav-link" aria-label="Careers" title="Careers">Careers</a>
+- <a href="/company/trust.php" class="section-footer__nav-link" aria-label="Privacy and Trust" title="Privacy and Trust">Privacy and Trust</a>
+- <a href="#" class="section-footer__nav-link" aria-label="News" data-dropdown-parent="" title="News">News</a>
+  - <a href="/news/" class="section-footer__nav-subitem-link" aria-label="Latest News" title="Latest News">Latest News</a>
+  - <a href="/news/press-releases/" class="section-footer__nav-subitem-link" aria-label="Press Releases" title="Press Releases">Press Releases</a>
+  - <a href="/news/events/" class="section-footer__nav-subitem-link" aria-label="Events" title="Events">Events</a>
+  - <a href="/news/awards.php" class="section-footer__nav-subitem-link" aria-label="Awards" title="Awards">Awards</a>
+
+</div>
+
+</div>
+
+<div class="section-footer__bottom-wrapper">
+
+<div class="section-footer__container -container -reset-padding">
+
+<div class="section-footer__bottom">
+
+<span class="section-footer__bottom-copyright"> © Copyright 2026 CyCognito </span>
+
+- <a href="/privacy-policy.php" class="section-footer__bottom-nav-link" aria-label="Privacy Policy" title="Privacy Policy">Privacy Policy</a>
+- <a href="/terms-of-service.php" class="section-footer__bottom-nav-link" aria-label="Terms of Service" title="Terms of Service">Terms of Service</a>
+- <a href="/sitemap.php" class="section-footer__bottom-nav-link" aria-label="Sitemap" title="Sitemap">Sitemap</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="iframe">
+
+<img src="//www.googleadservices.com/pagead/conversion/743974637/?label=XDWmCJbE6YwZEO3N4OIC&amp;url=&amp;guid=ON&amp;script=0&amp;data=" style="border-style:none;" width="1" height="1" />
+
+</div>
+
+<img src="https://px.ads.linkedin.com/collect/?pid=1422724&amp;fmt=gif" style="display:none;" width="1" height="1" />
+
+</div>
+
+</div>

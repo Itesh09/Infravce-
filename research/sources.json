@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "lit-001",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a71.1",
+    "url": "https://arxiv.org/abs/2511.20313",
+    "verified": true
+  },
+  {
+    "id": "lit-002",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a71.1",
+    "url": "https://arxiv.org/html/2511.20313v2",
+    "verified": true
+  },
+  {
+    "id": "lit-003",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a71.2",
+    "url": "https://arxiv.org/abs/2503.14388",
+    "verified": true
+  },
+  {
+    "id": "lit-004",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a71.2",
+    "url": "https://arxiv.org/html/2503.14388v2",
+    "verified": true
+  },
+  {
+    "id": "lit-005",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a71.3",
+    "url": "https://www.cs.montana.edu/izurieta/pubs/SCORED2024.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-006",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a71.3",
+    "url": "https://exa.ai/library/publication/gqjwvrgm9hv",
+    "verified": true
+  },
+  {
+    "id": "lit-007",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a71.4",
+    "url": "https://giacomobenedetti.github.io/files/acns25.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-008",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a71.5",
+    "url": "https://arxiv.org/abs/2604.21111",
+    "verified": true
+  },
+  {
+    "id": "lit-009",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a71.5",
+    "url": "https://arxiv.org/pdf/2604.21111",
+    "verified": true
+  },
+  {
+    "id": "lit-010",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a71.5",
+    "url": "https://zenodo.org/records/19696658",
+    "verified": true
+  },
+  {
+    "id": "lit-011",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a71.6",
+    "url": "https://fdn.montana.edu/cyber/products/Grype_Vs_Trivy_Boles_et_al.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-012",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a72.2",
+    "url": "https://www.ntia.gov/sites/default/files/publications/mcafee_-_2021.06.17_0.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-013",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a72.3",
+    "url": "https://www.cisa.gov/sites/default/files/2024-05/Software%20Transparency%20in%20SaaS%20Environments.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-014",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a72.4",
+    "url": "https://www.pnnl.gov/sites/default/files/media/file/Comparing%20Bills%20of%20Materials%20Tate.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-015",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a72.5",
+    "url": "https://www.oasis-open.org/2025/12/22/signal-in-the-noise-an-industry-wide-perspective-on-the-state-of-vex/",
+    "verified": true
+  },
+  {
+    "id": "lit-016",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a72.5",
+    "url": "https://openssf.org/blog/2026/01/08/signal-in-the-noise-an-industry-wide-perspective-on-the-state-of-vex/",
+    "verified": true
+  },
+  {
+    "id": "lit-017",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a72.6",
+    "url": "https://www.diva-portal.org/smash/get/diva2:2073107/FULLTEXT01.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-018",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a72.7",
+    "url": "https://ssl.engineering.nyu.edu/papers/sahay_sbomit_scored_2026.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-019",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a72.8",
+    "url": "https://ssl.engineering.nyu.edu/papers/torres-toto-usenix19.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-020",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a72.9",
+    "url": "https://www.linkedin.com/posts/thecolekennedy_sboms-data-analysis-activity-7252686307175337985-coz7",
+    "verified": false
+  },
+  {
+    "id": "lit-021",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a73.1",
+    "url": "https://www.usenix.org/system/files/sec19-dong.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-022",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a73.2",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167404823003875",
+    "verified": true
+  },
+  {
+    "id": "lit-023",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a73.3",
+    "url": "https://arxiv.org/html/2505.13895",
+    "verified": true
+  },
+  {
+    "id": "lit-024",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a73.4",
+    "url": "https://arxiv.org/html/2405.13568",
+    "verified": true
+  },
+  {
+    "id": "lit-025",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a73.5",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7338193/",
+    "verified": true
+  },
+  {
+    "id": "lit-026",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a73.6",
+    "url": "https://ar5iv.labs.arxiv.org/html/1705.05347",
+    "verified": true
+  },
+  {
+    "id": "lit-027",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a73.7",
+    "url": "https://arxiv.org/html/2412.16607",
+    "verified": true
+  },
+  {
+    "id": "lit-028",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.1",
+    "url": "https://dl.acm.org/doi/10.1145/3436242",
+    "verified": true
+  },
+  {
+    "id": "lit-029",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.2",
+    "url": "https://arxiv.org/pdf/2302.14172",
+    "verified": true
+  },
+  {
+    "id": "lit-030",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.3",
+    "url": "https://weis2023.econinfosec.org/wp-content/uploads/sites/11/2023/06/weis23-jacobs.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-031",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.4",
+    "url": "https://arxiv.org/abs/2411.02618",
+    "verified": true
+  },
+  {
+    "id": "lit-032",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.4",
+    "url": "https://arxiv.org/html/2411.02618v1",
+    "verified": true
+  },
+  {
+    "id": "lit-033",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.5",
+    "url": "https://exa.ai/library/publication/fdwnlr20pym",
+    "verified": true
+  },
+  {
+    "id": "lit-034",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.5",
+    "url": "https://github.com/scadastrangelove/kev_vs_epss",
+    "verified": true
+  },
+  {
+    "id": "lit-035",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.5",
+    "url": "https://preprints.ru/article/2868",
+    "verified": true
+  },
+  {
+    "id": "lit-036",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.6",
+    "url": "https://arxiv.org/abs/2508.13644",
+    "verified": true
+  },
+  {
+    "id": "lit-037",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.6",
+    "url": "https://arxiv.org/html/2508.13644",
+    "verified": true
+  },
+  {
+    "id": "lit-038",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.7",
+    "url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44316/44079/",
+    "verified": true
+  },
+  {
+    "id": "lit-039",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.8",
+    "url": "https://dl.acm.org/doi/10.1109/TDSC.2022.3152164",
+    "verified": true
+  },
+  {
+    "id": "lit-040",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.9",
+    "url": "https://asu.elsevierpure.com/en/publications/licality-likelihood-and-criticality-vulnerability-risk-prioritiza/",
+    "verified": true
+  },
+  {
+    "id": "lit-041",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.9",
+    "url": "https://exa.ai/library/publication/bngm9cjv9fj",
+    "verified": true
+  },
+  {
+    "id": "lit-042",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.10",
+    "url": "https://export.arxiv.org/pdf/2208.02369v2.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-043",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.11",
+    "url": "https://www.sei.cmu.edu/library/prioritizing-vulnerability-response-a-stakeholder-specific-vulnerability-categorization-version-20/",
+    "verified": true
+  },
+  {
+    "id": "lit-044",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.11",
+    "url": "https://certcc.github.io/SSVC/topics/evaluation_of_draft_trees/",
+    "verified": true
+  },
+  {
+    "id": "lit-045",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.11",
+    "url": "https://certcc.github.io/SSVC/topics/",
+    "verified": true
+  },
+  {
+    "id": "lit-046",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.11",
+    "url": "https://certcc.github.io/SSVC/topics/decision_trees/",
+    "verified": true
+  },
+  {
+    "id": "lit-047",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.12",
+    "url": "https://www.researchgate.net/publication/358547679",
+    "verified": false
+  },
+  {
+    "id": "lit-048",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.13",
+    "url": "https://www.mdpi.com/2079-9292/11/21/3580",
+    "verified": true
+  },
+  {
+    "id": "lit-049",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a74.14",
+    "url": "https://www.jstage.jst.go.jp/article/comex/15/5/15_2025XBL0172/_pdf/-char/en",
+    "verified": true
+  },
+  {
+    "id": "lit-050",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a75.1",
+    "url": "https://docs.guac.sh/guac/guac-ontology/",
+    "verified": true
+  },
+  {
+    "id": "lit-051",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a75.1",
+    "url": "https://github.com/guacsec/guac",
+    "verified": true
+  },
+  {
+    "id": "lit-052",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a75.1",
+    "url": "https://security.googleblog.com/2022/10/announcing-guac-great-pairing-with-slsa.html",
+    "verified": true
+  },
+  {
+    "id": "lit-053",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a75.1",
+    "url": "https://openssf.org/blog/2024/03/07/guac-joins-openssf-as-incubating-project/",
+    "verified": true
+  },
+  {
+    "id": "lit-054",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a75.1",
+    "url": "https://openssf.org/projects/guac/",
+    "verified": true
+  },
+  {
+    "id": "lit-055",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a75.2",
+    "url": "https://sms.carm.es/ricsmur/bitstream/handle/123456789/25906/10.1016j.cose.2025.104815.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-056",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a75.3",
+    "url": "https://people.bu.edu/staro/TOPS-2024-Final.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-057",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a75.4",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167404824004978",
+    "verified": true
+  },
+  {
+    "id": "lit-058",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a75.5",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167404825004158",
+    "verified": true
+  },
+  {
+    "id": "lit-059",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a75.6",
+    "url": "https://ceur-ws.org/Vol-4176/fomi-4.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-060",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a75.7",
+    "url": "https://ceur-ws.org/Vol-4085/paper35.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-061",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a75.8",
+    "url": "https://peerj.com/articles/cs-2768",
+    "verified": true
+  },
+  {
+    "id": "lit-062",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a76.1",
+    "url": "https://arxiv.org/html/2609.08040v1",
+    "verified": true
+  },
+  {
+    "id": "lit-063",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a76.1",
+    "url": "https://github.com/steven1518/vex-bench",
+    "verified": true
+  },
+  {
+    "id": "lit-064",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a76.2",
+    "url": "https://arxiv.org/html/2608.19430v1",
+    "verified": true
+  },
+  {
+    "id": "lit-065",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a76.3",
+    "url": "https://arxiv.org/abs/2601.22952",
+    "verified": true
+  },
+  {
+    "id": "lit-066",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a76.4",
+    "url": "https://arxiv.org/abs/2603.06422",
+    "verified": true
+  },
+  {
+    "id": "lit-067",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a76.5",
+    "url": "https://arxiv.org/abs/2510.20739",
+    "verified": true
+  },
+  {
+    "id": "lit-068",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a77.1",
+    "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/huang-szu-chun",
+    "verified": true
+  },
+  {
+    "id": "lit-069",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a77.1",
+    "url": "https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-1015-huang-szu-chun.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-070",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a77.2",
+    "url": "https://ceur-ws.org/Vol-4085/paper8.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-071",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a77.3",
+    "url": "https://zakird.com/papers/censys-2025.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-072",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a77.3",
+    "url": "https://doi.org/10.1145/3718958.3754344",
+    "verified": true
+  },
+  {
+    "id": "lit-073",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a77.4",
+    "url": "https://www.lancs.ac.uk/scc/assets/papers/2025/2502_sigcomm_poster.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-074",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a77.4",
+    "url": "https://conferences.sigcomm.org/sigcomm/2025/papers/sigcomm25-poster-session.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-075",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a77.5",
+    "url": "https://doi.org/10.1145/3634737.3656295",
+    "verified": true
+  },
+  {
+    "id": "lit-076",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a77.6",
+    "url": "https://weis2026.econinfosec.org/wp-content/uploads/sites/13/2026/05/WEIS2026_paper_8.pdf",
+    "verified": true
+  },
+  {
+    "id": "lit-077",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a77.7",
+    "url": "https://www.mdpi.com/2079-9292/14/16/3267",
+    "verified": true
+  },
+  {
+    "id": "lit-078",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a77.8",
+    "url": "https://arxiv.org/abs/2412.15696",
+    "verified": true
+  },
+  {
+    "id": "lit-079",
+    "category": "papers",
+    "title": "",
+    "cited_in": "\u00a77.9",
+    "url": "https://arxiv.org/abs/2510.13817",
+    "verified": true
+  },
+  {
+    "id": "tool-anchore-false-positives",
+    "category": "tools",
+    "title": "Anchore: Say goodbye to false positives (CPE->PURL/GHSA/OSV shift)",
+    "cited_in": "",
+    "url": "https://anchore.com/blog/say-goodbye-to-false-positives/",
+    "verified": null
+  },
+  {
+    "id": "tool-anchore-nvd-opaque",
+    "category": "tools",
+    "title": "Anchore: NVD opaque changes and answered questions",
+    "cited_in": "",
+    "url": "https://anchore.com/blog/national-vulnerability-database-opaque-changes-and-answered-questions/",
+    "verified": null
+  },
+  {
+    "id": "tool-grype-2606",
+    "category": "tools",
+    "title": "grype#2606: GitHub Actions pinned by SHA yields false positives",
+    "cited_in": "",
+    "url": "https://github.com/anchore/grype/issues/2606",
+    "verified": null
+  },
+  {
+    "id": "tool-grype-1737",
+    "category": "tools",
+    "title": "grype#1737: PURL/CPE vendor namespace mismatch (poco vs pocoproject)",
+    "cited_in": "",
+    "url": "https://github.com/anchore/grype/issues/1737",
+    "verified": null
+  },
+  {
+    "id": "tool-grype-1245",
+    "category": "tools",
+    "title": "grype#1245: SPDX cannot express Go mainModule -> match against all versions",
+    "cited_in": "",
+    "url": "https://github.com/anchore/grype/issues/1245",
+    "verified": null
+  },
+  {
+    "id": "tool-grype-1764",
+    "category": "tools",
+    "title": "grype#1764: missing fix-version data (CVE-2023-45853 zlib/Minizip)",
+    "cited_in": "",
+    "url": "https://github.com/anchore/grype/issues/1764",
+    "verified": null
+  },
+  {
+    "id": "tool-grype-3456",
+    "category": "tools",
+    "title": "grype#3456: wrong version range for CVE-2025-3277 (SQLite 3.24.0 flagged)",
+    "cited_in": "",
+    "url": "https://github.com/anchore/grype/issues/3456",
+    "verified": null
+  },
+  {
+    "id": "tool-syft-2319",
+    "category": "tools",
+    "title": "syft#2319: SPDX Go mainModule regression",
+    "cited_in": "",
+    "url": "https://github.com/anchore/syft/issues/2319",
+    "verified": null
+  },
+  {
+    "id": "tool-syft-4025",
+    "category": "tools",
+    "title": "syft#4025: invalid PURL for Go replace directives, rejected by Trivy",
+    "cited_in": "",
+    "url": "https://github.com/anchore/syft/issues/4025",
+    "verified": null
+  },
+  {
+    "id": "tool-syft-3776",
+    "category": "tools",
+    "title": "syft#3776: PR parsing trailing version comment on SHA-pinned actions",
+    "cited_in": "",
+    "url": "https://github.com/anchore/syft/pull/3776",
+    "verified": null
+  },
+  {
+    "id": "tool-trivy-7850",
+    "category": "tools",
+    "title": "trivy discussion #7850: SBOM round-trip loses SrcName -> 0 vulns on vulnerable image",
+    "cited_in": "",
+    "url": "https://github.com/aquasecurity/trivy/discussions/7850",
+    "verified": null
+  },
+  {
+    "id": "tool-trivy-8351",
+    "category": "tools",
+    "title": "trivy discussion #8351: .trivyignore is client-side only",
+    "cited_in": "",
+    "url": "https://github.com/aquasecurity/trivy/discussions/8351",
+    "verified": null
+  },
+  {
+    "id": "tool-trivy-scanner",
+    "category": "tools",
+    "title": "Trivy docs: vulnerability scanner design, distro-first advisory policy",
+    "cited_in": "",
+    "url": "https://trivy.dev/docs/latest/guide/scanner/vulnerability/",
+    "verified": null
+  },
+  {
+    "id": "tool-osv-scanner-v2",
+    "category": "tools",
+    "title": "OSV-Scanner v2 built on OSV-Scalibr",
+    "cited_in": "",
+    "url": "http://osv.dev/blog/posts/osv-scanner-v2-beta1-is-ready/",
+    "verified": null
+  },
+  {
+    "id": "tool-osv-5295",
+    "category": "tools",
+    "title": "google/osv.dev#5295: 10-day GHSA ingestion outage + unreviewed advisories 404",
+    "cited_in": "",
+    "url": "https://github.com/google/osv.dev/issues/5295",
+    "verified": null
+  },
+  {
+    "id": "tool-ghsa-7587",
+    "category": "tools",
+    "title": "github/advisory-database#7587: GHSA ingestion outage April 2026",
+    "cited_in": "",
+    "url": "https://github.com/github/advisory-database#7587",
+    "verified": null
+  },
+  {
+    "id": "tool-ghsa-2451",
+    "category": "tools",
+    "title": "github/advisory-database#2451: incomplete CVE ingestion for unsupported ecosystems",
+    "cited_in": "",
+    "url": "https://github.com/github/advisory-database/issues/2451",
+    "verified": null
+  },
+  {
+    "id": "tool-ghsa-readme",
+    "category": "tools",
+    "title": "GitHub Advisory Database README: database_specific last_known_affected_version_range",
+    "cited_in": "",
+    "url": "https://github.com/github/advisory-database/blob/main/README.md",
+    "verified": null
+  },
+  {
+    "id": "tool-ghsa-docs",
+    "category": "tools",
+    "title": "GitHub docs: GHSA sources, reviewed vs unreviewed tiers, Dependabot behaviour",
+    "cited_in": "",
+    "url": "https://docs.github.com/en/code-security/concepts/vulnerability-reporting-and-management/github-advisory-database",
+    "verified": null
+  },
+  {
+    "id": "tool-snyk-db",
+    "category": "tools",
+    "title": "Snyk Vulnerability Database: Application Feed and OS Feed",
+    "cited_in": "",
+    "url": "https://docs.snyk.io/scan-fix-and-prevent/scan-with-snyk/snyk-open-source/manage-vulnerabilities/snyk-vulnerability-database",
+    "verified": null
+  },
+  {
+    "id": "tool-snyk-nvd-delays",
+    "category": "tools",
+    "title": "Snyk: Snyk users don't have to worry about NVD delays (2024-03-13)",
+    "cited_in": "",
+    "url": "https://snyk.io/blog/snyk-users-dont-have-to-worry-about-nvd-delays/",
+    "verified": null
+  },
+  {
+    "id": "tool-snyk-fp-claims",
+    "category": "tools",
+    "title": "Snyk: Minimizing false positives (vendor claim, 0.08% FP rate)",
+    "cited_in": "",
+    "url": "https://snyk.io/blog/minimizing-false-positives-enhancing-security-efficiency/",
+    "verified": null
+  },
+  {
+    "id": "tool-doyensec-sca-benchmark",
+    "category": "tools",
+    "title": "Doyensec SCA benchmark: Snyk and Dependabot below 15% accuracy",
+    "cited_in": "",
+    "url": "https://www.doyensec.com/resources/Doyensec_Software_Composition_Analysis_Benchmark.pdf",
+    "verified": null
+  },
+  {
+    "id": "tool-claircore-matching",
+    "category": "tools",
+    "title": "Claircore concepts: vulnerability matching and distro-specific matchers",
+    "cited_in": "",
+    "url": "https://quay.github.io/claircore/concepts/vulnerability_matching.html",
+    "verified": null
+  },
+  {
+    "id": "tool-claircore-indexing",
+    "category": "tools",
+    "title": "Clair core concepts: indexing (layer diffing, content-addressable store)",
+    "cited_in": "",
+    "url": "https://github.com/quay/clair/blob/main/Documentation/concepts/indexing.md",
+    "verified": null
+  },
+  {
+    "id": "tool-docker-scout",
+    "category": "tools",
+    "title": "Docker Scout: analysis model, CVE list stored in image metadata, 10GB limit",
+    "cited_in": "",
+    "url": "https://docs.docker.com/scout/explore/analysis/",
+    "verified": null
+  },
+  {
+    "id": "tool-dt-3178",
+    "category": "tools",
+    "title": "Dependency-Track#3178: NVD version ranges always use ANY -> SUBSET/SUPERSET matching",
+    "cited_in": "",
+    "url": "https://github.com/DependencyTrack/dependency-track/issues/3178",
+    "verified": null
+  },
+  {
+    "id": "tool-dt-3146",
+    "category": "tools",
+    "title": "Dependency-Track#3146: CPE SUBSET/SUPERSET relationships during matching",
+    "cited_in": "",
+    "url": "https://github.com/DependencyTrack/dependency-track/issues/3146",
+    "verified": null
+  },
+  {
+    "id": "tool-dt-3268",
+    "category": "tools",
+    "title": "Dependency-Track#3268: CPE version '-' (NA) matches every version -> recurring FPs",
+    "cited_in": "",
+    "url": "https://github.com/DependencyTrack/dependency-track/issues/3268",
+    "verified": null
+  },
+  {
+    "id": "tool-dt-3774",
+    "category": "tools",
+    "title": "Dependency-Track#3774: RPM epoch/release field mismatch -> 77 vs 27 findings (50 FPs)",
+    "cited_in": "",
+    "url": "https://github.com/DependencyTrack/dependency-track/issues/3774",
+    "verified": null
+  },
+  {
+    "id": "tool-dt-4568",
+    "category": "tools",
+    "title": "Dependency-Track#4568: third-party analyzer (OSS Index) produced a false positive",
+    "cited_in": "",
+    "url": "https://github.com/DependencyTrack/dependency-track/issues/4568",
+    "verified": null
+  },
+  {
+    "id": "tool-dt-4862",
+    "category": "tools",
+    "title": "Dependency-Track#4862: VEX and .trivyignore ignored on ingestion",
+    "cited_in": "",
+    "url": "https://github.com/DependencyTrack/dependency-track/issues/4862",
+    "verified": null
+  },
+  {
+    "id": "tool-dt-5370",
+    "category": "tools",
+    "title": "Dependency-Track#5370: false negative when severity is UNASSIGNED",
+    "cited_in": "",
+    "url": "https://github.com/DependencyTrack/dependency-track/issues/5370",
+    "verified": null
+  },
+  {
+    "id": "tool-dt-5992",
+    "category": "tools",
+    "title": "Dependency-Track#5992: suppression is project-scoped, no global CVE<->component suppression",
+    "cited_in": "",
+    "url": "https://github.com/DependencyTrack/dependency-track/issues/5992",
+    "verified": null
+  },
+  {
+    "id": "tool-dt-changelog",
+    "category": "tools",
+    "title": "Dependency-Track changelog (NVD 2.0 feeds, ANY/NA false negative fix)",
+    "cited_in": "",
+    "url": "https://docs.dependencytrack.org/changelog/",
+    "verified": null
+  },
+  {
+    "id": "tool-openspg-536",
+    "category": "tools",
+    "title": "OpenSPG#536: silent rule failures, no client-visible error",
+    "cited_in": "",
+    "url": "https://github.com/OpenSPG/openspg/issues/536",
+    "verified": null
+  },
+  {
+    "id": "tool-vuls-purl",
+    "category": "tools",
+    "title": "Vuls docs: CPE and PURL assignment, upstream version precedence",
+    "cited_in": "",
+    "url": "https://help.vuls.biz/en/manual/scan/cpe/assign_cpe_purl/",
+    "verified": null
+  },
+  {
+    "id": "tool-nmap-vulns-nse",
+    "category": "tools",
+    "title": "Nmap vulns NSE library: VULNERABLE vs LIKELY_VULN state model",
+    "cited_in": "",
+    "url": "https://nmap.org/nsedoc/lib/vulns.html",
+    "verified": null
+  },
+  {
+    "id": "tool-shodan-vuln-assessment",
+    "category": "tools",
+    "title": "Shodan docs: verified vs unverified vulns, backport limitation",
+    "cited_in": "",
+    "url": "https://help.shodan.io/mastery/vulnerability-assessment",
+    "verified": null
+  },
+  {
+    "id": "tool-nessus-45590",
+    "category": "tools",
+    "title": "Tenable Nessus plugin 45590: best-effort computed CPE derivation",
+    "cited_in": "",
+    "url": "https://www.tenable.com/plugins/nessus/45590",
+    "verified": null
+  },
+  {
+    "id": "tool-nessus-inventory",
+    "category": "tools",
+    "title": "Tenable docs: determining software inventory and authorization support",
+    "cited_in": "",
+    "url": "https://docs.tenable.com/cyber-exposure-studies/software-inventory/Content/DeterminingSoftwareAuthorizationSupport.htm",
+    "verified": null
+  },
+  {
+    "id": "tool-greenbone-18656",
+    "category": "tools",
+    "title": "Greenbone forum: CVE-2015-8960 false positive, backport origin, CPE constraints",
+    "cited_in": "",
+    "url": "https://forum.greenbone.net/t/false-positive-of-cve-2015-8960/18656",
+    "verified": null
+  },
+  {
+    "id": "tool-greenbone-21389",
+    "category": "tools",
+    "title": "Greenbone forum: CVE-2025-24016 feed coverage latency",
+    "cited_in": "",
+    "url": "https://forum.greenbone.net/t/question-on-cve-2025-24016-coverage/21389",
+    "verified": null
+  },
+  {
+    "id": "tool-cve-bin-tool-triage",
+    "category": "tools",
+    "title": "cve-bin-tool: manual TRIAGE.json, package-name collision FPs (arrow)",
+    "cited_in": "",
+    "url": "https://cve-bin-tool.readthedocs.io/en/stable/triaging_process.html",
+    "verified": null
+  },
+  {
+    "id": "tool-nvd-home",
+    "category": "tools",
+    "title": "NIST NVD programme home (backlog status, NVD 2.0 feeds)",
+    "cited_in": "",
+    "url": "https://www.nist.gov/itl/nvd",
+    "verified": null
+  },
+  {
+    "id": "tool-nvd-cpe-range-notice",
+    "category": "tools",
+    "title": "NVD CPE Range Notification: ranges depend on dictionary coverage",
+    "cited_in": "",
+    "url": "https://nvd.nist.gov/General/News/CPE-Range-Notification",
+    "verified": null
+  },
+  {
+    "id": "tool-enisa-euvd",
+    "category": "tools",
+    "title": "ENISA European Vulnerability Database announcement (2025)",
+    "cited_in": "",
+    "url": "https://www.enisa.europa.eu/news/consult-the-european-vulnerability-database-to-enhance-your-digital-security",
+    "verified": null
+  },
+  {
+    "id": "tool-ossindex-lookup",
+    "category": "tools",
+    "title": "OSS Index component lookup used as a Dependency-Track analyzer",
+    "cited_in": "",
+    "url": "https://ossindex.sonatype.org/component/pkg:nuget/System.Text.Json",
+    "verified": null
+  },
+  {
+    "id": "prac-debian-tracker",
+    "category": "practitioner",
+    "title": "Debian Security Tracker: how downstream analysis and status states work",
+    "cited_in": "",
+    "url": "https://security-team.debian.org/security_tracker.html",
+    "verified": null
+  },
+  {
+    "id": "prac-debian-curl-2025-9086",
+    "category": "practitioner",
+    "title": "Debian tracker commit: CVE-2025-9086 (curl) vulnerable code introduced later",
+    "cited_in": "",
+    "url": "https://www.mail-archive.com/debian-security-tracker-commits@alioth-lists.debian.net/msg72206.html",
+    "verified": null
+  },
+  {
+    "id": "prac-debian-python311-backport",
+    "category": "practitioner",
+    "title": "Debian bookworm python3.11 backport batch (+deb12u7)",
+    "cited_in": "",
+    "url": "https://linux.debian.devel.release.narkive.com/Aytbrshn/processed-bookworm-pu-package-python3-11-3-11-2-6-deb12u7",
+    "verified": null
+  },
+  {
+    "id": "prac-cisa-vex-min-req",
+    "category": "practitioner",
+    "title": "CISA: Minimum Requirements for a VEX (statuses and justifications)",
+    "cited_in": "",
+    "url": "https://www.cisa.gov/sites/default/files/2023-04/minimum-requirements-for-vex-508c.pdf",
+    "verified": null
+  },
+  {
+    "id": "prac-cisa-when-to-issue-vex",
+    "category": "practitioner",
+    "title": "CISA: When to Issue a VEX (inheritance rules, automation limits)",
+    "cited_in": "",
+    "url": "https://www.cisa.gov/sites/default/files/2023-11/When-to-Issue-a-VEX-508c.pdf",
+    "verified": null
+  },
+  {
+    "id": "prac-openshift-triage",
+    "category": "practitioner",
+    "title": "OpenShift engineering: node-cve triage guidance, evidence-based Uncertain/Unaffected",
+    "cited_in": "",
+    "url": "https://github.com/openshift-eng/ai-helpers/blob/main/plugins/node-cve/commands/triage.md",
+    "verified": null
+  },
+  {
+    "id": "prac-cyclonedx-vex-609",
+    "category": "practitioner",
+    "title": "CycloneDX spec discussion #609: lossy mapping between VEX profiles",
+    "cited_in": "",
+    "url": "https://github.com/CycloneDX/specification/discussions/609",
+    "verified": null
+  },
+  {
+    "id": "prac-cyclonedx-vex-crosswalk",
+    "category": "practitioner",
+    "title": "Community CycloneDX->OpenVEX crosswalk: contested and lossy cells",
+    "cited_in": "",
+    "url": "https://github.com/getreeldev/cyclonedx-to-openvex",
+    "verified": null
+  },
+  {
+    "id": "prac-mandiant-moveit",
+    "category": "practitioner",
+    "title": "Mandiant: zero-day MOVEit data theft, exploitation 4 days pre-disclosure",
+    "cited_in": "",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-moveit-data-theft",
+    "verified": null
+  },
+  {
+    "id": "prac-quo-wirefire",
+    "category": "practitioner",
+    "title": "Quo Intelligence: unreported WIREFIRE web shell variant evading public YARA",
+    "cited_in": "",
+    "url": "https://quointelligence.eu/2024/01/unc5221-unreported-and-undetected-wirefire-web-shell-variant/",
+    "verified": null
+  },
+  {
+    "id": "prac-bishopfox-fortijump",
+    "category": "practitioner",
+    "title": "Bishop Fox: FortiJump CVE-2024-47575, exploitation preceded the advisory",
+    "cited_in": "",
+    "url": "https://bishopfox.com/blog/a-look-at-fortijump-cve-2024-47575",
+    "verified": null
+  },
+  {
+    "id": "prac-darktrace-citrix",
+    "category": "practitioner",
+    "title": "Darktrace: stemming the Citrix Bleed (CVE-2023-4966) exploitation",
+    "cited_in": "",
+    "url": "https://www.darktrace.com/blog/stemming-the-citrix-bleed-vulnerability-with-darktraces-activeai-platform",
+    "verified": null
+  },
+  {
+    "id": "prac-rapid7-asset-discovery",
+    "category": "practitioner",
+    "title": "Rapid7: approaches to asset discovery and the blind spot of each",
+    "cited_in": "",
+    "url": "https://www.rapid7.com/blog/post/2024/10/17/understanding-your-attack-surface-different-approaches-to-asset-discovery/",
+    "verified": null
+  },
+  {
+    "id": "prac-intruder-shadow-it",
+    "category": "practitioner",
+    "title": "Intruder: shadow IT risks discovered via Certificate Transparency logs",
+    "cited_in": "",
+    "url": "https://www.intruder.io/research/shadow-it-risks",
+    "verified": null
+  },
+  {
+    "id": "prac-precursor-easm",
+    "category": "practitioner",
+    "title": "Precursor: EASM vs vulnerability scanning, the seed-list single point of failure",
+    "cited_in": "",
+    "url": "https://www.precursorintelligence.com/blog/easm-vs-vulnerability-scanning",
+    "verified": null
+  },
+  {
+    "id": "prac-cycognito-waf",
+    "category": "practitioner",
+    "title": "Cycognito: state of WAF protection, WAF sprawl, unknown unknowns",
+    "cited_in": "",
+    "url": "https://www.cycognito.com/blog/state-of-waf-protection/",
+    "verified": null
+  },
+  {
+    "id": "prac-runzero-kevology",
+    "category": "practitioner",
+    "title": "runZero KEVology (Beardsley, ex-CISA KEV section chief): analysis of KEV",
+    "cited_in": "",
+    "url": "https://www.runzero.com/uploads/documents/reports/KEVology-An-analysis-of-exploits-scores-and-timelines-on-the-CISA-KEV.pdf",
+    "verified": null
+  },
+  {
+    "id": "prac-runzero-kev-blog",
+    "category": "practitioner",
+    "title": "runZero: making CISA KEV actionable (KEVology summary)",
+    "cited_in": "",
+    "url": "https://www.runzero.com/blog/making-cisa-kev-actionable/",
+    "verified": null
+  },
+  {
+    "id": "prac-kev-collider-data",
+    "category": "practitioner",
+    "title": "runZero kev-collider-data: per-CVE KEV enrichment dataset",
+    "cited_in": "",
+    "url": "https://github.com/runZeroInc/kev-collider-data",
+    "verified": null
+  },
+  {
+    "id": "prac-docker-dhi-vex",
+    "category": "practitioner",
+    "title": "Docker Hardened Images VEX policy: not_affected + inline_mitigations_already_exist",
+    "cited_in": "",
+    "url": "https://docs.docker.com/dhi/explore/security-concepts/vex/",
+    "verified": null
+  },
+  {
+    "id": "prac-jku-vex-thesis",
+    "category": "practitioner",
+    "title": "JKU thesis: distribution of VEX statements, cites 88.8% FP figure",
+    "cited_in": "",
+    "url": "https://epub.jku.at/obvulihs/download/pdf/12450868",
+    "verified": null
+  },
+  {
+    "id": "prac-cso-nvd-overload",
+    "category": "practitioner",
+    "title": "CSO: NIST cuts down CVE analysis amid vulnerability overload",
+    "cited_in": "",
+    "url": "https://www.csoonline.com/article/4159882/nist-cuts-down-cve-analysis-amid-vulnerability-overload.html",
+    "verified": null
+  },
+  {
+    "id": "prac-sitehost-backports",
+    "category": "practitioner",
+    "title": "sitehost.nz: vulnerability scans and backported patches",
+    "cited_in": "",
+    "url": "https://sitehost.nz/blog/vulnerability-scans-backported-patches",
+    "verified": null
+  },
+  {
+    "id": "prac-thingsrecon-shadow",
+    "category": "practitioner",
+    "title": "ThingsRecon: why CISOs struggle with shadow assets",
+    "cited_in": "",
+    "url": "https://www.thingsrecon.com/blog/why-cisos-struggle-with-shadow-assets",
+    "verified": null
+  },
+  {
+    "id": "prac-zerofox-shadow-cloud",
+    "category": "practitioner",
+    "title": "ZeroFox: shadow in the cloud, unmanaged cloud/CDN assets (vendor)",
+    "cited_in": "",
+    "url": "https://www.zerofox.com/blog/shadow-in-the-cloud-why-easm-must-uncover-your-unknown-cloud-cdn-assets/",
+    "verified": null
+  },
+  {
+    "id": "blog-gamblin-2024-cve-review",
+    "category": "blogs",
+    "title": "Gamblin: 2024 CVE data review (40,009 CVEs, +38.83%)",
+    "cited_in": "",
+    "url": "https://jgamblin.com/2025/01/05/2024-cve-data-review/",
+    "verified": null
+  },
+  {
+    "id": "blog-gamblin-bsides-munich-2025",
+    "category": "blogs",
+    "title": "Gamblin, BSides Munich 2025: navigating the volatile vulnerability landscape",
+    "cited_in": "",
+    "url": "https://rogolabs.net/Talks/Navigating%20the%20Volatile%20Vulnerability%20Landscape%20-%20BSides%20Munich.pdf",
+    "verified": null
+  },
+  {
+    "id": "blog-perkal-bsideslv23",
+    "category": "blogs",
+    "title": "Perkal, BSidesLV 2023: review of vulnerability triage (abstract)",
+    "cited_in": "",
+    "url": "https://pretalx.com/bsideslv23/talk/review/VCYNCXSUHPFBAGJLGMKHTJB7CHF99FHV",
+    "verified": null
+  },
+  {
+    "id": "blog-censys-v2-benchmark",
+    "category": "blogs",
+    "title": "Censys vs Shodan v2 (vendor honeypot benchmark, methodology disclosed)",
+    "cited_in": "",
+    "url": "https://anchor-u.com/wp-content/uploads/Censys-vs.-Shodan-v2-2024.pdf",
+    "verified": null
+  },
+  {
+    "id": "blog-ponce-2024-br",
+    "category": "blogs",
+    "title": "Ponce et al. 2024: Shodan vs Censys on Brazilian internet space",
+    "cited_in": "",
+    "url": "https://exa.ai/library/publication/bcdclpd7w5y",
+    "verified": null
+  },
+  {
+    "id": "blog-rapid7-project-sonar",
+    "category": "blogs",
+    "title": "Rapid7 Project Sonar: internet-wide IPv4 scanning",
+    "cited_in": "",
+    "url": "https://www.rapid7.com/research/project-sonar/",
+    "verified": null
+  },
+  {
+    "id": "blog-github-ecosystem-sec",
+    "category": "blogs",
+    "title": "GitHub: how we investigate CVEs and coordinate with the ecosystem",
+    "cited_in": "",
+    "url": "https://github.blog/engineering/platform-security/how-we-investigate-cves-and-coordinate-with-the-ecosystem/",
+    "verified": null
+  },
+  {
+    "id": "arx-2604-17860-titanca",
+    "category": "papers",
+    "title": "TitanCA: multi-agent LLM pipeline for zero-day discovery (SMU/GovTech)",
+    "cited_in": "",
+    "url": "https://arxiv.org/pdf/2604.17860",
+    "verified": null
+  },
+  {
+    "id": "arx-2609-05335-bugstone",
+    "category": "papers",
+    "title": "BUGSTONE-E2E: CVE patch history as executable detection rules",
+    "cited_in": "",
+    "url": "https://arxiv.org/pdf/2609.05335",
+    "verified": null
+  },
+  {
+    "id": "arx-2607-12316-antiproof",
+    "category": "papers",
+    "title": "Antiproof: vulnerability detector synthesis + proofs of exploitability",
+    "cited_in": "",
+    "url": "https://arxiv.org/html/2607.12316",
+    "verified": null
+  },
+  {
+    "id": "arx-2606-19149-openant",
+    "category": "papers",
+    "title": "OpenAnt: LLM vuln discovery with adversarial verification and dynamic testing",
+    "cited_in": "",
+    "url": "https://arxiv.org/html/2606.19149v2",
+    "verified": null
+  },
+  {
+    "id": "arx-2607-26656-graph-verifier",
+    "category": "papers",
+    "title": "Graph Is the Verifier: agentic RL for interprocedural vulnerability detection",
+    "cited_in": "",
+    "url": "https://arxiv.org/abs/2607.26656",
+    "verified": null
+  },
+  {
+    "id": "arx-2509-03876-affected-versions",
+    "category": "papers",
+    "title": "Affected-version identification: 12 tools, 1,128 real C/C++ vulns, best accuracy 44.9%",
+    "cited_in": "",
+    "url": "https://arxiv.org/html/2509.03876",
+    "verified": null
+  },
+  {
+    "id": "arx-2506-12995-crossdb",
+    "category": "papers",
+    "title": "Cross-database vulnerability report reconciliation (GHSA + Snyk, 10 languages)",
+    "cited_in": "",
+    "url": "https://arxiv.org/pdf/2506.12995",
+    "verified": null
+  },
+  {
+    "id": "arx-2006-15074-cleaning-nvd",
+    "category": "papers",
+    "title": "Cleaning the NVD: vendor/product name inconsistency at scale",
+    "cited_in": "",
+    "url": "https://arxiv.org/pdf/2006.15074v1.pdf",
+    "verified": null
+  },
+  {
+    "id": "arx-1302-4133-nvd-unreliable",
+    "category": "papers",
+    "title": "(Un)Reliability of NVD Vulnerable Versions (Chrome version-range errors)",
+    "cited_in": "",
+    "url": "https://arxiv.org/pdf/1302.4133",
+    "verified": null
+  },
+  {
+    "id": "arx-1705-05347-cpe-cve",
+    "category": "papers",
+    "title": "Software vulnerability analysis using CPE and CVE (Benthin et al.)",
+    "cited_in": "",
+    "url": "https://arxiv.org/pdf/1705.05347",
+    "verified": null
+  },
+  {
+    "id": "arx-2506-17798-savant",
+    "category": "papers",
+    "title": "Savant: reachability analysis trade-off between FP and FN",
+    "cited_in": "",
+    "url": "https://arxiv.org/html/2506.17798v2",
+    "verified": null
+  },
+  {
+    "id": "arx-2608-19430-harp",
+    "category": "papers",
+    "title": "HARP: domain-adaptive vulnerability prioritization for enterprise IT/security",
+    "cited_in": "",
+    "url": "https://arxiv.org/abs/2608.19430",
+    "verified": null
+  },
+  {
+    "id": "arx-2512-17710-svs-test",
+    "category": "papers",
+    "title": "SVS-TEST: testing software vulnerability scanner behaviour incl. silent failures",
+    "cited_in": "",
+    "url": "https://arxiv.org/abs/2512.17710",
+    "verified": null
+  },
+  {
+    "id": "std-ovana-quality-vdb",
+    "category": "papers",
+    "title": "OVANA: quality of vulnerability databases (ARES 2021)",
+    "cited_in": "",
+    "url": "https://peasec.de/paper/2021/2021_KuehnBayerWendelbornReuter_OVANAQualityVulnerabilityDatabases_ARES.pdf",
+    "verified": null
+  },
+  {
+    "id": "std-msr4ps-2025-sbom-compliance",
+    "category": "papers",
+    "title": "MSR4PS 2025: SBOM generator vs format effect on NTIA compliance (2,225 images)",
+    "cited_in": "",
+    "url": "https://www.cs.montana.edu/izurieta/pubs/MSR4PS_2025.pdf",
+    "verified": null
+  }
+]

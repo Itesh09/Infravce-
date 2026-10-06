@@ -1,0 +1,179 @@
+fetching 174 sources with 8 workers ...
+  [  1/174] + lit-007  OK     pdf
+  [  2/174] + lit-001  OK     html->markdown
+  [  3/174] + lit-009  OK     pdf
+  [  4/174] + lit-008  OK     html->markdown
+  [  5/174] + lit-003  OK     html->markdown
+  [  6/174] + lit-013  OK     pdf
+  [  7/174] + lit-006  OK     html->markdown
+  [  8/174] + lit-004  OK     html->markdown
+  [  9/174] + lit-002  OK     html->markdown
+  [ 10/174] + lit-012  OK     pdf
+  [ 11/174] + lit-015  OK     html->markdown
+  [ 12/174] + lit-011  OK     pdf
+  [ 13/174] + lit-019  OK     pdf
+  [ 14/174] + lit-018  OK     pdf
+  [ 15/174] + lit-016  OK     html->markdown
+  [ 16/174] + lit-020  OK     html->markdown
+  [ 17/174] + lit-021  OK     pdf
+  [ 18/174] + lit-024  OK     html->markdown
+  [ 19/174] + lit-023  OK     html->markdown
+  [ 20/174] + lit-027  OK     html->markdown
+  [ 21/174] + lit-026  OK     html->markdown
+  [ 22/174] + lit-025  OK     html->markdown
+  [ 23/174] ! lit-010  FAILED http 403
+  [ 24/174] + lit-031  OK     html->markdown
+  [ 25/174] + lit-029  OK     pdf
+  [ 26/174] + lit-032  OK     html->markdown
+  [ 27/174] + lit-033  OK     html->markdown
+  [ 28/174] + lit-005  OK     pdf
+  [ 29/174] + lit-034  OK     html->markdown
+  [ 30/174] + lit-030  OK     pdf
+  [ 31/174] + lit-014  OK     pdf
+  [ 32/174] + lit-036  OK     html->markdown
+  [ 33/174] ! lit-022  FAILED http 400
+  [ 34/174] + lit-035  OK     html->markdown
+  [ 35/174] + lit-037  OK     html->markdown
+  [ 36/174] + lit-040  OK     html->markdown
+  [ 37/174] + lit-041  OK     html->markdown
+  [ 38/174] + lit-042  OK     pdf
+  [ 39/174] ! lit-028  FAILED http 403
+  [ 40/174] + lit-045  OK     html->markdown
+  [ 41/174] + lit-046  OK     html->markdown
+  [ 42/174] + lit-044  OK     html->markdown
+  [ 43/174] + lit-050  OK     html->markdown
+  [ 44/174] + lit-049  OK     pdf
+  [ 45/174] + lit-052  OK     html->markdown
+  [ 46/174] ! lit-039  FAILED http 403
+  [ 47/174] + lit-051  OK     html->markdown
+  [ 48/174] + lit-053  OK     html->markdown
+  [ 49/174] + lit-054  OK     html->markdown
+  [ 50/174] ! lit-047  FAILED http 403
+  [ 51/174] ! lit-048  FAILED http 403
+  [ 52/174] + lit-038  OK     pdf
+  [ 53/174] + lit-059  OK     pdf
+  [ 54/174] + lit-060  OK     pdf
+  [ 55/174] + lit-062  OK     html->markdown
+  [ 56/174] ! lit-058  FAILED http 403
+  [ 57/174] + lit-063  OK     html->markdown
+  [ 58/174] + lit-064  OK     html->markdown
+  [ 59/174] + lit-065  OK     html->markdown
+  [ 60/174] + lit-066  OK     html->markdown
+  [ 61/174] + lit-056  OK     pdf
+  [ 62/174] + lit-067  OK     html->markdown
+  [ 63/174] ! lit-057  FAILED http 400
+  [ 64/174] + lit-068  OK     html->markdown
+  [ 65/174] ! lit-061  FAILED http 403
+  [ 66/174] + lit-070  OK     pdf
+  [ 67/174] + lit-071  OK     pdf
+  [ 68/174] + lit-069  OK     pdf
+  [ 69/174] + lit-076  OK     pdf
+  [ 70/174] ! lit-072  FAILED http 403
+  [ 71/174] ! lit-075  FAILED http 403
+  [ 72/174] + lit-078  OK     html->markdown
+  [ 73/174] + lit-079  OK     html->markdown
+  [ 74/174] ! lit-074  FAILED http 404
+  [ 75/174] ! lit-077  FAILED http 403
+  [ 76/174] + tool-anchore-false-positives OK     html->markdown
+  [ 77/174] ! lit-073  FAILED http 404
+  [ 78/174] + tool-grype-2606 OK     html->markdown
+  [ 79/174] + tool-grype-1737 OK     html->markdown
+  [ 80/174] + tool-grype-1245 OK     html->markdown
+  [ 81/174] + tool-grype-1764 OK     html->markdown
+  [ 82/174] + tool-grype-3456 OK     html->markdown
+  [ 83/174] + tool-syft-2319 OK     html->markdown
+  [ 84/174] + tool-syft-4025 OK     html->markdown
+  [ 85/174] + tool-trivy-scanner OK     html->markdown
+  [ 86/174] + tool-trivy-7850 OK     html->markdown
+  [ 87/174] + tool-syft-3776 OK     html->markdown
+  [ 88/174] ! tool-anchore-nvd-opaque FAILED http 404
+  [ 89/174] + tool-osv-scanner-v2 OK     html->markdown
+  [ 90/174] + tool-trivy-8351 OK     html->markdown
+  [ 91/174] + tool-osv-5295 OK     html->markdown
+  [ 92/174] + tool-ghsa-7587 OK     html->markdown
+  [ 93/174] + tool-ghsa-2451 OK     html->markdown
+  [ 94/174] + tool-ghsa-readme OK     html->markdown
+  [ 95/174] + tool-ghsa-docs OK     html->markdown
+  [ 96/174] + tool-snyk-fp-claims OK     html->markdown
+  [ 97/174] + tool-snyk-nvd-delays OK     html->markdown
+  [ 98/174] + tool-claircore-matching OK     html->markdown
+  [ 99/174] + tool-snyk-db OK     html->markdown
+  [100/174] + tool-dt-3178 OK     html->markdown
+  [101/174] + tool-dt-3146 OK     html->markdown
+  [102/174] + tool-docker-scout OK     html->markdown
+  [103/174] + tool-dt-3268 OK     html->markdown
+  [104/174] + tool-dt-3774 OK     html->markdown
+  [105/174] ! tool-claircore-indexing FAILED http 429
+  [106/174] + tool-dt-4568 OK     html->markdown
+  [107/174] + tool-dt-5370 OK     html->markdown
+  [108/174] + tool-dt-4862 OK     html->markdown
+  [109/174] + tool-dt-5992 OK     html->markdown
+  [110/174] + tool-doyensec-sca-benchmark OK     pdf
+  [111/174] + tool-shodan-vuln-assessment OK     html->markdown
+  [112/174] + tool-openspg-536 OK     html->markdown
+  [113/174] + tool-nessus-45590 OK     html->markdown
+  [114/174] + tool-vuls-purl OK     html->markdown
+  [115/174] + tool-nmap-vulns-nse OK     html->markdown
+  [116/174] + tool-dt-changelog OK     html->markdown
+  [117/174] + tool-cve-bin-tool-triage OK     html->markdown
+  [118/174] + tool-greenbone-18656 OK     html->markdown
+  [119/174] + tool-enisa-euvd OK     html->markdown
+  [120/174] + tool-nvd-cpe-range-notice OK     JS-rendered; saved raw HTML
+  [121/174] + tool-nvd-home OK     html->markdown
+  [122/174] + prac-debian-curl-2025-9086 OK     html->markdown
+  [123/174] + prac-debian-tracker OK     html->markdown
+  [124/174] + prac-cisa-vex-min-req OK     pdf
+  [125/174] + prac-cisa-when-to-issue-vex OK     pdf
+  [126/174] + tool-nessus-inventory OK     html->markdown
+  [127/174] + prac-openshift-triage OK     html->markdown
+  [128/174] + tool-greenbone-21389 OK     html->markdown
+  [129/174] + prac-cyclonedx-vex-609 OK     html->markdown
+  [130/174] + prac-cyclonedx-vex-crosswalk OK     html->markdown
+  [131/174] + prac-quo-wirefire OK     html->markdown
+  [132/174] ! tool-ossindex-lookup FAILED http 404
+  [133/174] + prac-bishopfox-fortijump OK     html->markdown
+  [134/174] ! prac-debian-python311-backport FAILED http 429
+  [135/174] + prac-mandiant-moveit OK     html->markdown
+  [136/174] + prac-intruder-shadow-it OK     html->markdown
+  [137/174] + prac-rapid7-asset-discovery OK     html->markdown
+  [138/174] + prac-precursor-easm OK     html->markdown
+  [139/174] + prac-cycognito-waf OK     html->markdown
+  [140/174] + prac-runzero-kevology OK     pdf
+  [141/174] + prac-kev-collider-data OK     html->markdown
+  [142/174] + prac-runzero-kev-blog OK     html->markdown
+  [143/174] + prac-cso-nvd-overload OK     bin
+  [144/174] + prac-docker-dhi-vex OK     html->markdown
+  [145/174] + prac-jku-vex-thesis OK     pdf
+  [146/174] + prac-sitehost-backports OK     html->markdown
+  [147/174] + blog-gamblin-2024-cve-review OK     html->markdown
+  [148/174] + prac-zerofox-shadow-cloud OK     html->markdown
+  [149/174] + blog-perkal-bsideslv23 OK     html->markdown
+  [150/174] + blog-ponce-2024-br OK     html->markdown
+  [151/174] + blog-censys-v2-benchmark OK     pdf
+  [152/174] + blog-rapid7-project-sonar OK     html->markdown
+  [153/174] + prac-thingsrecon-shadow OK     html->markdown
+  [154/174] + arx-2604-17860-titanca OK     pdf
+  [155/174] ! blog-gamblin-bsides-munich-2025 FAILED http 404
+  [156/174] + arx-2609-05335-bugstone OK     pdf
+  [157/174] + arx-2606-19149-openant OK     html->markdown
+  [158/174] + arx-2607-26656-graph-verifier OK     html->markdown
+  [159/174] + arx-2506-12995-crossdb OK     pdf
+  [160/174] + arx-2607-12316-antiproof OK     html->markdown
+  [161/174] + arx-2509-03876-affected-versions OK     html->markdown
+  [162/174] + arx-1302-4133-nvd-unreliable OK     pdf
+  [163/174] + arx-1705-05347-cpe-cve OK     pdf
+  [164/174] ! blog-github-ecosystem-sec FAILED http 404
+  [165/174] + arx-2608-19430-harp OK     html->markdown
+  [166/174] + arx-2512-17710-svs-test OK     html->markdown
+  [167/174] + arx-2006-15074-cleaning-nvd OK     pdf
+  [168/174] + arx-2506-17798-savant OK     html->markdown
+  [169/174] + std-ovana-quality-vdb OK     pdf
+  [170/174] + std-msr4ps-2025-sbom-compliance OK     pdf
+  [171/174] + prac-darktrace-citrix OK     html->markdown
+  [172/174] + lit-055  OK     pdf
+  [173/174] ! lit-043  FAILED http 502
+  [174/174] ! lit-017  FAILED connection failed
+
+summary: FAILED=22, OK=152
+total bytes: 64,448,833
+log: sources/DOWNLOAD_LOG.csv

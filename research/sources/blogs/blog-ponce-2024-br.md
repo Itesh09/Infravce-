@@ -1,0 +1,732 @@
+<div hidden="">
+
+</div>
+
+Exa is a modern AI search engine with SERP API, website crawler tools, and deep research API. Power your app with web search AI and web crawling API.
+
+> **Exa Site Index**
+>
+> Fetch the Exa site index at: <a href="https://exa.ai/llms.txt" tabindex="-1">https://exa.ai/llms.txt</a>
+>
+> Use this file to discover Exa products, pricing, evaluations, comparisons, use cases, agent interfaces, and technical documentation before exploring further.
+
+<div class="announcement-banner relative z-10 w-full bg-white px-4 pt-4 sm:px-6" style="height:var(--announcement-banner-height, 48px)">
+
+<div class="mx-auto max-w-7xl">
+
+<div class="relative flex items-center justify-center overflow-hidden rounded-sm px-2 py-1.5 sm:justify-between sm:px-4" style="background:#EEF8FF">
+
+<div class="hidden w-4 sm:block">
+
+</div>
+
+<div class="flex items-center justify-center gap-1">
+
+<a href="https://exa.ai/blog/exa-agent-ultra" class="text-sm font-medium text-[#0972D5] transition-opacity hover:opacity-70 sm:hidden">Introducing Exa Agent Ultra</a><a href="https://exa.ai/blog/exa-agent-ultra" class="hidden text-sm font-medium text-[#0972D5] transition-opacity hover:opacity-70 sm:inline">Introducing Exa Agent Ultra: Frontier Quality at a Fraction of the Cost</a><a href="https://exa.ai/blog/exa-agent-ultra" class="inline-flex items-center justify-center text-sm font-medium text-[#0972D5] underline transition-opacity hover:opacity-70">Learn more</a>
+
+</div>
+
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXggaC0zIHctMyB0ZXh0LVsjMDk3MkQ1XSIgYXJpYS1oaWRkZW49InRydWUiPjxwYXRoIGQ9Ik0xOCA2IDYgMTgiIC8+PHBhdGggZD0ibTYgNiAxMiAxMiIgLz48L3N2Zz4=" class="lucide lucide-x h-3 w-3 text-[#0972D5]" />
+
+</div>
+
+</div>
+
+</div>
+
+<div id="navbar" class="header sticky left-0 top-0 z-[101] w-full bg-white">
+
+<div class="block lg:hidden">
+
+<div class="h-full p-0 px-4 py-2.5 sm:px-6">
+
+<div class="mx-auto flex h-full max-w-7xl items-center justify-between">
+
+<div class="relative">
+
+<a href="/" class="relative flex items-center text-left text-2xl leading-none" aria-label="home page link"><img src="/images/logo/exa-logo-blue.svg" class="h-[17px] w-auto" style="color:transparent" decoding="async" data-nimg="1" width="56" height="17" alt="Exa" /></a>
+
+</div>
+
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1lbnUgaC01IHctNSB0ZXh0LWdyYXktNjAwIj48bGluZSB4MT0iNCIgeDI9IjIwIiB5MT0iMTIiIHkyPSIxMiI+PC9saW5lPjxsaW5lIHgxPSI0IiB4Mj0iMjAiIHkxPSI2IiB5Mj0iNiI+PC9saW5lPjxsaW5lIHgxPSI0IiB4Mj0iMjAiIHkxPSIxOCIgeTI9IjE4Ij48L2xpbmU+PC9zdmc+" class="lucide lucide-menu h-5 w-5 text-gray-600" />
+
+</div>
+
+</div>
+
+<div class="hidden fixed inset-x-0 top-0 z-[101] h-[100dvh] w-full bg-white shadow-lg">
+
+<div class="flex h-full flex-col pt-16">
+
+<div class="min-h-0 flex-1 overflow-y-auto">
+
+<div>
+
+<span class="font-['ABCDiatype'] text-base font-medium text-gray-900">Products</span><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZXZyb24tZG93biBoLTUgdy01IHRleHQtZ3JheS01MDAiPjxwYXRoIGQ9Im02IDkgNiA2IDYtNiIgLz48L3N2Zz4=" class="lucide lucide-chevron-down h-5 w-5 text-gray-500" />
+
+<div class="overflow-hidden transition-all duration-100 ease-in-out max-h-0 opacity-0">
+
+<div class="pb-2">
+
+<a href="/products/search" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+Search API
+
+</div>
+
+</div>
+
+<a href="https://exa.ai/docs/reference/contents-api-guide" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900" target="_blank" rel="noopener noreferrer"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+Contents API
+
+</div>
+
+</div>
+
+<a href="/products/agent" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+Agent API
+
+</div>
+
+</div>
+
+<a href="https://exa.ai/docs/reference/monitors-api-guide" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900" target="_blank" rel="noopener noreferrer"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+Monitors API
+
+</div>
+
+</div>
+
+<div class="px-6 pb-1 pt-3 font-mono text-[10px] font-medium uppercase tracking-widest text-neutral-400">
+
+Integrations
+
+</div>
+
+<a href="/connect" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+Exa Connect
+
+</div>
+
+</div>
+
+<div class="px-6 pb-1 pt-3 font-mono text-[10px] font-medium uppercase tracking-widest text-neutral-400">
+
+More
+
+</div>
+
+<a href="/use-cases/gtm" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+GTM
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<span class="font-['ABCDiatype'] text-base font-medium text-gray-900">Resources</span><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZXZyb24tZG93biBoLTUgdy01IHRleHQtZ3JheS01MDAiPjxwYXRoIGQ9Im02IDkgNiA2IDYtNiIgLz48L3N2Zz4=" class="lucide lucide-chevron-down h-5 w-5 text-gray-500" />
+
+<div class="overflow-hidden transition-all duration-100 ease-in-out max-h-0 opacity-0">
+
+<div class="pb-2">
+
+<a href="/careers" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+Careers<span class="inline-flex items-center rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-800">We're hiring</span>
+
+</div>
+
+</div>
+
+<a href="/customers" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+Customers
+
+</div>
+
+</div>
+
+<a href="/webinars" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+Webinars
+
+</div>
+
+</div>
+
+<a href="/partners" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+Partners
+
+</div>
+
+</div>
+
+<a href="/demos" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+Demos
+
+</div>
+
+</div>
+
+<a href="/about" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+About
+
+</div>
+
+</div>
+
+<a href="/contact" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+Contact us
+
+</div>
+
+</div>
+
+<a href="/research" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+Research
+
+</div>
+
+</div>
+
+<a href="/brand" class="flex items-start px-6 py-2 text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900"></a>
+
+<div class="flex-1">
+
+<div class="flex items-center gap-2 text-[14px] font-normal text-gray-900">
+
+Brand
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<a href="/enterprise" class="flex items-center px-6 py-4 font-[&#39;ABCDiatype&#39;] text-base font-medium text-gray-900 transition-colors hover:bg-gray-50">Enterprise</a>
+
+</div>
+
+<div>
+
+<a href="/blog" class="flex items-center px-6 py-4 font-[&#39;ABCDiatype&#39;] text-base font-medium text-gray-900 transition-colors hover:bg-gray-50">Blog</a>
+
+</div>
+
+<div>
+
+<a href="https://exa.ai/docs" class="flex items-center px-6 py-4 font-[&#39;ABCDiatype&#39;] text-base font-medium text-gray-900 transition-colors hover:bg-gray-50" target="_blank" rel="noopener noreferrer">Docs</a>
+
+</div>
+
+<div>
+
+<a href="/pricing" class="flex items-center px-6 py-4 font-[&#39;ABCDiatype&#39;] text-base font-medium text-gray-900 transition-colors hover:bg-gray-50">Pricing</a>
+
+</div>
+
+</div>
+
+<div class="shrink-0 border-t border-gray-100 bg-white px-6 py-4">
+
+<div class="flex gap-3">
+
+<a href="/contact/sales" class="block flex-1 rounded bg-gray-100 px-4 py-3 text-center text-base font-medium text-gray-900 transition-colors hover:bg-gray-200">Contact sales</a><a href="https://dashboard.exa.ai" class="block flex-1 rounded bg-black px-4 py-3 text-center text-base font-medium text-white transition-colors hover:bg-gray-800" target="_blank" rel="noopener noreferrer">Sign up</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="hidden lg:block">
+
+<div class="h-full p-0 px-4 py-2.5 sm:px-6">
+
+<div class="mx-auto flex h-full max-w-7xl items-center justify-between">
+
+<div class="relative">
+
+<a href="/" class="relative flex items-center pl-0 pr-4 text-left text-2xl leading-none" aria-label="home page link"><img src="/images/logo/exa-logo-blue.svg" class="h-[17px] w-auto" style="color:transparent" decoding="async" data-nimg="1" width="56" height="17" alt="Exa" /></a>
+
+</div>
+
+<div class="absolute left-1/2 -translate-x-1/2 transform">
+
+<div class="relative flex h-full gap-3">
+
+<div class="flex h-8 cursor-pointer items-center justify-center rounded-[4px] px-3 py-1 text-center font-['ABCDiatype'] text-[15px] font-normal leading-6 transition-colors text-[#5F5A54] hover:text-black hover:bg-gray-100">
+
+<span class="flex items-center">Products<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZXZyb24tZG93biBtbC0xIGgtMyB3LTMgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZHVyYXRpb24tMTAwICI+PHBhdGggZD0ibTYgOSA2IDYgNi02IiAvPjwvc3ZnPg==" class="lucide lucide-chevron-down ml-1 h-3 w-3 transition-transform duration-100" /></span>
+
+</div>
+
+<div class="flex h-8 cursor-pointer items-center justify-center rounded-[4px] px-3 py-1 text-center font-['ABCDiatype'] text-[15px] font-normal leading-6 transition-colors text-[#5F5A54] hover:text-black hover:bg-gray-100">
+
+<span class="flex items-center">Resources<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZXZyb24tZG93biBtbC0xIGgtMyB3LTMgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZHVyYXRpb24tMTAwICI+PHBhdGggZD0ibTYgOSA2IDYgNi02IiAvPjwvc3ZnPg==" class="lucide lucide-chevron-down ml-1 h-3 w-3 transition-transform duration-100" /></span>
+
+</div>
+
+<a href="/enterprise" class="flex h-8 cursor-pointer items-center justify-center rounded-[4px] px-3 py-1 text-center font-[&#39;ABCDiatype&#39;] text-[15px] font-normal leading-6 transition-colors text-[#5F5A54] hover:text-black hover:bg-gray-100">Enterprise</a><a href="/blog" class="flex h-8 cursor-pointer items-center justify-center rounded-[4px] px-3 py-1 text-center font-[&#39;ABCDiatype&#39;] text-[15px] font-normal leading-6 transition-colors text-[#5F5A54] hover:text-black hover:bg-gray-100">Blog</a><a href="https://exa.ai/docs" class="flex h-8 cursor-pointer items-center justify-center rounded-[4px] px-3 py-1 text-center font-[&#39;ABCDiatype&#39;] text-[15px] font-normal leading-6 transition-colors text-[#5F5A54] hover:text-black hover:bg-gray-100" target="_blank" rel="noopener noreferrer">Docs</a><a href="/pricing" class="flex h-8 cursor-pointer items-center justify-center rounded-[4px] px-3 py-1 text-center font-[&#39;ABCDiatype&#39;] text-[15px] font-normal leading-6 transition-colors text-[#5F5A54] hover:text-black hover:bg-gray-100">Pricing</a>
+
+<div class="absolute left-1/2 top-full z-50 transition-all duration-100 ease-in-out pointer-events-none opacity-0" style="width:590px;transform:translateX(-50%) perspective(1000px) rotateX(-15deg);transform-origin:top center">
+
+<div class="relative z-10 h-[10px] w-full">
+
+</div>
+
+<div class="overflow-hidden rounded-[8px] bg-white shadow-lg" style="outline:1px solid rgba(0,0,0,0.08);outline-offset:0">
+
+<div class="relative transition-all duration-100 ease-in-out" style="height:271px">
+
+<div class="flex h-full px-0" style="transform:translateX(0px)">
+
+<div class="flex-shrink-0 px-0 py-[8px]" style="width:590px;opacity:0;pointer-events:none">
+
+<div class="h-full w-full">
+
+</div>
+
+</div>
+
+<div class="flex-shrink-0 px-0 py-[8px]" style="width:590px;opacity:0;pointer-events:none">
+
+<div class="h-full w-full">
+
+</div>
+
+</div>
+
+<div class="flex-shrink-0 px-0 py-[8px]" style="width:590px;opacity:0;pointer-events:none">
+
+<div class="h-full w-full">
+
+</div>
+
+</div>
+
+<div class="flex-shrink-0 px-0 py-[8px]" style="width:590px;opacity:0;pointer-events:none">
+
+<div class="h-full w-full">
+
+</div>
+
+</div>
+
+<div class="flex-shrink-0 px-0 py-[8px]" style="width:590px;opacity:0;pointer-events:none">
+
+<div class="h-full w-full">
+
+</div>
+
+</div>
+
+<div class="flex-shrink-0 px-0 py-[8px]" style="width:590px;opacity:0;pointer-events:none">
+
+<div class="h-full w-full">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="flex items-center gap-2">
+
+<a href="/contact/sales" class="group-hover-link font-inter inline-block flex items-center gap-1 rounded-[4px] bg-[#F2F0EF] px-3 py-1.5 text-[14px] font-medium text-[#514837] transition-colors hover:bg-[#E8E6E5]">Contact sales</a><a href="https://dashboard.exa.ai" class="group-hover-link font-inter inline-block flex items-center gap-1 rounded-[4px] bg-black px-3 py-1.5 text-[14px] font-medium text-white transition-colors hover:bg-gray-800" target="_blank">Sign up</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="relative z-10 min-h-screen w-full bg-white">
+
+<div class="w-full max-w-full">
+
+<div class="sc-d588652a-0 hJABSc" role="main">
+
+<div class="sc-d588652a-1 kexcqK">
+
+<div class="sc-d588652a-2 ikSkAY">
+
+<div class="sc-d588652a-3 qRGyK">
+
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW5ld3NwYXBlciI+PHBhdGggZD0iTTQgMjJoMTZhMiAyIDAgMCAwIDItMlY0YTIgMiAwIDAgMC0yLTJIOGEyIDIgMCAwIDAtMiAydjE2YTIgMiAwIDAgMS0yIDJabTAgMGEyIDIgMCAwIDEtMi0ydi05YzAtMS4xLjktMiAyLTJoMiIgLz48cGF0aCBkPSJNMTggMTRoLTgiIC8+PHBhdGggZD0iTTE1IDE4aC01IiAvPjxwYXRoIGQ9Ik0xMCA2aDh2NGgtOFY2WiIgLz48L3N2Zz4=" class="lucide lucide-newspaper" />Publication
+
+</div>
+
+# Arcabouço Multi-motor para Detecção de Vulnerabilidades na Internet Brasileira
+
+<div class="sc-d588652a-6 lcSHNH">
+
+May 20, 2024 · 10 authors · 3 topics
+
+</div>
+
+</div>
+
+<div class="sc-d588652a-23 kOphNm">
+
+<div class="sc-d588652a-25 itahWD">
+
+<div class="sc-d588652a-27 civevy">
+
+### Abstract
+
+Device search engines play an important role in the vulnerability tracking process. However, there are few studies that analyze the capabilities of these systems. Our work compares two popular search systems, Censys and Shodan, in the context of Brazil. Due to the large volume of data generated by search engines, we implemented a unique data abstraction that simplifies complex queries and integrates them with external data. We propose a framework to evaluate both systems. Our results point to significant differences in the way the two systems operate, with Censys being the system with the largest device coverage in Brazil, while Shodan has a greater diversity of detected services and higher update rates. The combination of data from both engines increases the number of services detected and the scanning rate of up to 1.8 times, while obtaining more details about the services evaluated.
+
+Showing the abstract — retrieve the full paper via the Exa API.
+
+</div>
+
+<div class="section sc-d588652a-42 btrcar">
+
+<div class="sc-d588652a-43 dbRoUR">
+
+### Authors
+
+<span class="sc-d588652a-45 eDRIWD">8 of 10</span>
+
+</div>
+
+<div class="sc-d588652a-48 ailOQ">
+
+<span class="sc-d588652a-50 iXMwaW"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtdXNlciI+PHBhdGggZD0iTTE5IDIxdi0yYTQgNCAwIDAgMC00LTRIOWE0IDQgMCAwIDAtNCA0djIiIC8+PGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0Ij48L2NpcmNsZT48L3N2Zz4=" class="lucide lucide-user" />Lucas M. Ponce</span><span class="sc-d588652a-50 iXMwaW"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtdXNlciI+PHBhdGggZD0iTTE5IDIxdi0yYTQgNCAwIDAgMC00LTRIOWE0IDQgMCAwIDAtNCA0djIiIC8+PGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0Ij48L2NpcmNsZT48L3N2Zz4=" class="lucide lucide-user" />Igor Cunha</span><span class="sc-d588652a-50 iXMwaW"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtdXNlciI+PHBhdGggZD0iTTE5IDIxdi0yYTQgNCAwIDAgMC00LTRIOWE0IDQgMCAwIDAtNCA0djIiIC8+PGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0Ij48L2NpcmNsZT48L3N2Zz4=" class="lucide lucide-user" />Isabelle Matos</span><span class="sc-d588652a-50 iXMwaW"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtdXNlciI+PHBhdGggZD0iTTE5IDIxdi0yYTQgNCAwIDAgMC00LTRIOWE0IDQgMCAwIDAtNCA0djIiIC8+PGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0Ij48L2NpcmNsZT48L3N2Zz4=" class="lucide lucide-user" />Ítalo F. S. Cunha</span><span class="sc-d588652a-50 iXMwaW"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtdXNlciI+PHBhdGggZD0iTTE5IDIxdi0yYTQgNCAwIDAgMC00LTRIOWE0IDQgMCAwIDAtNCA0djIiIC8+PGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0Ij48L2NpcmNsZT48L3N2Zz4=" class="lucide lucide-user" />Elverton Carvalho Fazzion</span><span class="sc-d588652a-50 iXMwaW"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtdXNlciI+PHBhdGggZD0iTTE5IDIxdi0yYTQgNCAwIDAgMC00LTRIOWE0IDQgMCAwIDAtNCA0djIiIC8+PGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0Ij48L2NpcmNsZT48L3N2Zz4=" class="lucide lucide-user" />Cristine Hoepers</span><span class="sc-d588652a-50 iXMwaW"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtdXNlciI+PHBhdGggZD0iTTE5IDIxdi0yYTQgNCAwIDAgMC00LTRIOWE0IDQgMCAwIDAtNCA0djIiIC8+PGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0Ij48L2NpcmNsZT48L3N2Zz4=" class="lucide lucide-user" />Klaus Steding-Jessen</span><span class="sc-d588652a-50 iXMwaW"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtdXNlciI+PHBhdGggZD0iTTE5IDIxdi0yYTQgNCAwIDAgMC00LTRIOWE0IDQgMCAwIDAtNCA0djIiIC8+PGNpcmNsZSBjeD0iMTIiIGN5PSI3IiByPSI0Ij48L2NpcmNsZT48L3N2Zz4=" class="lucide lucide-user" />Marcelo H. P. C. Chaves</span>
+
+</div>
+
+</div>
+
+<div class="section sc-d588652a-42 btrcar">
+
+### Topics
+
+<div class="sc-d588652a-48 ailOQ">
+
+<span class="sc-d588652a-49 hFuELi">Network Security and Intrusion Detection</span><span class="sc-d588652a-49 hFuELi">Internet Traffic Analysis and Secure E-voting</span><span class="sc-d588652a-49 hFuELi">Caching and Content Delivery</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="sc-d588652a-26 iQJfTp">
+
+<div class="section sc-d588652a-42 btrcar">
+
+### About
+
+<div class="sc-d588652a-29 GNqh">
+
+<div class="sc-d588652a-30 cdRNJf">
+
+<span class="sc-d588652a-31 ivqgUr"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtY2FsZW5kYXIiPjxwYXRoIGQ9Ik04IDJ2NCIgLz48cGF0aCBkPSJNMTYgMnY0IiAvPjxyZWN0IHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgeD0iMyIgeT0iNCIgcng9IjIiIC8+PHBhdGggZD0iTTMgMTBoMTgiIC8+PC9zdmc+" class="lucide lucide-calendar" />Published</span><span class="sc-d588652a-32 bKbqti">May 20, 2024</span>
+
+</div>
+
+<div class="sc-d588652a-30 cdRNJf">
+
+<span class="sc-d588652a-31 ivqgUr"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtbmV0d29yayI+PHJlY3QgeD0iMTYiIHk9IjE2IiB3aWR0aD0iNiIgaGVpZ2h0PSI2IiByeD0iMSIgLz48cmVjdCB4PSIyIiB5PSIxNiIgd2lkdGg9IjYiIGhlaWdodD0iNiIgcng9IjEiIC8+PHJlY3QgeD0iOSIgeT0iMiIgd2lkdGg9IjYiIGhlaWdodD0iNiIgcng9IjEiIC8+PHBhdGggZD0iTTUgMTZ2LTNhMSAxIDAgMCAxIDEtMWgxMmExIDEgMCAwIDEgMSAxdjMiIC8+PHBhdGggZD0iTTEyIDEyVjgiIC8+PC9zdmc+" class="lucide lucide-network" />Citations</span><span class="sc-d588652a-32 bKbqti">2</span>
+
+</div>
+
+<div class="sc-d588652a-30 cdRNJf">
+
+<span class="sc-d588652a-31 ivqgUr"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtYm9vay1vcGVuIj48cGF0aCBkPSJNMiAzaDZhNCA0IDAgMCAxIDQgNHYxNGEzIDMgMCAwIDAtMy0zSDJ6IiAvPjxwYXRoIGQ9Ik0yMiAzaC02YTQgNCAwIDAgMC00IDR2MTRhMyAzIDAgMCAxIDMtM2g3eiIgLz48L3N2Zz4=" class="lucide lucide-book-open" />References</span><span class="sc-d588652a-32 bKbqti">9</span>
+
+</div>
+
+</div>
+
+<div class="sc-d588652a-28 kYkJWG">
+
+<a href="https://exa.ai/docs/reference/get-contents" class="sc-d4f44f5b-0 bmGeUc group-hover-link" target="_blank" rel="noopener noreferrer">View API Docs<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWV4dGVybmFsLWxpbmsiPjxwYXRoIGQ9Ik0xNSAzaDZ2NiIgLz48cGF0aCBkPSJNMTAgMTQgMjEgMyIgLz48cGF0aCBkPSJNMTggMTN2NmEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY4YTIgMiAwIDAgMSAyLTJoNiIgLz48L3N2Zz4=" class="lucide lucide-external-link" /></a><a href="https://dashboard.exa.ai" class="sc-d4f44f5b-1 clRvaJ group-hover-link" target="_blank" rel="noopener noreferrer">Get API Key</a>
+
+</div>
+
+</div>
+
+</div>
+
+Powered by the <a href="https://exa.ai/docs/reference/get-contents" target="_blank" rel="noopener noreferrer">Exa API</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="relative z-20 -mb-px w-full md:mb-0">
+
+<div class="flex w-full items-center justify-center px-6 py-28 md:py-40 bg-white">
+
+<div class="flex flex-col items-center gap-6 text-center">
+
+<div class="max-w-2xl font-serif text-[2.5rem] leading-[1.1] tracking-[-0.03em] text-black sm:text-[2.5rem] lg:text-[3.4rem]">
+
+Search built for your AI
+
+</div>
+
+The fastest, most accurate web search API. Give your agents the context they need.
+
+<div class="flex w-full flex-col gap-2 sm:w-auto sm:flex-row sm:flex-nowrap">
+
+<a href="https://dashboard.exa.ai" class="font-inter inline-flex h-10 items-center justify-center gap-1.5 rounded-[4px] bg-black px-4 text-[15px] font-medium text-white transition-colors hover:bg-gray-800" target="_blank" rel="noopener noreferrer">Try API for free</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="hidden md:block" aria-hidden="true" style="height:0">
+
+</div>
+
+<div class="flex items-end justify-center overflow-hidden bg-[#0137E1] font-sans text-white md:fixed md:inset-x-0 md:bottom-0 md:z-0">
+
+<div class="absolute inset-x-0 bottom-0 w-full" style="height:100%;background:linear-gradient(to bottom, #0137E1 0%, #0023BF 100%)">
+
+</div>
+
+<div class="absolute inset-0 h-full w-full opacity-30" style="background-image:url(&quot;data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;filter id='n'&gt;&lt;feTurbulence type='turbulence' baseFrequency='0.85' numOctaves='1' seed='7' stitchTiles='stitch'/&gt;&lt;feColorMatrix type='saturate' values='2'/&gt;&lt;/filter&gt;&lt;rect width='100%' height='100%' filter='url(%23n)'/&gt;&lt;/svg&gt;&quot;);background-size:12%;filter:saturate(1.2) contrast(1.1)">
+
+</div>
+
+<div class="relative z-10 w-full pt-12 md:pt-60">
+
+<div class="mx-auto w-full md:px-4" style="opacity:0;filter:blur(40px);transform:scale(0.95);transition:opacity 0.8s ease-in-out, filter 0.8s ease-in-out, transform 0.8s ease-in-out">
+
+<div class="mx-auto max-w-7xl">
+
+<div class="mx-6 mb-16 md:mx-0">
+
+<div class="mb-3 font-serif text-lg font-light uppercase tracking-[-0.01em] text-white">
+
+EXA LABS INC.
+
+</div>
+
+<div class="font-serif text-[2.8rem] font-light tracking-[-0.03em] text-white md:text-[4.8rem]">
+
+Imagine a world with perfect search
+
+</div>
+
+</div>
+
+</div>
+
+<div class="left-0 top-0 h-[0.6px] w-full" style="background-color:#006FFF;mix-blend-mode:color-dodge">
+
+</div>
+
+<div class="mx-auto max-w-7xl">
+
+<div class="relative py-8">
+
+<div class="grid grid-cols-2 gap-8 px-6 pb-12 md:grid-cols-3 md:px-0 lg:grid-cols-6">
+
+<div class="flex flex-col">
+
+Products
+
+- <a href="/pricing" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Pricing</a>
+- <a href="/" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">API</a>
+- <a href="https://websets.exa.ai/websets" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Websets</a>
+- <a href="/connect" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Exa Connect</a>
+
+</div>
+
+<div class="flex flex-col">
+
+Company
+
+- <a href="/about" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">About</a>
+
+- <div class="flex items-center gap-2">
+
+  <a href="/careers" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Careers</a>
+
+  </div>
+
+- <a href="/blog" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Blog</a>
+
+- <a href="https://exa.ai/docs/changelog" class="text-[0.8rem] text-white/80 transition-colors hover:text-white" target="_blank">Changelog</a>
+
+- <a href="mailto:support@exa.ai" class="text-[0.8rem] text-white/80 transition-colors hover:text-white" target="_blank" rel="noopener noreferrer">Contact</a>
+
+</div>
+
+<div class="flex flex-col">
+
+Developers
+
+- <a href="https://dashboard.exa.ai" class="text-[0.8rem] text-white/80 transition-colors hover:text-white" target="_blank">API Dashboard</a>
+- <a href="https://exa.ai/docs" class="text-[0.8rem] text-white/80 transition-colors hover:text-white" target="_blank">Docs</a>
+- <a href="/mcp" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">MCP Server</a>
+- <a href="/demos" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Demos</a>
+- <a href="https://status.exa.ai" class="text-[0.8rem] text-white/80 transition-colors hover:text-white" target="_blank">API Status</a>
+- <a href="https://exa.ai/docs/reference/faqs" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">FAQ</a>
+- <a href="/integrations" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Integrations</a>
+
+</div>
+
+<div class="flex flex-col">
+
+Resources
+
+- <a href="/research" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Research</a>
+- <a href="/evals" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Evals</a>
+- <a href="/customers" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Customers</a>
+- <a href="/versus" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Compare</a>
+- <a href="/webinars" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Webinars</a>
+- <a href="https://trust.exa.ai/" class="text-[0.8rem] text-white/80 transition-colors hover:text-white" target="_blank" rel="noopener noreferrer">Trust Center</a>
+- <a href="/security" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Security</a>
+
+</div>
+
+<div class="flex flex-col">
+
+Connect
+
+- <a href="/contact/sales" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Contact Sales</a>
+- <a href="https://x.com/exaailabs" class="text-[0.8rem] text-white/80 transition-colors hover:text-white" target="_blank" rel="noopener noreferrer">Twitter</a>
+- <a href="https://discord.gg/HCShtBqbfV" class="text-[0.8rem] text-white/80 transition-colors hover:text-white" target="_blank" rel="noopener noreferrer">Discord</a>
+- <a href="https://www.linkedin.com/company/exa-ai/" class="text-[0.8rem] text-white/80 transition-colors hover:text-white" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+- <a href="https://github.com/exa-labs" class="text-[0.8rem] text-white/80 transition-colors hover:text-white" target="_blank" rel="noopener noreferrer">GitHub</a>
+
+</div>
+
+<div class="flex flex-col">
+
+<div class="overflow relative mb-4 h-20 w-20 rounded-[4px]">
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-span-2 flex items-center space-x-4 px-6 py-3 opacity-50 md:col-span-3 md:px-0 lg:col-span-6">
+
+<a href="/privacy-policy" class="text-[0.8rem] text-white/80 transition-colors hover:text-white">Privacy</a><span class="text-white/40"></span><a href="/assets/Exa_Labs_Terms_of_Service.pdf" class="text-[0.8rem] text-white/80 transition-colors hover:text-white" target="_blank">Terms</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>

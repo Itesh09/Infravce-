@@ -1,0 +1,175 @@
+id,category,title,cited_in,url,file,bytes,status,note
+lit-001,papers,,§1.1,https://arxiv.org/abs/2511.20313,sources/papers/lit-001.md,26712,OK,html->markdown
+lit-002,papers,,§1.1,https://arxiv.org/html/2511.20313v2,sources/papers/lit-002.md,348572,OK,html->markdown
+lit-003,papers,,§1.2,https://arxiv.org/abs/2503.14388,sources/papers/lit-003.md,25498,OK,html->markdown
+lit-004,papers,,§1.2,https://arxiv.org/html/2503.14388v2,sources/papers/lit-004.md,264086,OK,html->markdown
+lit-005,papers,,§1.3,https://www.cs.montana.edu/izurieta/pubs/SCORED2024.pdf,sources/papers/lit-005.pdf,1923634,OK,pdf
+lit-006,papers,,§1.3,https://exa.ai/library/publication/gqjwvrgm9hv,sources/papers/lit-006.md,30712,OK,html->markdown
+lit-007,papers,,§1.4,https://giacomobenedetti.github.io/files/acns25.pdf,sources/papers/lit-007.pdf,593319,OK,pdf
+lit-008,papers,,§1.5,https://arxiv.org/abs/2604.21111,sources/papers/lit-008.md,25532,OK,html->markdown
+lit-009,papers,,§1.5,https://arxiv.org/pdf/2604.21111,sources/papers/lit-009.pdf,588882,OK,pdf
+lit-010,papers,,§1.5,https://zenodo.org/records/19696658,sources/papers/lit-010.md,60045,OK,recovered via plain UA retry (html->markdown)
+lit-011,papers,,§1.6,https://fdn.montana.edu/cyber/products/Grype_Vs_Trivy_Boles_et_al.pdf,sources/papers/lit-011.pdf,284074,OK,pdf
+lit-012,papers,,§2.2,https://www.ntia.gov/sites/default/files/publications/mcafee_-_2021.06.17_0.pdf,sources/papers/lit-012.pdf,316078,OK,pdf
+lit-013,papers,,§2.3,https://www.cisa.gov/sites/default/files/2024-05/Software%20Transparency%20in%20SaaS%20Environments.pdf,sources/papers/lit-013.pdf,764130,OK,pdf
+lit-014,papers,,§2.4,https://www.pnnl.gov/sites/default/files/media/file/Comparing%20Bills%20of%20Materials%20Tate.pdf,sources/papers/lit-014.pdf,657094,OK,pdf
+lit-015,papers,,§2.5,https://www.oasis-open.org/2025/12/22/signal-in-the-noise-an-industry-wide-perspective-on-the-state-of-vex/,sources/papers/lit-015.md,75745,OK,html->markdown
+lit-016,papers,,§2.5,https://openssf.org/blog/2026/01/08/signal-in-the-noise-an-industry-wide-perspective-on-the-state-of-vex/,sources/papers/lit-016.md,42873,OK,html->markdown
+lit-017,papers,Investigation of VEX Usage in Open Source Repositories,§2.6,https://www.diva-portal.org/smash/get/diva2:2073107/FULLTEXT01.pdf,sources/papers/lit-017.md,404,STUB,no open-access copy located
+lit-018,papers,,§2.7,https://ssl.engineering.nyu.edu/papers/sahay_sbomit_scored_2026.pdf,sources/papers/lit-018.pdf,1303426,OK,pdf
+lit-019,papers,,§2.8,https://ssl.engineering.nyu.edu/papers/torres-toto-usenix19.pdf,sources/papers/lit-019.pdf,1011899,OK,pdf
+lit-020,papers,,§2.9,https://www.linkedin.com/posts/thecolekennedy_sboms-data-analysis-activity-7252686307175337985-coz7,sources/papers/lit-020.md,49124,OK,html->markdown
+lit-021,papers,,§3.1,https://www.usenix.org/system/files/sec19-dong.pdf,sources/papers/lit-021.pdf,988936,OK,pdf
+lit-022,papers,Inconsistent measurement and incorrect detection of software names in security vulnerability reports,§3.2,https://www.sciencedirect.com/science/article/abs/pii/S0167404823003875,sources/papers/lit-022.md,416,STUB,title-mined but paywalled: Inconsistent measurement and incorrect detection of software names in 
+lit-023,papers,,§3.3,https://arxiv.org/html/2505.13895,sources/papers/lit-023.md,221184,OK,html->markdown
+lit-024,papers,,§3.4,https://arxiv.org/html/2405.13568,sources/papers/lit-024.md,110743,OK,html->markdown
+lit-025,papers,,§3.5,https://pmc.ncbi.nlm.nih.gov/articles/PMC7338193/,sources/papers/lit-025.md,128468,OK,html->markdown
+lit-026,papers,,§3.6,https://ar5iv.labs.arxiv.org/html/1705.05347,sources/papers/lit-026.md,161014,OK,html->markdown
+lit-027,papers,,§3.7,https://arxiv.org/html/2412.16607,sources/papers/lit-027.md,95574,OK,html->markdown
+lit-028,papers,Exploit Prediction Scoring System (EPSS),§4.1,https://dl.acm.org/doi/10.1145/3436242,sources/papers/lit-028.md,373,STUB,no open-access copy located
+lit-029,papers,,§4.2,https://arxiv.org/pdf/2302.14172,sources/papers/lit-029.pdf,531296,OK,pdf
+lit-030,papers,,§4.3,https://weis2023.econinfosec.org/wp-content/uploads/sites/11/2023/06/weis23-jacobs.pdf,sources/papers/lit-030.pdf,459191,OK,pdf
+lit-031,papers,,§4.4,https://arxiv.org/abs/2411.02618,sources/papers/lit-031.md,24370,OK,html->markdown
+lit-032,papers,,§4.4,https://arxiv.org/html/2411.02618v1,sources/papers/lit-032.md,129051,OK,html->markdown
+lit-033,papers,,§4.5,https://exa.ai/library/publication/fdwnlr20pym,sources/papers/lit-033.md,29541,OK,html->markdown
+lit-034,papers,,§4.5,https://github.com/scadastrangelove/kev_vs_epss,sources/papers/lit-034.md,285306,OK,html->markdown
+lit-035,papers,,§4.5,https://preprints.ru/article/2868,sources/papers/lit-035.md,11425,OK,html->markdown
+lit-036,papers,,§4.6,https://arxiv.org/abs/2508.13644,sources/papers/lit-036.md,25685,OK,html->markdown
+lit-037,papers,,§4.6,https://arxiv.org/html/2508.13644,sources/papers/lit-037.md,232339,OK,html->markdown
+lit-038,papers,,§4.7,https://sol.sbc.org.br/index.php/sbseg/article/download/44316/44079/,sources/papers/lit-038.pdf,254070,OK,pdf
+lit-039,papers,Towards Optimal Triage and Mitigation of Context-Sensitive Cyber Vulnerabilities,§4.8,https://dl.acm.org/doi/10.1109/TDSC.2022.3152164,sources/papers/lit-039.md,385,STUB,no open-access copy located
+lit-040,papers,,§4.9,https://asu.elsevierpure.com/en/publications/licality-likelihood-and-criticality-vulnerability-risk-prioritiza/,sources/papers/lit-040.md,33223,OK,html->markdown
+lit-041,papers,,§4.9,https://exa.ai/library/publication/bngm9cjv9fj,sources/papers/lit-041.md,32043,OK,html->markdown
+lit-042,papers,,§4.10,https://export.arxiv.org/pdf/2208.02369v2.pdf,sources/papers/lit-042.pdf,408922,OK,pdf
+lit-043,papers,,§4.11,https://www.sei.cmu.edu/library/prioritizing-vulnerability-response-a-stakeholder-specific-vulnerability-categorization-version-20/,sources/papers/lit-043.md,98857,OK,recovered via plain UA retry (html->markdown)
+lit-044,papers,,§4.11,https://certcc.github.io/SSVC/topics/evaluation_of_draft_trees/,sources/papers/lit-044.md,79381,OK,html->markdown
+lit-045,papers,,§4.11,https://certcc.github.io/SSVC/topics/,sources/papers/lit-045.md,51167,OK,html->markdown
+lit-046,papers,,§4.11,https://certcc.github.io/SSVC/topics/decision_trees/,sources/papers/lit-046.md,46921,OK,html->markdown
+lit-047,papers,"CAVP: A context-aware vulnerability prioritization model,",§4.12,https://www.researchgate.net/publication/358547679,sources/papers/lit-047.md,387,STUB,no open-access copy located
+lit-048,papers,Automated Context-Aware Vulnerability Risk Management for Patch Prioritization,§4.13,https://www.mdpi.com/2079-9292/11/21/3580,sources/papers/lit-048.md,373,STUB,no open-access copy located
+lit-049,papers,,§4.14,https://www.jstage.jst.go.jp/article/comex/15/5/15_2025XBL0172/_pdf/-char/en,sources/papers/lit-049.pdf,135610,OK,pdf
+lit-050,papers,,§5.1,https://docs.guac.sh/guac/guac-ontology/,sources/papers/lit-050.md,23938,OK,html->markdown
+lit-051,papers,,§5.1,https://github.com/guacsec/guac,sources/papers/lit-051.md,342659,OK,html->markdown
+lit-052,papers,,§5.1,https://security.googleblog.com/2022/10/announcing-guac-great-pairing-with-slsa.html,sources/papers/lit-052.md,65379,OK,html->markdown
+lit-053,papers,,§5.1,https://openssf.org/blog/2024/03/07/guac-joins-openssf-as-incubating-project/,sources/papers/lit-053.md,46134,OK,html->markdown
+lit-054,papers,,§5.1,https://openssf.org/projects/guac/,sources/papers/lit-054.md,22710,OK,html->markdown
+lit-055,papers,,§5.2,https://sms.carm.es/ricsmur/bitstream/handle/123456789/25906/10.1016j.cose.2025.104815.pdf,sources/papers/lit-055.pdf,5282820,OK,pdf
+lit-056,papers,,§5.3,https://people.bu.edu/staro/TOPS-2024-Final.pdf,sources/papers/lit-056.pdf,2710877,OK,pdf
+lit-057,papers,,§5.4,https://www.sciencedirect.com/science/article/abs/pii/S0167404824004978,sources/papers/lit-057.md,416,STUB,no open-access copy located
+lit-058,papers,"Unifying CVE, CWE, and CPE through knowledge graphs",§5.5,https://www.sciencedirect.com/science/article/abs/pii/S0167404825004158,sources/papers/lit-058.md,416,STUB,no open-access copy located
+lit-059,papers,,§5.6,https://ceur-ws.org/Vol-4176/fomi-4.pdf,sources/papers/lit-059.pdf,3895837,OK,pdf
+lit-060,papers,,§5.7,https://ceur-ws.org/Vol-4085/paper35.pdf,sources/papers/lit-060.pdf,1021151,OK,pdf
+lit-061,papers,Enhancing cybersecurity through autonomous knowledge graph construction by integrating heterogeneous data sources,§5.8,https://peerj.com/articles/cs-2768,sources/papers/lit-061.md,369,STUB,no open-access copy located
+lit-062,papers,,§6.1,https://arxiv.org/html/2609.08040v1,sources/papers/lit-062.md,401621,OK,html->markdown
+lit-063,papers,,§6.1,https://github.com/steven1518/vex-bench,sources/papers/lit-063.md,251454,OK,html->markdown
+lit-064,papers,,§6.2,https://arxiv.org/html/2608.19430v1,sources/papers/lit-064.md,337316,OK,html->markdown
+lit-065,papers,,§6.3,https://arxiv.org/abs/2601.22952,sources/papers/lit-065.md,27277,OK,html->markdown
+lit-066,papers,,§6.4,https://arxiv.org/abs/2603.06422,sources/papers/lit-066.md,25689,OK,html->markdown
+lit-067,papers,,§6.5,https://arxiv.org/abs/2510.20739,sources/papers/lit-067.md,28015,OK,html->markdown
+lit-068,papers,,§7.1,https://www.usenix.org/conference/usenixsecurity25/presentation/huang-szu-chun,sources/papers/lit-068.md,16033,OK,html->markdown
+lit-069,papers,,§7.1,https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-1015-huang-szu-chun.pdf,sources/papers/lit-069.pdf,1453037,OK,pdf
+lit-070,papers,,§7.2,https://ceur-ws.org/Vol-4085/paper8.pdf,sources/papers/lit-070.pdf,930623,OK,pdf
+lit-071,papers,,§7.3,https://zakird.com/papers/censys-2025.pdf,sources/papers/lit-071.pdf,1036437,OK,pdf
+lit-072,papers,Censys: A Map of Internet Hosts and Services,§7.3,https://doi.org/10.1145/3718958.3754344,sources/papers/lit-072.md,374,STUB,no open-access copy located
+lit-073,papers,Measuring Discrepancies in Attack Surfaces Generated by Internet Intelligence Platforms,§7.4,https://www.lancs.ac.uk/scc/assets/papers/2025/2502_sigcomm_poster.pdf,sources/papers/lit-073.md,417,STUB,no open-access copy located
+lit-074,papers,Measuring Discrepancies in Attack Surfaces Generated by Internet Intelligence Platforms,§7.4,https://conferences.sigcomm.org/sigcomm/2025/papers/sigcomm25-poster-session.pdf,sources/papers/lit-074.md,432,STUB,no open-access copy located
+lit-075,papers,External Attack-Surface of Modern Organizations,§7.5,https://doi.org/10.1145/3634737.3656295,sources/papers/lit-075.md,374,STUB,no open-access copy located
+lit-076,papers,,§7.6,https://weis2026.econinfosec.org/wp-content/uploads/sites/13/2026/05/WEIS2026_paper_8.pdf,sources/papers/lit-076.pdf,261892,OK,pdf
+lit-077,papers,Asset Discovery in Critical Infrastructures,§7.7,https://www.mdpi.com/2079-9292/14/16/3267,sources/papers/lit-077.md,373,STUB,no open-access copy located
+lit-078,papers,,§7.8,https://arxiv.org/abs/2412.15696,sources/papers/lit-078.md,27732,OK,html->markdown
+lit-079,papers,,§7.9,https://arxiv.org/abs/2510.13817,sources/papers/lit-079.md,27706,OK,html->markdown
+tool-anchore-false-positives,tools,Anchore: Say goodbye to false positives (CPE->PURL/GHSA/OSV shift),,https://anchore.com/blog/say-goodbye-to-false-positives/,sources/tools/tool-anchore-false-positives.md,73044,OK,html->markdown
+tool-anchore-nvd-opaque,tools,Anchore: NVD opaque changes and answered questions,,https://anchore.com/blog/national-vulnerability-database-opaque-changes-and-answered-questions/,sources/tools/tool-anchore-nvd-opaque.md,462,STUB,no open-access copy located
+tool-grype-2606,tools,grype#2606: GitHub Actions pinned by SHA yields false positives,,https://github.com/anchore/grype/issues/2606,sources/tools/tool-grype-2606.md,193025,OK,html->markdown
+tool-grype-1737,tools,grype#1737: PURL/CPE vendor namespace mismatch (poco vs pocoproject),,https://github.com/anchore/grype/issues/1737,sources/tools/tool-grype-1737.md,194867,OK,html->markdown
+tool-grype-1245,tools,grype#1245: SPDX cannot express Go mainModule -> match against all versions,,https://github.com/anchore/grype/issues/1245,sources/tools/tool-grype-1245.md,189800,OK,html->markdown
+tool-grype-1764,tools,grype#1764: missing fix-version data (CVE-2023-45853 zlib/Minizip),,https://github.com/anchore/grype/issues/1764,sources/tools/tool-grype-1764.md,193313,OK,html->markdown
+tool-grype-3456,tools,grype#3456: wrong version range for CVE-2025-3277 (SQLite 3.24.0 flagged),,https://github.com/anchore/grype/issues/3456,sources/tools/tool-grype-3456.md,192850,OK,html->markdown
+tool-syft-2319,tools,syft#2319: SPDX Go mainModule regression,,https://github.com/anchore/syft/issues/2319,sources/tools/tool-syft-2319.md,197918,OK,html->markdown
+tool-syft-4025,tools,"syft#4025: invalid PURL for Go replace directives, rejected by Trivy",,https://github.com/anchore/syft/issues/4025,sources/tools/tool-syft-4025.md,205750,OK,html->markdown
+tool-syft-3776,tools,syft#3776: PR parsing trailing version comment on SHA-pinned actions,,https://github.com/anchore/syft/pull/3776,sources/tools/tool-syft-3776.md,263907,OK,html->markdown
+tool-trivy-7850,tools,trivy discussion #7850: SBOM round-trip loses SrcName -> 0 vulns on vulnerable image,,https://github.com/aquasecurity/trivy/discussions/7850,sources/tools/tool-trivy-7850.md,274844,OK,html->markdown
+tool-trivy-8351,tools,trivy discussion #8351: .trivyignore is client-side only,,https://github.com/aquasecurity/trivy/discussions/8351,sources/tools/tool-trivy-8351.md,260806,OK,html->markdown
+tool-trivy-scanner,tools,"Trivy docs: vulnerability scanner design, distro-first advisory policy",,https://trivy.dev/docs/latest/guide/scanner/vulnerability/,sources/tools/tool-trivy-scanner.md,76489,OK,html->markdown
+tool-osv-scanner-v2,tools,OSV-Scanner v2 built on OSV-Scalibr,,http://osv.dev/blog/posts/osv-scanner-v2-beta1-is-ready/,sources/tools/tool-osv-scanner-v2.md,8001,OK,html->markdown
+tool-osv-5295,tools,google/osv.dev#5295: 10-day GHSA ingestion outage + unreviewed advisories 404,,https://github.com/google/osv.dev/issues/5295,sources/tools/tool-osv-5295.md,187799,OK,html->markdown
+tool-ghsa-7587,tools,github/advisory-database#7587: GHSA ingestion outage April 2026,,https://github.com/github/advisory-database#7587,sources/tools/tool-ghsa-7587.md,262816,OK,html->markdown
+tool-ghsa-2451,tools,github/advisory-database#2451: incomplete CVE ingestion for unsupported ecosystems,,https://github.com/github/advisory-database/issues/2451,sources/tools/tool-ghsa-2451.md,186109,OK,html->markdown
+tool-ghsa-readme,tools,GitHub Advisory Database README: database_specific last_known_affected_version_range,,https://github.com/github/advisory-database/blob/main/README.md,sources/tools/tool-ghsa-readme.md,225725,OK,html->markdown
+tool-ghsa-docs,tools,"GitHub docs: GHSA sources, reviewed vs unreviewed tiers, Dependabot behaviour",,https://docs.github.com/en/code-security/concepts/vulnerability-reporting-and-management/github-advisory-database,sources/tools/tool-ghsa-docs.md,338663,OK,html->markdown
+tool-snyk-db,tools,Snyk Vulnerability Database: Application Feed and OS Feed,,https://docs.snyk.io/scan-fix-and-prevent/scan-with-snyk/snyk-open-source/manage-vulnerabilities/snyk-vulnerability-database,sources/tools/tool-snyk-db.md,188336,OK,html->markdown
+tool-snyk-nvd-delays,tools,Snyk: Snyk users don't have to worry about NVD delays (2024-03-13),,https://snyk.io/blog/snyk-users-dont-have-to-worry-about-nvd-delays/,sources/tools/tool-snyk-nvd-delays.md,26460,OK,html->markdown
+tool-snyk-fp-claims,tools,"Snyk: Minimizing false positives (vendor claim, 0.08% FP rate)",,https://snyk.io/blog/minimizing-false-positives-enhancing-security-efficiency/,sources/tools/tool-snyk-fp-claims.md,27284,OK,html->markdown
+tool-doyensec-sca-benchmark,tools,Doyensec SCA benchmark: Snyk and Dependabot below 15% accuracy,,https://www.doyensec.com/resources/Doyensec_Software_Composition_Analysis_Benchmark.pdf,sources/tools/tool-doyensec-sca-benchmark.pdf,696953,OK,pdf
+tool-claircore-matching,tools,Claircore concepts: vulnerability matching and distro-specific matchers,,https://quay.github.io/claircore/concepts/vulnerability_matching.html,sources/tools/tool-claircore-matching.md,18190,OK,html->markdown
+tool-claircore-indexing,tools,"Clair core concepts: indexing (layer diffing, content-addressable store)",,https://github.com/quay/clair/blob/main/Documentation/concepts/indexing.md,sources/tools/tool-claircore-indexing.md,199283,OK,recovered via plain UA retry (html->markdown)
+tool-docker-scout,tools,"Docker Scout: analysis model, CVE list stored in image metadata, 10GB limit",,https://docs.docker.com/scout/explore/analysis/,sources/tools/tool-docker-scout.md,506439,OK,html->markdown
+tool-dt-3178,tools,Dependency-Track#3178: NVD version ranges always use ANY -> SUBSET/SUPERSET matching,,https://github.com/DependencyTrack/dependency-track/issues/3178,sources/tools/tool-dt-3178.md,202130,OK,html->markdown
+tool-dt-3146,tools,Dependency-Track#3146: CPE SUBSET/SUPERSET relationships during matching,,https://github.com/DependencyTrack/dependency-track/issues/3146,sources/tools/tool-dt-3146.md,193483,OK,html->markdown
+tool-dt-3268,tools,Dependency-Track#3268: CPE version '-' (NA) matches every version -> recurring FPs,,https://github.com/DependencyTrack/dependency-track/issues/3268,sources/tools/tool-dt-3268.md,193896,OK,html->markdown
+tool-dt-3774,tools,Dependency-Track#3774: RPM epoch/release field mismatch -> 77 vs 27 findings (50 FPs),,https://github.com/DependencyTrack/dependency-track/issues/3774,sources/tools/tool-dt-3774.md,201078,OK,html->markdown
+tool-dt-4568,tools,Dependency-Track#4568: third-party analyzer (OSS Index) produced a false positive,,https://github.com/DependencyTrack/dependency-track/issues/4568,sources/tools/tool-dt-4568.md,197164,OK,html->markdown
+tool-dt-4862,tools,Dependency-Track#4862: VEX and .trivyignore ignored on ingestion,,https://github.com/DependencyTrack/dependency-track/issues/4862,sources/tools/tool-dt-4862.md,201118,OK,html->markdown
+tool-dt-5370,tools,Dependency-Track#5370: false negative when severity is UNASSIGNED,,https://github.com/DependencyTrack/dependency-track/issues/5370,sources/tools/tool-dt-5370.md,193783,OK,html->markdown
+tool-dt-5992,tools,"Dependency-Track#5992: suppression is project-scoped, no global CVE<->component suppression",,https://github.com/DependencyTrack/dependency-track/issues/5992,sources/tools/tool-dt-5992.md,192430,OK,html->markdown
+tool-dt-changelog,tools,"Dependency-Track changelog (NVD 2.0 feeds, ANY/NA false negative fix)",,https://docs.dependencytrack.org/changelog/,sources/tools/tool-dt-changelog.md,331498,OK,html->markdown
+tool-openspg-536,tools,"OpenSPG#536: silent rule failures, no client-visible error",,https://github.com/OpenSPG/openspg/issues/536,sources/tools/tool-openspg-536.md,189171,OK,html->markdown
+tool-vuls-purl,tools,"Vuls docs: CPE and PURL assignment, upstream version precedence",,https://help.vuls.biz/en/manual/scan/cpe/assign_cpe_purl/,sources/tools/tool-vuls-purl.md,59257,OK,html->markdown
+tool-nmap-vulns-nse,tools,Nmap vulns NSE library: VULNERABLE vs LIKELY_VULN state model,,https://nmap.org/nsedoc/lib/vulns.html,sources/tools/tool-nmap-vulns-nse.md,30331,OK,html->markdown
+tool-shodan-vuln-assessment,tools,"Shodan docs: verified vs unverified vulns, backport limitation",,https://help.shodan.io/mastery/vulnerability-assessment,sources/tools/tool-shodan-vuln-assessment.md,5802,OK,html->markdown
+tool-nessus-45590,tools,Tenable Nessus plugin 45590: best-effort computed CPE derivation,,https://www.tenable.com/plugins/nessus/45590,sources/tools/tool-nessus-45590.md,12373,OK,html->markdown
+tool-nessus-inventory,tools,Tenable docs: determining software inventory and authorization support,,https://docs.tenable.com/cyber-exposure-studies/software-inventory/Content/DeterminingSoftwareAuthorizationSupport.htm,sources/tools/tool-nessus-inventory.md,14050,OK,html->markdown
+tool-greenbone-18656,tools,"Greenbone forum: CVE-2015-8960 false positive, backport origin, CPE constraints",,https://forum.greenbone.net/t/false-positive-of-cve-2015-8960/18656,sources/tools/tool-greenbone-18656.md,166045,OK,html->markdown
+tool-greenbone-21389,tools,Greenbone forum: CVE-2025-24016 feed coverage latency,,https://forum.greenbone.net/t/question-on-cve-2025-24016-coverage/21389,sources/tools/tool-greenbone-21389.md,154442,OK,html->markdown
+tool-cve-bin-tool-triage,tools,"cve-bin-tool: manual TRIAGE.json, package-name collision FPs (arrow)",,https://cve-bin-tool.readthedocs.io/en/stable/triaging_process.html,sources/tools/tool-cve-bin-tool-triage.md,22291,OK,html->markdown
+tool-nvd-home,tools,"NIST NVD programme home (backlog status, NVD 2.0 feeds)",,https://www.nist.gov/itl/nvd,sources/tools/tool-nvd-home.md,48287,OK,html->markdown
+tool-nvd-cpe-range-notice,tools,NVD CPE Range Notification: ranges depend on dictionary coverage,,https://nvd.nist.gov/General/News/CPE-Range-Notification,sources/tools/tool-nvd-cpe-range-notice.html,2092,OK,JS-rendered; saved raw HTML
+tool-enisa-euvd,tools,ENISA European Vulnerability Database announcement (2025),,https://www.enisa.europa.eu/news/consult-the-european-vulnerability-database-to-enhance-your-digital-security,sources/tools/tool-enisa-euvd.md,42443,OK,html->markdown
+tool-ossindex-lookup,tools,OSS Index component lookup used as a Dependency-Track analyzer,,https://ossindex.sonatype.org/component/pkg:nuget/System.Text.Json,sources/tools/tool-ossindex-lookup.md,445,STUB,no open-access copy located
+prac-debian-tracker,practitioner,Debian Security Tracker: how downstream analysis and status states work,,https://security-team.debian.org/security_tracker.html,sources/practitioner/prac-debian-tracker.md,36892,OK,html->markdown
+prac-debian-curl-2025-9086,practitioner,Debian tracker commit: CVE-2025-9086 (curl) vulnerable code introduced later,,https://www.mail-archive.com/debian-security-tracker-commits@alioth-lists.debian.net/msg72206.html,sources/practitioner/prac-debian-curl-2025-9086.md,5404,OK,html->markdown
+prac-debian-python311-backport,practitioner,Debian bookworm python3.11 backport batch (+deb12u7),,https://linux.debian.devel.release.narkive.com/Aytbrshn/processed-bookworm-pu-package-python3-11-3-11-2-6-deb12u7,sources/practitioner/prac-debian-python311-backport.md,482,STUB,no open-access copy located
+prac-cisa-vex-min-req,practitioner,CISA: Minimum Requirements for a VEX (statuses and justifications),,https://www.cisa.gov/sites/default/files/2023-04/minimum-requirements-for-vex-508c.pdf,sources/practitioner/prac-cisa-vex-min-req.pdf,1047967,OK,pdf
+prac-cisa-when-to-issue-vex,practitioner,"CISA: When to Issue a VEX (inheritance rules, automation limits)",,https://www.cisa.gov/sites/default/files/2023-11/When-to-Issue-a-VEX-508c.pdf,sources/practitioner/prac-cisa-when-to-issue-vex.pdf,235270,OK,pdf
+prac-openshift-triage,practitioner,"OpenShift engineering: node-cve triage guidance, evidence-based Uncertain/Unaffected",,https://github.com/openshift-eng/ai-helpers/blob/main/plugins/node-cve/commands/triage.md,sources/practitioner/prac-openshift-triage.md,236374,OK,html->markdown
+prac-cyclonedx-vex-609,practitioner,CycloneDX spec discussion #609: lossy mapping between VEX profiles,,https://github.com/CycloneDX/specification/discussions/609,sources/practitioner/prac-cyclonedx-vex-609.md,251289,OK,html->markdown
+prac-cyclonedx-vex-crosswalk,practitioner,Community CycloneDX->OpenVEX crosswalk: contested and lossy cells,,https://github.com/getreeldev/cyclonedx-to-openvex,sources/practitioner/prac-cyclonedx-vex-crosswalk.md,240662,OK,html->markdown
+prac-mandiant-moveit,practitioner,"Mandiant: zero-day MOVEit data theft, exploitation 4 days pre-disclosure",,https://cloud.google.com/blog/topics/threat-intelligence/zero-day-moveit-data-theft,sources/practitioner/prac-mandiant-moveit.md,47736,OK,html->markdown
+prac-quo-wirefire,practitioner,Quo Intelligence: unreported WIREFIRE web shell variant evading public YARA,,https://quointelligence.eu/2024/01/unc5221-unreported-and-undetected-wirefire-web-shell-variant/,sources/practitioner/prac-quo-wirefire.md,180854,OK,html->markdown
+prac-bishopfox-fortijump,practitioner,"Bishop Fox: FortiJump CVE-2024-47575, exploitation preceded the advisory",,https://bishopfox.com/blog/a-look-at-fortijump-cve-2024-47575,sources/practitioner/prac-bishopfox-fortijump.md,410243,OK,html->markdown
+prac-darktrace-citrix,practitioner,Darktrace: stemming the Citrix Bleed (CVE-2023-4966) exploitation,,https://www.darktrace.com/blog/stemming-the-citrix-bleed-vulnerability-with-darktraces-activeai-platform,sources/practitioner/prac-darktrace-citrix.md,438233,OK,html->markdown
+prac-rapid7-asset-discovery,practitioner,Rapid7: approaches to asset discovery and the blind spot of each,,https://www.rapid7.com/blog/post/2024/10/17/understanding-your-attack-surface-different-approaches-to-asset-discovery/,sources/practitioner/prac-rapid7-asset-discovery.md,263232,OK,html->markdown
+prac-intruder-shadow-it,practitioner,Intruder: shadow IT risks discovered via Certificate Transparency logs,,https://www.intruder.io/research/shadow-it-risks,sources/practitioner/prac-intruder-shadow-it.md,125568,OK,html->markdown
+prac-precursor-easm,practitioner,"Precursor: EASM vs vulnerability scanning, the seed-list single point of failure",,https://www.precursorintelligence.com/blog/easm-vs-vulnerability-scanning,sources/practitioner/prac-precursor-easm.md,21351,OK,html->markdown
+prac-cycognito-waf,practitioner,"Cycognito: state of WAF protection, WAF sprawl, unknown unknowns",,https://www.cycognito.com/blog/state-of-waf-protection/,sources/practitioner/prac-cycognito-waf.md,80827,OK,html->markdown
+prac-runzero-kevology,practitioner,"runZero KEVology (Beardsley, ex-CISA KEV section chief): analysis of KEV",,https://www.runzero.com/uploads/documents/reports/KEVology-An-analysis-of-exploits-scores-and-timelines-on-the-CISA-KEV.pdf,sources/practitioner/prac-runzero-kevology.pdf,4499237,OK,pdf
+prac-runzero-kev-blog,practitioner,runZero: making CISA KEV actionable (KEVology summary),,https://www.runzero.com/blog/making-cisa-kev-actionable/,sources/practitioner/prac-runzero-kev-blog.md,293520,OK,html->markdown
+prac-kev-collider-data,practitioner,runZero kev-collider-data: per-CVE KEV enrichment dataset,,https://github.com/runZeroInc/kev-collider-data,sources/practitioner/prac-kev-collider-data.md,262277,OK,html->markdown
+prac-docker-dhi-vex,practitioner,Docker Hardened Images VEX policy: not_affected + inline_mitigations_already_exist,,https://docs.docker.com/dhi/explore/security-concepts/vex/,sources/practitioner/prac-docker-dhi-vex.md,488907,OK,html->markdown
+prac-jku-vex-thesis,practitioner,"JKU thesis: distribution of VEX statements, cites 88.8% FP figure",,https://epub.jku.at/obvulihs/download/pdf/12450868,sources/practitioner/prac-jku-vex-thesis.pdf,1773975,OK,pdf
+prac-cso-nvd-overload,practitioner,CSO: NIST cuts down CVE analysis amid vulnerability overload,,https://www.csoonline.com/article/4159882/nist-cuts-down-cve-analysis-amid-vulnerability-overload.html,sources/practitioner/prac-cso-nvd-overload.bin,247393,OK,bin
+prac-sitehost-backports,practitioner,sitehost.nz: vulnerability scans and backported patches,,https://sitehost.nz/blog/vulnerability-scans-backported-patches,sources/practitioner/prac-sitehost-backports.md,118161,OK,html->markdown
+prac-thingsrecon-shadow,practitioner,ThingsRecon: why CISOs struggle with shadow assets,,https://www.thingsrecon.com/blog/why-cisos-struggle-with-shadow-assets,sources/practitioner/prac-thingsrecon-shadow.md,85016,OK,html->markdown
+prac-zerofox-shadow-cloud,practitioner,"ZeroFox: shadow in the cloud, unmanaged cloud/CDN assets (vendor)",,https://www.zerofox.com/blog/shadow-in-the-cloud-why-easm-must-uncover-your-unknown-cloud-cdn-assets/,sources/practitioner/prac-zerofox-shadow-cloud.md,51629,OK,html->markdown
+blog-gamblin-2024-cve-review,blogs,"Gamblin: 2024 CVE data review (40,009 CVEs, +38.83%)",,https://jgamblin.com/2025/01/05/2024-cve-data-review/,sources/blogs/blog-gamblin-2024-cve-review.md,20576,OK,html->markdown
+blog-gamblin-bsides-munich-2025,blogs,"Gamblin, BSides Munich 2025: navigating the volatile vulnerability landscape",,https://rogolabs.net/Talks/Navigating%20the%20Volatile%20Vulnerability%20Landscape%20-%20BSides%20Munich.pdf,sources/blogs/blog-gamblin-bsides-munich-2025.md,501,STUB,no open-access copy located
+blog-perkal-bsideslv23,blogs,"Perkal, BSidesLV 2023: review of vulnerability triage (abstract)",,https://pretalx.com/bsideslv23/talk/review/VCYNCXSUHPFBAGJLGMKHTJB7CHF99FHV,sources/blogs/blog-perkal-bsideslv23.md,10331,OK,html->markdown
+blog-censys-v2-benchmark,blogs,"Censys vs Shodan v2 (vendor honeypot benchmark, methodology disclosed)",,https://anchor-u.com/wp-content/uploads/Censys-vs.-Shodan-v2-2024.pdf,sources/blogs/blog-censys-v2-benchmark.pdf,218085,OK,pdf
+blog-ponce-2024-br,blogs,Ponce et al. 2024: Shodan vs Censys on Brazilian internet space,,https://exa.ai/library/publication/bcdclpd7w5y,sources/blogs/blog-ponce-2024-br.md,32784,OK,html->markdown
+blog-rapid7-project-sonar,blogs,Rapid7 Project Sonar: internet-wide IPv4 scanning,,https://www.rapid7.com/research/project-sonar/,sources/blogs/blog-rapid7-project-sonar.md,251646,OK,html->markdown
+blog-github-ecosystem-sec,blogs,GitHub: how we investigate CVEs and coordinate with the ecosystem,,https://github.blog/engineering/platform-security/how-we-investigate-cves-and-coordinate-with-the-ecosystem/,sources/blogs/blog-github-ecosystem-sec.md,490,STUB,no open-access copy located
+arx-2604-17860-titanca,papers,TitanCA: multi-agent LLM pipeline for zero-day discovery (SMU/GovTech),,https://arxiv.org/pdf/2604.17860,sources/papers/arx-2604-17860-titanca.pdf,221009,OK,pdf
+arx-2609-05335-bugstone,papers,BUGSTONE-E2E: CVE patch history as executable detection rules,,https://arxiv.org/pdf/2609.05335,sources/papers/arx-2609-05335-bugstone.pdf,283057,OK,pdf
+arx-2607-12316-antiproof,papers,Antiproof: vulnerability detector synthesis + proofs of exploitability,,https://arxiv.org/html/2607.12316,sources/papers/arx-2607-12316-antiproof.md,881131,OK,html->markdown
+arx-2606-19149-openant,papers,OpenAnt: LLM vuln discovery with adversarial verification and dynamic testing,,https://arxiv.org/html/2606.19149v2,sources/papers/arx-2606-19149-openant.md,118713,OK,html->markdown
+arx-2607-26656-graph-verifier,papers,Graph Is the Verifier: agentic RL for interprocedural vulnerability detection,,https://arxiv.org/abs/2607.26656,sources/papers/arx-2607-26656-graph-verifier.md,26548,OK,html->markdown
+arx-2509-03876-affected-versions,papers,"Affected-version identification: 12 tools, 1,128 real C/C++ vulns, best accuracy 44.9%",,https://arxiv.org/html/2509.03876,sources/papers/arx-2509-03876-affected-versions.md,261356,OK,html->markdown
+arx-2506-12995-crossdb,papers,"Cross-database vulnerability report reconciliation (GHSA + Snyk, 10 languages)",,https://arxiv.org/pdf/2506.12995,sources/papers/arx-2506-12995-crossdb.pdf,1145782,OK,pdf
+arx-2006-15074-cleaning-nvd,papers,Cleaning the NVD: vendor/product name inconsistency at scale,,https://arxiv.org/pdf/2006.15074v1.pdf,sources/papers/arx-2006-15074-cleaning-nvd.pdf,2398423,OK,pdf
+arx-1302-4133-nvd-unreliable,papers,(Un)Reliability of NVD Vulnerable Versions (Chrome version-range errors),,https://arxiv.org/pdf/1302.4133,sources/papers/arx-1302-4133-nvd-unreliable.pdf,796441,OK,pdf
+arx-1705-05347-cpe-cve,papers,Software vulnerability analysis using CPE and CVE (Benthin et al.),,https://arxiv.org/pdf/1705.05347,sources/papers/arx-1705-05347-cpe-cve.pdf,2101943,OK,pdf
+arx-2506-17798-savant,papers,Savant: reachability analysis trade-off between FP and FN,,https://arxiv.org/html/2506.17798v2,sources/papers/arx-2506-17798-savant.md,272506,OK,html->markdown
+arx-2608-19430-harp,papers,HARP: domain-adaptive vulnerability prioritization for enterprise IT/security,,https://arxiv.org/abs/2608.19430,sources/papers/arx-2608-19430-harp.md,25822,OK,html->markdown
+arx-2512-17710-svs-test,papers,SVS-TEST: testing software vulnerability scanner behaviour incl. silent failures,,https://arxiv.org/abs/2512.17710,sources/papers/arx-2512-17710-svs-test.md,27026,OK,html->markdown
+std-ovana-quality-vdb,papers,OVANA: quality of vulnerability databases (ARES 2021),,https://peasec.de/paper/2021/2021_KuehnBayerWendelbornReuter_OVANAQualityVulnerabilityDatabases_ARES.pdf,sources/papers/std-ovana-quality-vdb.pdf,698153,OK,pdf
+std-msr4ps-2025-sbom-compliance,papers,"MSR4PS 2025: SBOM generator vs format effect on NTIA compliance (2,225 images)",,https://www.cs.montana.edu/izurieta/pubs/MSR4PS_2025.pdf,sources/papers/std-msr4ps-2025-sbom-compliance.pdf,4529745,OK,pdf

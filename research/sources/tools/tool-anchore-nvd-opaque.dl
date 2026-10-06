@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="generator" content="Gatsby 4.24.8">
+	<meta data-react-helmet="true" property="og:type" content="website">
+	<meta data-react-helmet="true" name="twitter:card" content="summary">
+	<meta data-react-helmet="true" name="twitter:creator" content="">
+	<link 
+		rel="preload" 
+		href="https://fonts.googleapis.com/css?family=Open%20Sans|Open%20Sans:bold&amp;display=swap" 
+		as="style" onload="this.onload=null;this.rel='stylesheet'"
+	/>
+	<link 
+		rel="preload" 
+		href="https://fonts.googleapis.com/css?family=Poppins:+400,500,600&amp;display=swap" 
+		as="style" onload="this.onload=null;this.rel='stylesheet'"
+	/>
+	<noscript>
+		<link 
+			href="https://fonts.googleapis.com/css?family=Open%20Sans|Open%20Sans:bold&amp;display=swap" 
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link 
+			href="https://fonts.googleapis.com/css?family=Poppins:+400,500,600&amp;display=swap" 
+			rel="stylesheet"
+			type="text/css"
+		/>
+	</noscript>
+    
+			<!-- Favicon -->
+		<link rel="shortcut icon" href="" type="image/x-icon">
+		
+	<title>Page not found | Anchore</title>
+<meta name="robots" content="follow, noindex">
+<meta property="fb:pages" content="">
+<link rel="alternate" type="application/rss+xml" title="Anchore &raquo; Feed" href="https://anchore.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Anchore &raquo; Comments Feed" href="https://anchore.com/comments/feed/" />
+<script type="application/ld+json">{"@context":"https://schema.org","name":"Breadcrumb","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Error 404: Page not found"}]}</script>
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='jquery.prettyphoto-css' href='https://anchore.com/wp-content/plugins/wp-video-lightbox/css/prettyPhoto.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='video-lightbox-css' href='https://anchore.com/wp-content/plugins/wp-video-lightbox/wp-video-lightbox.css?ver=7.1.2' media='all' />
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+
+<link rel='stylesheet' id='anchore-style-css' href='https://anchore.com/wp-content/themes/anchore/style.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='menu-style-css' href='https://anchore.com/wp-content/themes/anchore/css/menu.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='pillar-pages-css' href='https://anchore.com/wp-content/themes/anchore/css/pillar-pages.css?ver=1.0.0' media='all' />
+<script id="jquery-core-js" src="https://anchore.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://anchore.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="jquery.prettyphoto-js" src="https://anchore.com/wp-content/plugins/wp-video-lightbox/js/jquery.prettyPhoto.js?ver=3.1.6"></script>
+<script id="video-lightbox-js-extra">
+var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast","slideshow":"5000","autoplay_slideshow":"false","opacity":"0.80","show_title":"true","allow_resize":"true","allow_expand":"true","default_width":"640","default_height":"480","counter_separator_label":"/","theme":"pp_default","horizontal_padding":"20","hideflash":"false","wmode":"opaque","autoplay":"false","modal":"false","deeplinking":"false","overlay_gallery":"true","overlay_gallery_max":"30","keyboard_shortcuts":"true","ie6_fallback":"true"};
+//# sourceURL=video-lightbox-js-extra
+</script>
+<script id="video-lightbox-js" src="https://anchore.com/wp-content/plugins/wp-video-lightbox/js/video-lightbox.js?ver=3.1.6"></script>
+<link rel="https://api.w.org/" href="https://anchore.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://anchore.com/xmlrpc.php?rsd" />
+<script>
+            WP_VIDEO_LIGHTBOX_VERSION="1.9.12";
+            WP_VID_LIGHTBOX_URL="https://anchore.com/wp-content/plugins/wp-video-lightbox";
+                        function wpvl_paramReplace(name, string, value) {
+                // Find the param with regex
+                // Grab the first character in the returned string (should be ? or &)
+                // Replace our href string with our new value, passing on the name and delimeter
+
+                var re = new RegExp("[\?&]" + name + "=([^&#]*)");
+                var matches = re.exec(string);
+                var newString;
+
+                if (matches === null) {
+                    // if there are no params, append the parameter
+                    newString = string + '?' + name + '=' + value;
+                } else {
+                    var delimeter = matches[0].charAt(0);
+                    newString = string.replace(re, delimeter + name + "=" + value);
+                }
+                return newString;
+            }
+            </script><script id='nitro-generic' nitro-exclude>(()=>{if(window.NitroPack=window.NitroPack||{coreVersion:"na",isCounted:!1},!window.NitroPack.isCounted){window.NitroPack.isCounted=!0;const e=()=>{let e=performance?.getEntriesByType?.("navigation")?.[0];return document.prerendering||e?.activationStart>0?"_prr":"navigational-prefetch"===e?.deliveryType||void 0===e?.deliveryType&&e&&e.responseStart-e.requestStart<=5?"_pre":"_dow"},i=(e,i)=>{navigator.sendBeacon("https://to.getnitropack.com/p",JSON.stringify({siteId:"lfaFdmeTaONuMeYAvisIiEiZRrNJpVpd",url:window.location.href,referrer:i||"",isOptimized:!!window.IS_NITROPACK,coreVersion:"na",missReason:window.NPTelemetryMetadata?.missReason||"",pageType:window.NPTelemetryMetadata?.pageType||"",isEligibleForOptimization:!!window.NPTelemetryMetadata?.isEligibleForOptimization||!1,pageLoadMode:e}))};(async()=>{await new Promise(e=>{document.prerendering?document.addEventListener("prerenderingchange",e,{once:!0}):e()}),await new Promise(e=>{"complete"===document.readyState?e():window.addEventListener("load",e)}),i(e(),document.referrer)})(),window.addEventListener("pageshow",e=>{if(e.persisted){let e=document.prerendering||self.performance?.getEntriesByType?.("navigation")[0]?.activationStart>0;"visible"!==document.visibilityState||e||i("_bfr","")}})}})();</script><script>
+(function () {
+  'use strict';
+
+  // ---- CONFIG ----------------------------------------------------------
+  // Params to carry forward.
+  var PARAMS = ['msclkid', 'gclid'];
+
+  // Domains to treat as internal. Any link whose hostname matches one of
+  // these, or is a subdomain of one, gets decorated.
+  // Add every domain in scope (e.g. 'anchore.com', 'anchore.io').
+  var DOMAINS = ['anchore.com'];
+
+  // If a link already has one of the params above, overwrite it?
+  // false = keep the link's existing value (safer default).
+  var OVERWRITE_EXISTING = false;
+  // ----------------------------------------------------------------------
+
+  function getParams() {
+    var search = new URLSearchParams(window.location.search);
+    var found = {};
+    var has = false;
+
+    PARAMS.forEach(function (name) {
+      var value = search.get(name);
+      if (value) {
+        found[name] = value;
+        has = true;
+      }
+    });
+
+    return has ? found : null;
+  }
+
+  // Matches the domain itself or any subdomain of it.
+  // 'anchore.com' matches anchore.com, www.anchore.com, info.anchore.com
+  // but NOT notanchore.com
+  function isInternalHost(hostname) {
+    hostname = hostname.toLowerCase();
+    for (var i = 0; i < DOMAINS.length; i++) {
+      var domain = DOMAINS[i].toLowerCase();
+      if (hostname === domain || hostname.slice(-(domain.length + 1)) === '.' + domain) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  function isInternalLink(anchor) {
+    var href = anchor.getAttribute('href');
+    if (!href) return false;
+    if (href.charAt(0) === '#') return false;
+    if (/^(mailto:|tel:|javascript:|sms:)/i.test(href)) return false;
+    if (anchor.hasAttribute('download')) return false;
+
+    try {
+      var url = new URL(anchor.href, window.location.href);
+      if (url.protocol !== 'http:' && url.protocol !== 'https:') return false;
+      return isInternalHost(url.hostname);
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function decorate(anchor, params) {
+    try {
+      var url = new URL(anchor.href, window.location.href);
+      var changed = false;
+
+      Object.keys(params).forEach(function (name) {
+        // Existing params on the link (utm_source, etc.) are always preserved.
+        // This only decides what to do about a duplicate of OUR param.
+        if (url.searchParams.has(name) && !OVERWRITE_EXISTING) return;
+        if (url.searchParams.get(name) === params[name]) return;
+        url.searchParams.set(name, params[name]);
+        changed = true;
+      });
+
+      if (changed) anchor.href = url.toString();
+    } catch (e) {
+      // Malformed href — leave it alone.
+    }
+  }
+
+  function decorateAll(params) {
+    var anchors = document.querySelectorAll('a[href]');
+    for (var i = 0; i < anchors.length; i++) {
+      if (isInternalLink(anchors[i])) decorate(anchors[i], params);
+    }
+  }
+
+  function init() {
+    var params = getParams();
+    if (!params) return;
+
+    decorateAll(params);
+
+    if (window.MutationObserver) {
+      var pending = false;
+      var observer = new MutationObserver(function () {
+        if (pending) return;
+        pending = true;
+        window.setTimeout(function () {
+          pending = false;
+          decorateAll(params);
+        }, 250);
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script><style>.breadcrumb {list-style:none;margin:0;padding-inline-start:0;}.breadcrumb li {margin:0;display:inline-block;position:relative;}.breadcrumb li::after{content:' / ';margin-left:5px;margin-right:5px;}.breadcrumb li:last-child::after{display:none}</style><link rel="icon" href="https://anchore.com/wp-content/uploads/2021/12/Anchore_Mark_Blue-100-1.png" sizes="32x32" />
+<link rel="icon" href="https://anchore.com/wp-content/uploads/2021/12/Anchore_Mark_Blue-100-1.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://anchore.com/wp-content/uploads/2021/12/Anchore_Mark_Blue-100-1.png" />
+<meta name="msapplication-TileImage" content="https://anchore.com/wp-content/uploads/2021/12/Anchore_Mark_Blue-100-1.png" />
+<style id="wp-custom-css">
+.btn.nav-btn:hover {
+	color: #0D40B4;
+	border-color: #0D40B4;
+}
+
+p.has-background {
+	padding: 1.75em 2.375em !important;
+}
+
+.page-template-solutions-page hr {
+	opacity: .2;	
+}
+
+.js-toggle-menu svg {
+	filter: brightness(0.775);
+}
+
+#stick-nav .js-toggle-menu svg,
+.home .js-toggle-menu svg,
+.page-template-solutions-page .js-toggle-menu svg,
+.page-template-cornerstone-page .js-toggle-menu svg,
+.page-template-supporting-page .js-toggle-menu svg,
+.js-toggle-menu.menu-toggle--open svg {
+	filter: none;
+}
+
+@media only screen and (min-width: 768px) {
+.half-hr-left {
+	max-width: 47%;
+	margin-right: auto;
+}
+
+.half-hr-right {
+	max-width: 47%;
+	margin-left: auto;
+}
+}
+
+div#hs-eu-cookie-confirmation {
+	position: fixed !important;
+	bottom: 0 !important;
+	top: unset !important;
+}
+
+div.wp-block-kevinbatdorf-code-block-pro:not(.code-block-pro-editor) pre code { 
+    white-space: pre-wrap !important; 
+    word-break: break-word !important;
+    overflow-wrap: break-word !important; 
+    padding: 0 2rem 0 max(var(--cbp-line-number-width), 2rem) !important; 
+}
+
+body.page-id-1131 .open-source-action-sec .box_open_source:nth-child(2) header .gatsby-image-wrapper img {
+	height: 81px;
+}
+
+body.page-id-1131 .open-source-action-sec .animated-svg-highlights {
+	row-gap: 25px;
+	justify-content: center;
+}
+
+body.case_study_template_new blockquote {
+	    padding-left: 0;
+    margin-top: 32px;
+}
+
+body.case_study_template_new blockquote p {
+	    font-size: 20px;
+    line-height: 32px;
+    color: #10AF80;
+}
+
+body.case_study_template_new blockquote cite {
+	    font-size: 20px;
+    line-height: 32px;
+    color: #10AF80;
+}
+
+body.case_study_template_new .post-wrapper blockquote:before {
+	display: none;
+}
+
+body.case_study_template_new mark {
+	padding: 0;
+}
+
+body.case_study_template_new .hero-blog-single .post-meta-wrap {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	body.case_study_template_new blockquote p,
+	body.case_study_template_new blockquote cite {
+		        font-size: 18px;
+        line-height: 28px;
+	}
+}
+.page-id-987475194 section#sec-3 {
+    padding-bottom: 100px;
+}
+.page-id-987475194 #sec-3 h3.headline-2-sm{
+    font-size: 38px;
+    line-height: 38px;
+}
+@media (max-width: 450px) {
+.page-id-987475194 #sec-3 h3.headline-2-sm{
+    font-size: 30px;
+    line-height: 30px;
+}
+}
+
+@media (min-width: 450px) {
+.single-post .post-meta-wrap {
+    min-width: 370px;
+}
+}
+</style>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+
+	
+	<script src="https://anchore.com/wp-content/themes/anchore/vendor/modules.js?v=2026070102"></script>
+	<script src="https://anchore.com/wp-content/themes/anchore/js-default/custom.js?v=2026070102"></script>
+
+	<link rel="stylesheet" href="https://anchore.com/wp-content/themes/anchore/vendor/modules.css?v=2026070102">
+	<link rel="stylesheet" href="https://anchore.com/wp-content/themes/anchore/css/sal.css?v=2026070102">
+	<link rel="stylesheet" href="https://anchore.com/wp-content/themes/anchore/css/gatsby-global-style.css?v=2026070102">
+	<style>
+		.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}
+	</style>
+	<noscript>
+	<style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style>
+	</noscript>
+    
+	<!-- popey - added to enable github buttons on open source project pages. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+	
+	<!-- script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js" -->
+
+	<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=AW-861990564&amp;l=dataLayer&amp;cx=c"></script>
+
+	<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-MF139FGBSJ&amp;l=dataLayer&amp;cx=c"></script>
+
+	<script async="" src="https://scout-cdn.salesloft.com/sl.js"></script>
+
+	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+	<!-- script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js" -->
+
+	<link rel="alternate" type="application/rss+xml" title="Anchore's RSS Feed" href="/feed.xml">
+	<link rel="sitemap" type="application/xml" href="/sitemap/sitemap-index.xml">
+		<script>
+	window.markerConfig = {
+		project: '638a55fbbf0f19a4d2c706ad', 
+		source: 'snippet'
+	};                
+	</script>
+	<script>
+	!function(e,r,a){if(!e.__Marker){e.__Marker={};var t=[],n={__cs:t};["show","hide","isVisible","capture","cancelCapture","unload","reload","isExtensionInstalled","setReporter","setCustomData","on","off"].forEach(function(e){n[e]=function(){var r=Array.prototype.slice.call(arguments);r.unshift(e),t.push(r)}}),e.Marker=n;var s=r.createElement("script");s.async=1,s.src="https://edge.marker.io/latest/shim.js";var i=r.getElementsByTagName("script")[0];i.parentNode.insertBefore(s,i)}}(window,document);
+	</script>
+	<style type="text/css">.resize-observer[data-v-8859cc6c]{position:absolute;top:0;left:0;z-index:-1;width:100%;height:100%;border:none;background-color:transparent;pointer-events:none;display:block;overflow:hidden;opacity:0}.resize-observer[data-v-8859cc6c] object{display:block;position:absolute;top:0;left:0;height:100%;width:100%;overflow:hidden;pointer-events:none;z-index:-1}</style>
+	<script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-861990564"></script>
+	<meta http-equiv="origin-trial" content="A751Xsk4ZW3DVQ8WZng2Dk5s3YzAyqncTzgv+VaE6wavgTY0QHkDvUTET1o7HanhuJO8lgv1Vvc88Ij78W1FIAAAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
+	<meta http-equiv="origin-trial" content="A751Xsk4ZW3DVQ8WZng2Dk5s3YzAyqncTzgv+VaE6wavgTY0QHkDvUTET1o7HanhuJO8lgv1Vvc88Ij78W1FIAAAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
+	<script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861990564/?random=1671633858821&amp;cv=11&amp;fst=1671633858821&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=2oabu0&amp;u_w=1920&amp;u_h=1080&amp;hn=www.googleadservices.com&amp;frm=0&amp;url=https%3A%2F%2Fanchore.com%2Fblog%2F&amp;tiba=Blog%20%E2%80%A2%20Anchore&amp;did=dZTQ1Zm&amp;gdid=dZTQ1Zm&amp;auid=855276381.1670222530&amp;uaa=x86&amp;uab=64&amp;uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5359.125%7CGoogle%2520Chrome%3B108.0.5359.125&amp;uap=Windows&amp;uapv=14.0.0&amp;uaw=0&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4"></script>
+
+	<link rel="stylesheet" href="https://anchore.com/wp-content/themes/anchore/custom.css?v=2026070102">
+
+<style>
+	.table-features.plan-inactive {
+    display: none;
+}
+</style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5XP4C89');</script>
+<!-- End Google Tag Manager -->
+<meta name='zd-site-verification' content='dv553ct6shh2dm82a2xqnq' />
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		//jQuery(".homepage_new_banner a.button.button-primary.mt-2.mt-lg-0").addClass("videopopup");
+		jQuery(".page-id-987474312 section.hero a.btn-blue-outline").addClass("videopopup2");
+		jQuery(".page-id-987474299 section.hero a.btn-blue-outline").addClass("videopopup2");
+		jQuery(".page-id-987474010 section.hero a.btn-blue-outline").addClass("videopopupnew");
+		 
+		jQuery("body.page-id-987474010 .hero-light a").each(function(){
+			if(jQuery(this).text()=="Watch a Demo"){
+				if(!jQuery(this).hasClass('videopopupnew')) {
+					jQuery(this).addClass("videopopup");
+				}
+				jQuery(this).attr("href", "javascript:;");
+			}
+		});
+	});
+</script>
+<style type="text/css">
+	.post-content a.wp-block-button__link {
+		background-color: #0f40bd;
+	}
+</style>
+</head>
+
+<body class="error404 wp-theme-anchore hfeed">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XP4C89"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<style type="text/css">
+.pum-theme-default-theme {
+    background-color: rgb(0 0 0 / 80%)!important;
+}
+.pum-theme-default-theme .pum-container {
+	border-radius:5px;
+}
+.pum-theme-default-theme .pum-content + .pum-close {
+    width: 30px!important;
+    height: 30px!important;
+    background: url(https://anchore.com/wp-content/uploads/2024/07/sprite.png) 2px 1px no-repeat!important;
+    cursor: pointer!important;
+    font-size: 0!important;
+    border: 0 !important;
+    box-shadow: 0 0 0 !important;
+    bottom: 3px !important;
+    right: 3px !important;
+    position: absolute !important;
+    top: auto !important;
+}
+	
+	section.hero.gradient-dark-blue-white {
+		background: linear-gradient(90deg, rgba(42, 75, 155, 1) 50%, rgba(255, 255, 255, 1) 100%);
+	}
+	
+	section.hero.gradient-dark-blue-white .hero-left {
+		color: #fff;
+	}
+	
+	section.hero.gradient-dark-blue-white .hero-left a.btn.btn-blue {
+		background-color: #0daf80;
+    	border-color: #0daf80;
+	}
+	
+	section.hero.gradient-dark-blue-white .hero-left a.btn.btn-blue-outline {
+		border-color: #0daf80;
+    	color: #0daf80;
+	}
+	
+	section.hero.gradient-dark-blue-white .hero-left a.btn.btn-blue-outline:hover {
+		color: #fff;
+		background-color: #0daf80
+	}
+	
+	@media (max-width: 767.98px) {
+		section.hero.gradient-dark-blue-white {
+		background: linear-gradient(180deg, rgba(42, 75, 155, 1) 50%, rgba(255, 255, 255, 1) 100%);
+	}
+	}
+	
+	header.white_nav_new.banner .menu.js-main-menu.main-menu--visible  .menu-item {
+		color: #fff;
+	}
+	
+	header.white_nav_new.banner .mobile-menu-trigger .mobile-trigger-line {
+		background-color: #fff;
+	}
+	
+	@media (min-width: 992px) and (max-width: 1120px) {
+		header.banner .menu .menu-item {
+			font-size: 12px;
+		}
+
+		header.banner .wrapper-full .justify-content-end .btn-blue {
+			font-size: 12px;
+		}
+		
+		body.page-template-template-home-logo-update .homepage_new_banner.w_gradient .background_img_homepage img {
+			width: 450px !important;
+		}
+	}
+	
+	@media (min-width: 1120px) and (max-width: 1270px) {
+		body.page-template-template-home-logo-update .homepage_new_banner.w_gradient .background_img_homepage img {
+			width: 500px !important;
+		}
+	}
+	
+	@media (min-width: 650px) and (max-width: 767.98px) {
+		.section.box_full.homepage_new_banner .client-box-1 .mobile_align_center,
+		.section.box_full.homepage_new_banner .client-box-2 .mobile_align_center {
+			flex-direction: row !important;
+		}
+	}
+	
+	@media (min-width: 768px) and (max-width: 1199px) {
+		.section.box_full.homepage_new_banner .client-box-1 .mobile_align_center,
+		.section.box_full.homepage_new_banner .client-box-2 .mobile_align_center {
+			align-items: center !important;
+		}
+	}
+</style>
+
+	<main id="primary" class="site-main" style="color:#232129;padding:96px;font-family:-apple-system, Roboto, sans-serif, serif">
+		<title>Not found</title>
+
+					<h1 style="margin-top:0;margin-bottom:64px;max-width:320px">Page not found</h1>
+		
+				<p style="margin-bottom:48px">
+			<div style="text-align: center; padding: 16px;"><br />
+    <div style="background-color: rgb(92, 48, 185); color: white; padding: 16px; margin: 0 auto 8px auto; font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 14px; border-radius: 8px; width: 260px; display: flex; align-items: center; justify-content: center; height: 100px;">&lt;<em>Beep Boop</em>&gt; 404—Not Found<br />
+    </div><br />
+    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="404 Robot" style="max-width: 100%; height: auto;" data-lazy-src="https://anchore.com/wp-content/uploads/2024/06/robot_notfound.svg"><noscript><img src="https://anchore.com/wp-content/uploads/2024/06/robot_notfound.svg" alt="404 Robot" style="max-width: 100%; height: auto;"></noscript><br />
+</div>			<br />
+			<br />
+			<a href="https://anchore.com">Go home</a>
+		</p>
+		
+	</main><!-- #main -->
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"85d9f5eaa4ad4d6a9e5cc4fffab9fd39","spa":2}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a435d85168d998f2',t:'MTc5MDc5ODc1Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
