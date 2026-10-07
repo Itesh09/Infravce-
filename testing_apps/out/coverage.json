@@ -1,0 +1,13 @@
+[
+  {
+    "source": "osv",
+    "ecosystem": "unknown",
+    "last_successful_ingest": null,
+    "record_count": 0,
+    "is_stale": true,
+    "known_gaps": [
+      "no local cache provided"
+    ],
+    "detail_url": null
+  }
+]

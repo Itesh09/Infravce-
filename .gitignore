@@ -9,3 +9,15 @@ dist/
 .ruff_cache/
 .coverage
 htmlcov/
+# College eval PPTs
+Eval-1 PPT Format.pptx
+Eval-2 PPT Format.pptx
+.~lock.*
+# College submission artifacts (large)
+Eval-1 PPT Format.pptx
+Eval-2 PPT Format.pptx
+INFRA-CVE_Evaluation1.pptx
+INFRA-CVE_Report_v3.pdf
+INFRA-CVE_Synopsis.pdf
+Synopsis format (1).docx
+.~lock.*
