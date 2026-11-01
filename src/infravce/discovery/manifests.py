@@ -14,19 +14,25 @@ import re
 from collections.abc import Iterator
 from pathlib import Path
 
-from infravce.models import AcquisitionMethod
+from infravce.models import AcquisitionMethod, Ecosystem, Observation
 from infravce.normalise.versions import normalise
 from infravce.identity.resolver import resolve_identity
-from infravce.models import Observation
 
 
 _PKG_NAME_VER = re.compile(r"^([A-Za-z0-9][A-Za-z0-9._-]+)\s*([=><!~]+)\s*([^,\s#]+)")
 
 
-def _mk_obs(asset_id: str, product: str, version: str, evidence: str) -> Observation:
+def _mk_obs(
+    asset_id: str,
+    product: str,
+    version: str,
+    evidence: str,
+    *,
+    ecosystem: Ecosystem | None = None,
+) -> Observation:
     ps = (product or "").strip()
     vs = (version or "").strip()
-    nv = normalise(vs, product=ps)
+    nv = normalise(vs, ecosystem=ecosystem, product=ps)
     res = resolve_identity(ps, ecosystem=nv.ecosystem, version=vs if nv.is_resolved else None)
     return Observation(
         asset_id=asset_id,
@@ -62,7 +68,11 @@ def parse_requirements_txt(path: Path) -> list[Observation]:
         else:
             name, _, ver = m.groups()
         aid = f"req:{path.name}:{i}:{name}"
-        obs.append(_mk_obs(aid, name, ver, f"manifest:{path.name}:line{i}:{aid}"))
+        obs.append(
+            _mk_obs(
+                aid, name, ver, f"manifest:{path.name}:line{i}:{aid}", ecosystem=Ecosystem.PYPI
+            )
+        )
     return obs
 
 
@@ -82,7 +92,15 @@ def parse_package_json(path: Path) -> list[Observation]:
                 if vs.startswith("file:") or vs.startswith("link:") or vs.startswith("github:"):
                     continue  # skip non-version refs
                 aid = f"npm:{path.name}:{section}:{name}"
-                obs.append(_mk_obs(aid, name, vs, f"manifest:{path.name}:{section}:{name}"))
+                obs.append(
+                    _mk_obs(
+                        aid,
+                        name,
+                        vs,
+                        f"manifest:{path.name}:{section}:{name}",
+                        ecosystem=Ecosystem.NPM,
+                    )
+                )
     return obs
 
 
@@ -98,7 +116,11 @@ def parse_go_mod(path: Path) -> list[Observation]:
                 name = parts[1]
                 ver = parts[2].lstrip("v") if parts[2].startswith("v") else parts[2]
                 aid = f"go:{path.name}:{i}:{name}"
-                obs.append(_mk_obs(aid, name, ver, f"manifest:{path.name}:require:{name}"))
+                obs.append(
+                    _mk_obs(
+                        aid, name, ver, f"manifest:{path.name}:require:{name}", ecosystem=Ecosystem.GOLANG
+                    )
+                )
         elif s and not s.startswith("//") and not s.startswith("module") and not s.startswith("go ") and not s.startswith(")"):
             # inside require block: foo v1.2.3
             parts = s.split()
@@ -106,7 +128,11 @@ def parse_go_mod(path: Path) -> list[Observation]:
                 name = parts[0]
                 ver = parts[1].lstrip("v") if parts[1].startswith("v") else parts[1]
                 aid = f"go:{path.name}:{i}:{name}"
-                obs.append(_mk_obs(aid, name, ver, f"manifest:{path.name}:require:{name}"))
+                obs.append(
+                    _mk_obs(
+                        aid, name, ver, f"manifest:{path.name}:require:{name}", ecosystem=Ecosystem.GOLANG
+                    )
+                )
     return obs
 
 

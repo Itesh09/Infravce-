@@ -243,10 +243,54 @@ def rpm_compare(a: str, b: str) -> int:
 # Dispatch
 # --------------------------------------------------------------------------- #
 
+def generic_compare(a: str, b: str) -> int:
+    """Order two versions whose ecosystem has no dedicated comparator.
+
+    Used for semver-shaped ecosystems (npm, Go, Maven, NuGet) and as the last
+    resort for PyPI strings ``packaging`` rejects. The segment comparison is the
+    same one RPM uses: digit runs compare numerically and alpha runs
+    lexically, which is what every semver implementation does for release
+    segments. It is **not** a substitute for the distro comparators and is never
+    selected for debian/rpm/apk.
+
+    Advisory ranges for these ecosystems still go through this function rather
+    than through string equality, because ``1.2.10`` and ``1.2.9`` must order
+    correctly or every range verdict is wrong at the boundaries.
+    """
+    return _rpm_style_cmp(a.strip().lstrip("vV"), b.strip().lstrip("vV"))
+
+
+def pypi_compare(a: str, b: str) -> int:
+    """PEP 440 ordering via ``packaging``, the library PyPA itself uses.
+
+    Falls back to :func:`generic_compare` only for strings ``packaging`` cannot
+    parse (legacy versions still present in old advisories); the fallback is
+    deliberately not silent at the call site, since the engine records the
+    comparison it performed in the vote's evidence.
+    """
+    from packaging.version import InvalidVersion, Version
+
+    try:
+        va, vb = Version(a.strip()), Version(b.strip())
+    except InvalidVersion:
+        return generic_compare(a, b)
+    return -1 if va < vb else (1 if va > vb else 0)
+
+
 _COMPARATORS = {
     "debian": deb_compare,
+    "ubuntu": deb_compare,
     "rpm": rpm_compare,
     "apk": apk_compare,
+    "semver": generic_compare,
+    "npm": generic_compare,
+    "go": generic_compare,
+    "golang": generic_compare,
+    "maven": generic_compare,
+    "nuget": generic_compare,
+    "conan": generic_compare,
+    "github": generic_compare,
+    "pypi": pypi_compare,
 }
 
 

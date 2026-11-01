@@ -40,6 +40,8 @@ __all__ = [
     "DistributionState",
     "VerdictOutcome",
     "decide",
+    "decide_range",
+    "parse_state",
     "select_sources",
     "verdict_for_state",
 ]
@@ -352,7 +354,133 @@ _ECO_SYSTEM = {
     "ubuntu": Ecosystem.UBUNTU,
     "apk": Ecosystem.APK,
     "rpm": Ecosystem.RPM,
+    "semver": Ecosystem.SEMVER,
+    "npm": Ecosystem.NPM,
+    "pypi": Ecosystem.PYPI,
+    "golang": Ecosystem.GOLANG,
+    "go": Ecosystem.GOLANG,
+    "maven": Ecosystem.MAVEN,
+    "nuget": Ecosystem.NUGET,
 }
+
+
+#: Strings a tracker or an advisory feed uses for the same distribution state.
+#: Kept as data so a new spelling does not silently fall through to UNKNOWN and
+#: turn an assessed state into "nobody looked".
+_STATE_ALIASES: dict[str, DistributionState] = {
+    "resolved": DistributionState.RESOLVED,
+    "fixed": DistributionState.RESOLVED,
+    "not-affected": DistributionState.NOT_AFFECTED,
+    "not_affected": DistributionState.NOT_AFFECTED,
+    "notaffected": DistributionState.NOT_AFFECTED,
+    "open": DistributionState.OPEN,
+    "affected": DistributionState.OPEN,
+    "vulnerable": DistributionState.VULNERABLE,
+    "no-dsa": DistributionState.NO_DSA,
+    "nodsa": DistributionState.NO_DSA,
+    "undetermined": DistributionState.UNDETERMINED,
+    "under_investigation": DistributionState.UNDETERMINED,
+    "under-investigation": DistributionState.UNDETERMINED,
+    "postponed": DistributionState.POSTPONED,
+    "end-of-life": DistributionState.END_OF_LIFE,
+    "eol": DistributionState.END_OF_LIFE,
+    "unknown": DistributionState.UNKNOWN,
+}
+
+
+def parse_state(value: str | None) -> DistributionState:
+    """Parse a tracker state, never guessing at an unrecognised one.
+
+    An unknown spelling maps to :attr:`DistributionState.UNKNOWN`, which is in
+    ``_UNASSESSED`` and therefore yields ``under_investigation``. Erring toward
+    "unassessed" is the only safe direction: the alternative is a typo in a feed
+    turning into a clean bill of health.
+    """
+    if not value:
+        return DistributionState.UNKNOWN
+    return _STATE_ALIASES.get(value.strip().lower(), DistributionState.UNKNOWN)
+
+
+def decide_range(
+    installed: str,
+    ecosystem: str,
+    segments: tuple[tuple[str | None, str | None], ...],
+    *,
+    source: AdvisorySource = AdvisorySource.OSV,
+) -> VerdictOutcome:
+    """Evaluate OSV-style ``(introduced, fixed)`` ranges against an installed version.
+
+    This is the range counterpart to :func:`verdict_for_state`: distro trackers
+    answer with a status, upstream feeds answer with half-open intervals
+    ``[introduced, fixed)``. Both funnel into the same
+    :class:`VerdictOutcome` so a finding's evidence reads the same way
+    regardless of which source won.
+
+    Semantics, per OSV's schema:
+
+    * ``introduced: "0"`` means "from the beginning of time", not version zero.
+    * A segment with no ``fixed`` is still open: affected, with no fix published.
+    * An installed version at or past every fixed boundary is *not affected by
+      those ranges*. That is a complete answer only because the ranges came from
+      a source that claims to enumerate all affected versions for this package.
+    """
+    if not segments:
+        return VerdictOutcome(
+            verdict=ApplicabilityVerdict.UNDER_INVESTIGATION,
+            reason="advisory carries no comparable range",
+        )
+
+    saw_closed = False
+    last_fixed: str | None = None
+    for introduced, fixed in segments:
+        try:
+            if introduced and introduced.strip() not in {"0", "0.0"}:
+                if compare_versions(ecosystem, installed, introduced) < 0:
+                    continue  # installed predates this segment
+            if fixed is None:
+                return VerdictOutcome(
+                    verdict=ApplicabilityVerdict.AFFECTED,
+                    reason=(
+                        f"installed {installed} is at or past introduced "
+                        f"{introduced or '0'} and the source publishes no fix"
+                    ),
+                    comparison=(
+                        f"introduced={introduced or '0'} <= {installed} < fixed=none"
+                    ),
+                )
+            saw_closed = True
+            last_fixed = fixed
+            if compare_versions(ecosystem, installed, fixed) < 0:
+                return VerdictOutcome(
+                    verdict=ApplicabilityVerdict.AFFECTED,
+                    reason=(
+                        f"installed {installed} falls inside the affected range "
+                        f"[{introduced or '0'}, {fixed})"
+                    ),
+                    comparison=(
+                        f"compare_versions({ecosystem!r}, {installed!r}, {fixed!r}) < 0"
+                    ),
+                )
+        except ValueError as exc:
+            return VerdictOutcome(
+                verdict=ApplicabilityVerdict.UNDER_INVESTIGATION,
+                reason=f"cannot evaluate range against {installed!r}: {exc}",
+            )
+
+    if saw_closed:
+        return VerdictOutcome(
+            verdict=ApplicabilityVerdict.NOT_AFFECTED,
+            reason=(
+                f"installed {installed} is at or past every published fix "
+                f"boundary (latest {last_fixed})"
+            ),
+            justification=Justification.INLINE_MITIGATIONS_ALREADY_EXIST,
+            comparison=f"installed >= fixed {last_fixed}",
+        )
+    return VerdictOutcome(
+        verdict=ApplicabilityVerdict.UNDER_INVESTIGATION,
+        reason=f"installed {installed} predates every introduced boundary in the record",
+    )
 
 
 def _representation(source: AdvisorySource) -> RangeRepresentation:

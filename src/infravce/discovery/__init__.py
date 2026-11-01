@@ -7,7 +7,17 @@ from pathlib import Path
 
 from infravce.models import Observation
 
+from .active import ActiveProbeConfig, ProbeTarget, probe_ports, scan_ports
 from .manifests import parse_manifest
+from .network import OS_FAMILIES, Target, parse_target, scan_target
+from .package_db import (
+    PackageRecord,
+    detect_host_os,
+    inventory_observations,
+    parse_apk_installed,
+    parse_dpkg_status,
+    read_host_inventory,
+)
 from .sbom import parse_sbom
 
 
@@ -29,7 +39,8 @@ def _collect_from_path(p: Path) -> list[Observation]:
                 obs.extend(parse_sbom(f))
         return obs
     lname = p.name.lower()
-    if "sbom" in lname or "spdx" in lname or "cyclonedx" in lname or lname.endswith((".sbom.json",)):
+    sbomish = "sbom" in lname or "spdx" in lname or "cyclonedx" in lname
+    if sbomish or lname.endswith(".sbom.json"):
         res = parse_sbom(p)
         if res:
             return res
@@ -57,4 +68,22 @@ def discover(sources: Iterable[Path | str] | None = None) -> list[Observation]:
     return out
 
 
-__all__ = ["discover", "parse_sbom", "parse_manifest"]
+__all__ = [
+    "OS_FAMILIES",
+    "ActiveProbeConfig",
+    "PackageRecord",
+    "ProbeTarget",
+    "Target",
+    "detect_host_os",
+    "discover",
+    "inventory_observations",
+    "parse_apk_installed",
+    "parse_dpkg_status",
+    "parse_manifest",
+    "parse_sbom",
+    "parse_target",
+    "probe_ports",
+    "read_host_inventory",
+    "scan_ports",
+    "scan_target",
+]

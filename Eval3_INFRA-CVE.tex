@@ -1,0 +1,130 @@
+\documentclass[11pt]{beamer}
+\usetheme{Madrid}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{listings}
+
+\lstset{
+  basicstyle=\ttfamily\footnotesize,
+  breaklines=true,
+}
+
+\title[B.Tech Project Evaluation 3]{B.Tech Project Evaluation 3 -- Initial Implementation and Synchronization}
+\subtitle{A Rubric \#R3 Evaluation}
+\author{Itesh Jung Shahi \and Amit Kumar}
+\institute{Associate Professor, Computer Science \& Engineering\\
+  Sharda School of Engineering and Technology}
+\date{Nov 2025}
+
+\begin{document}
+
+% ------------------------------------------------------------------ title
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% ------------------------------------------------------------------ approval
+\begin{frame}{Approval from Guide for the Evaluation}
+  \begin{itemize}
+    \item APPROVAL FROM GUIDE FOR THE EVALUATION
+    \item Paste the screenshot of email
+  \end{itemize}
+\end{frame}
+
+% ------------------------------------------------------------------ index
+\begin{frame}{Index}
+  \tableofcontents
+\end{frame}
+
+% ------------------------------------------------------------------ introduction
+\begin{frame}{Introduction}
+  \textbf{INFRA-CVE: A Provenance-Grounded, Confidence-Tiered Automatic CVE Checker for Entire Infrastructure}
+  \pause
+  Final-year cybersecurity project. Built on the finding that existing infrastructure CVE
+  tooling is measured at \textbf{92\% false positives} even on verified SBOMs.
+\end{frame}
+
+% ------------------------------------------------------------------ implementation
+\begin{frame}{Implementation -- Latest Version}
+  \small
+  \begin{itemize}
+    \item \textbf{Discovery}: banner probing (TCP/TLS/HTTP), host package database (dpkg / apk),
+      manifests (package.json / go.mod / requirements.txt)
+    \item \textbf{Advisory ingest}: OSV (querybatch -> per-vuln, per-release filtering, ranges,
+      severity)
+    \item \textbf{Applicability}: distro-first, backport-aware, approximate handling
+    \item \textbf{Verification}: corroboration, safe checks, confidence tiers
+    \item \textbf{Scoring / reporting}: priority scoring, markdown report, review queue
+  \end{itemize}
+\end{frame}
+
+% ------------------------------------------------------------------ results 1
+\begin{frame}{Results -- Live Target Scan (Banner)}
+  \centering
+  \includegraphics[width=\linewidth]{/home/kali07/Desktop/Work/College/pbl sem 7/banner_scan.png}
+  \pause
+  \small
+  Live banner scan of \texttt{127.0.0.1:22,80} on Debian 12: two observations, 386 advisory
+  records, 386 votes, 58 findings -- all weak (banner-only evidence, no distro revision).
+\end{frame}
+
+% ------------------------------------------------------------------ results 2
+\begin{frame}{Results -- Host Package Inventory Scan}
+  \centering
+  \includegraphics[width=\linewidth]{/home/kali07/Desktop/Work/College/pbl sem 7/inventory_scan.png}
+  \pause
+  \small
+  Saved Debian 12 dpkg inventory via \texttt{--inventory} + \texttt{--fixed-only}: 88 packages,
+  155 advisory records, 58 findings with a published fix (56 strongly inferred, 2 weak).
+\end{frame}
+
+% ------------------------------------------------------------------ results 3
+\begin{frame}{Results -- Web Application Scan (Juice Shop)}
+  \centering
+  \includegraphics[width=\linewidth]{/home/kali07/Desktop/Work/College/pbl sem 7/juice_shop.png}
+  \pause
+  \small
+  Juice Shop source scan: 147 observations, 125 advisories, 71 findings; top critical:
+  CVE-2015-9235 (jsonwebtoken 0.4.0 inside \texttt{[0, 4.2.2)}) with fix published.
+\end{frame}
+
+% ------------------------------------------------------------------ delivered status
+\begin{frame}{Delivered Status}
+  \begin{itemize}
+    \item Working MVP is ready
+    \item Discovery -> CVE check -> verification -> report works end-to-end
+    \item Full test suite green (432 tests), type check clean
+    \item Honest confidence tiers and provenance kept -- no forced guesses
+  \end{itemize}
+\end{frame}
+
+% ------------------------------------------------------------------ future implementation
+\begin{frame}{Future Implementation}
+  \small
+  \begin{itemize}
+    \item Live authenticated scans of real infrastructure
+    \item More ecosystems (Ruby, PHP, Scala, Node runtime-level SBOM correlation)
+    \item CI/CD pipeline integration for continuous CVE gating
+    \item Container image / SBOM-driven discovery at scale
+    \item Issue-tracker / ticketing-system export of findings
+  \end{itemize}
+\end{frame}
+
+% ------------------------------------------------------------------ conclusion
+\begin{frame}{Conclusion}
+  \begin{itemize}
+    \item MVP delivered and validated
+    \item Live demo on Debian 12 and web app (Juice Shop) both produce findings
+    \item Honest confidence tiers and provenance -- no forced guesses
+  \end{itemize}
+\end{frame}
+
+% ------------------------------------------------------------------ outcome
+\begin{frame}{Outcome}
+  \begin{center}
+    INFRA-CVE -- a cybersecurity software that autonomously checks entire
+    infrastructure against known CVEs with provenance and honest confidence.
+  \end{center}
+\end{frame}
+
+\end{document}

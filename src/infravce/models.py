@@ -307,6 +307,24 @@ class Applicability(BaseModel):
     advisory_published_at: datetime | None = None
     evaluated_at: datetime = Field(default_factory=lambda: datetime.now(UTC))
 
+    #: Carried from the advisory so a finding can be triaged without a second
+    #: lookup. ``None`` means the source did not publish a severity, which is
+    #: different from "low" and is reported as unknown rather than defaulted.
+    severity: str | None = None
+    cvss: float | None = None
+    summary: str | None = None
+    aliases: tuple[str, ...] = ()
+
+    #: ``exact`` when the comparison used the version as published, or
+    #: ``approximate`` when a distro revision had to be dropped because the
+    #: observation did not carry one (a banner reports ``2.4.69``, the tracker
+    #: fixes ``2.4.69-1~deb12u1``). Approximate votes can never reach VERIFIED
+    #: and are capped at WEAK without independent version confirmation.
+    evidence_quality: str = "exact"
+
+    #: Whether the advisory publishes a fixed version for this verdict.
+    fix_available: bool | None = None
+
     @model_validator(mode="after")
     def _require_justification(self) -> Applicability:
         """CISA requires a justification or impact statement for not_affected."""
@@ -336,6 +354,19 @@ class Finding(BaseModel):
     asset_id: str
     cve_id: str
     confidence_tier: ConfidenceTier
+
+    #: Advisory metadata carried onto the finding. Severity is a priority input,
+    #: never an applicability one: a critical CVSS against a version that is not
+    #: installed is still not a finding.
+    severity: str | None = None
+    cvss: float | None = None
+    summary: str | None = None
+    aliases: tuple[str, ...] = ()
+
+    #: Whether the winning advisory publishes a fixed version. ``False`` is a
+    #: real answer ("tracker knows about it, no patch issued"), not missing data,
+    #: and is different from ``None`` ("the source did not say").
+    fix_available: bool | None = None
 
     supporting_observations: tuple[Observation, ...] = ()
     applicability_votes: tuple[Applicability, ...] = ()
