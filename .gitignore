@@ -21,3 +21,7 @@ INFRA-CVE_Report_v3.pdf
 INFRA-CVE_Synopsis.pdf
 Synopsis format (1).docx
 .~lock.*
+
+# Generated runtime artifacts
+.infravce-cache/
+out/
